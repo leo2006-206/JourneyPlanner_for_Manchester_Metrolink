@@ -1,6 +1,6 @@
 # Example Video
 
-[Watch demo video](Demo.mp4)
+https://github.com/leo2006-206/JourneyPlanner_for_Manchester_Metrolink/raw/main/Demo_25mb.mp4
 
 # Summer_Project
 
