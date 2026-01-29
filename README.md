@@ -1,6 +1,6 @@
 # Example Video
 
-[Watch demo video](Dome.mp4)
+[Watch demo video](Demo.mp4)
 
 # Summer_Project
 
