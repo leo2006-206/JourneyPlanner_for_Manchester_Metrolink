@@ -1,0 +1,2459 @@
+Node name: Bury index: 0
+        Node Bury to Node Radcliffe distance 6.0 on line 0
+        Node Bury to Node Radcliffe distance 6.0 on line 2
+
+Node name: Radcliffe index: 1
+        Node Radcliffe to Node Bury distance 6.0 on line 0
+        Node Radcliffe to Node Bury distance 6.0 on line 2
+        Node Radcliffe to Node Whitefield distance 3.0 on line 0
+        Node Radcliffe to Node Whitefield distance 2.5 on line 2
+
+Node name: Whitefield index: 2
+        Node Whitefield to Node Radcliffe distance 3.0 on line 0
+        Node Whitefield to Node Radcliffe distance 2.5 on line 2
+        Node Whitefield to Node Besses o'th' Barn distance 2.5 on line 0
+        Node Whitefield to Node Besses o'th' Barn distance 3.0 on line 2
+
+Node name: Besses o'th' Barn index: 3
+        Node Besses o'th' Barn to Node Whitefield distance 2.5 on line 0
+        Node Besses o'th' Barn to Node Whitefield distance 3.0 on line 2
+        Node Besses o'th' Barn to Node Prestwich distance 2.0 on line 0
+        Node Besses o'th' Barn to Node Prestwich distance 2.0 on line 2
+
+Node name: Prestwich index: 4
+        Node Prestwich to Node Besses o'th' Barn distance 2.0 on line 0
+        Node Prestwich to Node Besses o'th' Barn distance 2.0 on line 2
+        Node Prestwich to Node Heaton Park distance 2.5 on line 0
+        Node Prestwich to Node Heaton Park distance 2.5 on line 2
+
+Node name: Heaton Park index: 5
+        Node Heaton Park to Node Prestwich distance 2.5 on line 0
+        Node Heaton Park to Node Prestwich distance 2.5 on line 2
+        Node Heaton Park to Node Bowker Vale distance 2.0 on line 0
+        Node Heaton Park to Node Bowker Vale distance 2.0 on line 2
+
+Node name: Bowker Vale index: 6
+        Node Bowker Vale to Node Heaton Park distance 2.0 on line 0
+        Node Bowker Vale to Node Heaton Park distance 2.0 on line 2
+        Node Bowker Vale to Node Crumpsall distance 1.5 on line 0
+        Node Bowker Vale to Node Crumpsall distance 2.0 on line 2
+
+Node name: Crumpsall index: 7
+        Node Crumpsall to Node Bowker Vale distance 1.5 on line 0
+        Node Crumpsall to Node Bowker Vale distance 2.0 on line 2
+        Node Crumpsall to Node Abraham Moss distance 2.0 on line 0
+        Node Crumpsall to Node Abraham Moss distance 2.0 on line 2
+
+Node name: Abraham Moss index: 8
+        Node Abraham Moss to Node Crumpsall distance 2.0 on line 0
+        Node Abraham Moss to Node Crumpsall distance 2.0 on line 2
+        Node Abraham Moss to Node Queens Road distance 2.5 on line 0
+        Node Abraham Moss to Node Queens Road distance 3.0 on line 2
+
+Node name: Queens Road index: 9
+        Node Queens Road to Node Abraham Moss distance 2.5 on line 0
+        Node Queens Road to Node Abraham Moss distance 3.0 on line 2
+        Node Queens Road to Node Victoria distance 5.0 on line 0
+        Node Queens Road to Node Victoria distance 4.0 on line 2
+
+Node name: Victoria index: 10
+        Node Victoria to Node Queens Road distance 5.0 on line 0
+        Node Victoria to Node Queens Road distance 4.0 on line 2
+        Node Victoria to Node Shudehill distance 2.0 on line 0
+        Node Victoria to Node Shudehill distance 2.5 on line 2
+        Node Victoria to Node Shudehill distance 2.5 on line 5
+        Node Victoria to Node Exchange Square distance 2.5 on line 4
+        Node Victoria to Node Monsall distance 4.0 on line 4
+
+Node name: Shudehill index: 11
+        Node Shudehill to Node Victoria distance 2.0 on line 0
+        Node Shudehill to Node Victoria distance 2.5 on line 2
+        Node Shudehill to Node Victoria distance 2.5 on line 5
+        Node Shudehill to Node Market Street distance 2.0 on line 0
+        Node Shudehill to Node Market Street distance 2.5 on line 2
+        Node Shudehill to Node Market Street distance 2.5 on line 5
+
+Node name: Market Street index: 12
+        Node Market Street to Node Shudehill distance 2.0 on line 0
+        Node Market Street to Node Shudehill distance 2.5 on line 2
+        Node Market Street to Node Shudehill distance 2.5 on line 5
+        Node Market Street to Node Piccadilly Gardens distance 2.0 on line 0
+        Node Market Street to Node St. Peter's Square distance 3.0 on line 2
+        Node Market Street to Node St. Peter's Square distance 3.0 on line 5
+
+Node name: Piccadilly Gardens index: 13
+        Node Piccadilly Gardens to Node Market Street distance 2.0 on line 0
+        Node Piccadilly Gardens to Node Piccadilly Station distance 3.0 on line 0
+        Node Piccadilly Gardens to Node Piccadilly Station distance 2.0 on line 1
+        Node Piccadilly Gardens to Node Piccadilly Station distance 3.0 on line 3
+        Node Piccadilly Gardens to Node St. Peter's Square distance 1.5 on line 1
+        Node Piccadilly Gardens to Node St. Peter's Square distance 3.0 on line 3
+
+Node name: Piccadilly Station index: 14
+        Node Piccadilly Station to Node Piccadilly Gardens distance 3.0 on line 0
+        Node Piccadilly Station to Node Piccadilly Gardens distance 2.0 on line 1
+        Node Piccadilly Station to Node Piccadilly Gardens distance 3.0 on line 3
+        Node Piccadilly Station to Node New Islington distance 3.0 on line 1
+        Node Piccadilly Station to Node New Islington distance 3.0 on line 3
+
+Node name: Altrincham index: 15
+        Node Altrincham to Node Navigation Road distance 1.5 on line 1
+        Node Altrincham to Node Navigation Road distance 3.0 on line 2
+
+Node name: Navigation Road index: 16
+        Node Navigation Road to Node Altrincham distance 1.5 on line 1
+        Node Navigation Road to Node Altrincham distance 3.0 on line 2
+        Node Navigation Road to Node Timperley distance 2.0 on line 1
+        Node Navigation Road to Node Timperley distance 2.5 on line 2
+
+Node name: Timperley index: 17
+        Node Timperley to Node Navigation Road distance 2.0 on line 1
+        Node Timperley to Node Navigation Road distance 2.5 on line 2
+        Node Timperley to Node Brooklands distance 2.5 on line 1
+        Node Timperley to Node Brooklands distance 2.0 on line 2
+
+Node name: Brooklands index: 18
+        Node Brooklands to Node Timperley distance 2.5 on line 1
+        Node Brooklands to Node Timperley distance 2.0 on line 2
+        Node Brooklands to Node Sale distance 1.0 on line 1
+        Node Brooklands to Node Sale distance 1.5 on line 2
+
+Node name: Sale index: 19
+        Node Sale to Node Brooklands distance 1.0 on line 1
+        Node Sale to Node Brooklands distance 1.5 on line 2
+        Node Sale to Node Dane Road distance 1.0 on line 1
+        Node Sale to Node Dane Road distance 1.0 on line 2
+
+Node name: Dane Road index: 20
+        Node Dane Road to Node Sale distance 1.0 on line 1
+        Node Dane Road to Node Sale distance 1.0 on line 2
+        Node Dane Road to Node Stretford distance 2.5 on line 1
+        Node Dane Road to Node Stretford distance 2.5 on line 2
+
+Node name: Stretford index: 21
+        Node Stretford to Node Dane Road distance 2.5 on line 1
+        Node Stretford to Node Dane Road distance 2.5 on line 2
+        Node Stretford to Node Old Trafford distance 2.0 on line 1
+        Node Stretford to Node Old Trafford distance 2.5 on line 2
+
+Node name: Old Trafford index: 22
+        Node Old Trafford to Node Stretford distance 2.0 on line 1
+        Node Old Trafford to Node Stretford distance 2.5 on line 2
+        Node Old Trafford to Node Trafford Bar distance 2.5 on line 1
+        Node Old Trafford to Node Trafford Bar distance 2.5 on line 2
+
+Node name: Trafford Bar index: 23
+        Node Trafford Bar to Node Old Trafford distance 2.5 on line 1
+        Node Trafford Bar to Node Old Trafford distance 2.5 on line 2
+        Node Trafford Bar to Node Cornbrook distance 3.0 on line 1
+        Node Trafford Bar to Node Cornbrook distance 3.0 on line 2
+        Node Trafford Bar to Node Cornbrook distance 3.0 on line 4
+        Node Trafford Bar to Node Cornbrook distance 3.0 on line 5
+        Node Trafford Bar to Node Firswood distance 4.0 on line 4
+        Node Trafford Bar to Node Firswood distance 4.0 on line 5
+
+Node name: Cornbrook index: 24
+        Node Cornbrook to Node Trafford Bar distance 3.0 on line 1
+        Node Cornbrook to Node Trafford Bar distance 3.0 on line 2
+        Node Cornbrook to Node Trafford Bar distance 3.0 on line 4
+        Node Cornbrook to Node Trafford Bar distance 3.0 on line 5
+        Node Cornbrook to Node Deansgate/Castlefield distance 2.0 on line 1
+        Node Cornbrook to Node Deansgate/Castlefield distance 3.5 on line 2
+        Node Cornbrook to Node Deansgate/Castlefield distance 3.5 on line 3
+        Node Cornbrook to Node Deansgate/Castlefield distance 3.5 on line 4
+        Node Cornbrook to Node Deansgate/Castlefield distance 3.5 on line 5
+        Node Cornbrook to Node Deansgate/Castlefield distance 1.5 on line 6
+        Node Cornbrook to Node Pomona distance 3.0 on line 3
+        Node Cornbrook to Node Pomona distance 1.0 on line 6
+
+Node name: Deansgate/Castlefield index: 25
+        Node Deansgate/Castlefield to Node Cornbrook distance 2.0 on line 1
+        Node Deansgate/Castlefield to Node Cornbrook distance 3.5 on line 2
+        Node Deansgate/Castlefield to Node Cornbrook distance 3.5 on line 3
+        Node Deansgate/Castlefield to Node Cornbrook distance 3.5 on line 4
+        Node Deansgate/Castlefield to Node Cornbrook distance 3.5 on line 5
+        Node Deansgate/Castlefield to Node Cornbrook distance 1.5 on line 6
+        Node Deansgate/Castlefield to Node St. Peter's Square distance 1.0 on line 1
+        Node Deansgate/Castlefield to Node St. Peter's Square distance 3.0 on line 2
+        Node Deansgate/Castlefield to Node St. Peter's Square distance 3.0 on line 3
+        Node Deansgate/Castlefield to Node St. Peter's Square distance 3.0 on line 4
+        Node Deansgate/Castlefield to Node St. Peter's Square distance 3.0 on line 5
+
+Node name: St. Peter's Square index: 26
+        Node St. Peter's Square to Node Market Street distance 3.0 on line 2
+        Node St. Peter's Square to Node Market Street distance 3.0 on line 5
+        Node St. Peter's Square to Node Piccadilly Gardens distance 1.5 on line 1
+        Node St. Peter's Square to Node Piccadilly Gardens distance 3.0 on line 3
+        Node St. Peter's Square to Node Deansgate/Castlefield distance 1.0 on line 1
+        Node St. Peter's Square to Node Deansgate/Castlefield distance 3.0 on line 2
+        Node St. Peter's Square to Node Deansgate/Castlefield distance 3.0 on line 3
+        Node St. Peter's Square to Node Deansgate/Castlefield distance 3.0 on line 4
+        Node St. Peter's Square to Node Deansgate/Castlefield distance 3.0 on line 5
+        Node St. Peter's Square to Node Exchange Square distance 3.5 on line 4
+
+Node name: New Islington index: 27
+        Node New Islington to Node Piccadilly Station distance 3.0 on line 1
+        Node New Islington to Node Piccadilly Station distance 3.0 on line 3
+        Node New Islington to Node Holt Town distance 2.0 on line 1
+        Node New Islington to Node Holt Town distance 2.0 on line 3
+
+Node name: Holt Town index: 28
+        Node Holt Town to Node New Islington distance 2.0 on line 1
+        Node Holt Town to Node New Islington distance 2.0 on line 3
+        Node Holt Town to Node Etihad Campus distance 1.5 on line 1
+        Node Holt Town to Node Etihad Campus distance 1.5 on line 3
+
+Node name: Etihad Campus index: 29
+        Node Etihad Campus to Node Holt Town distance 1.5 on line 1
+        Node Etihad Campus to Node Holt Town distance 1.5 on line 3
+        Node Etihad Campus to Node Velopark distance 2.5 on line 3
+
+Node name: Eccles index: 30
+        Node Eccles to Node Ladywell distance 1.5 on line 3
+
+Node name: Ladywell index: 31
+        Node Ladywell to Node Eccles distance 1.5 on line 3
+        Node Ladywell to Node Weaste distance 3.0 on line 3
+
+Node name: Weaste index: 32
+        Node Weaste to Node Ladywell distance 3.0 on line 3
+        Node Weaste to Node Langworthy distance 2.5 on line 3
+
+Node name: Langworthy index: 33
+        Node Langworthy to Node Weaste distance 2.5 on line 3
+        Node Langworthy to Node Broadway distance 2.0 on line 3
+
+Node name: Broadway index: 34
+        Node Broadway to Node Langworthy distance 2.0 on line 3
+        Node Broadway to Node Media CityUK distance 2.0 on line 3
+
+Node name: Media CityUK index: 35
+        Node Media CityUK to Node Broadway distance 2.0 on line 3
+        Node Media CityUK to Node Harbour City distance 2.0 on line 3
+
+Node name: Harbour City index: 36
+        Node Harbour City to Node Media CityUK distance 2.0 on line 3
+        Node Harbour City to Node Anchorage distance 1.5 on line 3
+
+Node name: Anchorage index: 37
+        Node Anchorage to Node Harbour City distance 1.5 on line 3
+        Node Anchorage to Node Salford Quays distance 2.0 on line 3
+
+Node name: Salford Quays index: 38
+        Node Salford Quays to Node Anchorage distance 2.0 on line 3
+        Node Salford Quays to Node Exchange Quay distance 2.0 on line 3
+
+Node name: Exchange Quay index: 39
+        Node Exchange Quay to Node Salford Quays distance 2.0 on line 3
+        Node Exchange Quay to Node Pomona distance 2.0 on line 3
+
+Node name: Pomona index: 40
+        Node Pomona to Node Cornbrook distance 3.0 on line 3
+        Node Pomona to Node Cornbrook distance 1.0 on line 6
+        Node Pomona to Node Exchange Quay distance 2.0 on line 3
+        Node Pomona to Node Wharfside distance 1.5 on line 6
+
+Node name: Velopark index: 41
+        Node Velopark to Node Etihad Campus distance 2.5 on line 3
+        Node Velopark to Node Clayton Hall distance 4.0 on line 3
+
+Node name: Clayton Hall index: 42
+        Node Clayton Hall to Node Velopark distance 4.0 on line 3
+        Node Clayton Hall to Node Edge Lane distance 2.5 on line 3
+
+Node name: Edge Lane index: 43
+        Node Edge Lane to Node Clayton Hall distance 2.5 on line 3
+        Node Edge Lane to Node Cemetery Road distance 2.5 on line 3
+
+Node name: Cemetery Road index: 44
+        Node Cemetery Road to Node Edge Lane distance 2.5 on line 3
+        Node Cemetery Road to Node Droylsden distance 2.0 on line 3
+
+Node name: Droylsden index: 45
+        Node Droylsden to Node Cemetery Road distance 2.0 on line 3
+        Node Droylsden to Node Audenshaw distance 3.0 on line 3
+
+Node name: Audenshaw index: 46
+        Node Audenshaw to Node Droylsden distance 3.0 on line 3
+        Node Audenshaw to Node Ashton Moss distance 2.5 on line 3
+
+Node name: Ashton Moss index: 47
+        Node Ashton Moss to Node Audenshaw distance 2.5 on line 3
+        Node Ashton Moss to Node Ashton West distance 3.0 on line 3
+
+Node name: Ashton West index: 48
+        Node Ashton West to Node Ashton Moss distance 3.0 on line 3
+        Node Ashton West to Node Ashton-under-Lyne distance 2.5 on line 3
+
+Node name: Ashton-under-Lyne index: 49
+        Node Ashton-under-Lyne to Node Ashton West distance 2.5 on line 3
+
+Node name: East Didsbury index: 50
+        Node East Didsbury to Node Didsbury Village distance 1.0 on line 4
+
+Node name: Didsbury Village index: 51
+        Node Didsbury Village to Node East Didsbury distance 1.0 on line 4
+        Node Didsbury Village to Node West Didsbury distance 2.0 on line 4
+
+Node name: West Didsbury index: 52
+        Node West Didsbury to Node Didsbury Village distance 2.0 on line 4
+        Node West Didsbury to Node Burton Road distance 0.5 on line 4
+
+Node name: Burton Road index: 53
+        Node Burton Road to Node West Didsbury distance 0.5 on line 4
+        Node Burton Road to Node Withington distance 1.0 on line 4
+
+Node name: Withington index: 54
+        Node Withington to Node Burton Road distance 1.0 on line 4
+        Node Withington to Node St Werburgh's Road distance 2.5 on line 4
+
+Node name: St Werburgh's Road index: 55
+        Node St Werburgh's Road to Node Withington distance 2.5 on line 4
+        Node St Werburgh's Road to Node Chorlton distance 1.5 on line 4
+        Node St Werburgh's Road to Node Chorlton distance 1.5 on line 5
+        Node St Werburgh's Road to Node Barlow Moor  Road distance 2.5 on line 5
+
+Node name: Chorlton index: 56
+        Node Chorlton to Node St Werburgh's Road distance 1.5 on line 4
+        Node Chorlton to Node St Werburgh's Road distance 1.5 on line 5
+        Node Chorlton to Node Firswood distance 1.5 on line 4
+        Node Chorlton to Node Firswood distance 1.5 on line 5
+
+Node name: Firswood index: 57
+        Node Firswood to Node Trafford Bar distance 4.0 on line 4
+        Node Firswood to Node Trafford Bar distance 4.0 on line 5
+        Node Firswood to Node Chorlton distance 1.5 on line 4
+        Node Firswood to Node Chorlton distance 1.5 on line 5
+
+Node name: Exchange Square index: 58
+        Node Exchange Square to Node Victoria distance 2.5 on line 4
+        Node Exchange Square to Node St. Peter's Square distance 3.5 on line 4
+
+Node name: Monsall index: 59
+        Node Monsall to Node Victoria distance 4.0 on line 4
+        Node Monsall to Node Central Park distance 2.0 on line 4
+
+Node name: Central Park index: 60
+        Node Central Park to Node Monsall distance 2.0 on line 4
+        Node Central Park to Node Newton Heath & Moston distance 3.0 on line 4
+
+Node name: Newton Heath & Moston index: 61
+        Node Newton Heath & Moston to Node Central Park distance 3.0 on line 4
+        Node Newton Heath & Moston to Node Failsworth distance 2.5 on line 4
+
+Node name: Failsworth index: 62
+        Node Failsworth to Node Newton Heath & Moston distance 2.5 on line 4
+        Node Failsworth to Node Hollinwood distance 2.5 on line 4
+
+Node name: Hollinwood index: 63
+        Node Hollinwood to Node Failsworth distance 2.5 on line 4
+        Node Hollinwood to Node South Chadderton distance 1.5 on line 4
+
+Node name: South Chadderton index: 64
+        Node South Chadderton to Node Hollinwood distance 1.5 on line 4
+        Node South Chadderton to Node Freehold distance 2.0 on line 4
+
+Node name: Freehold index: 65
+        Node Freehold to Node South Chadderton distance 2.0 on line 4
+        Node Freehold to Node Westwood distance 3.0 on line 4
+
+Node name: Westwood index: 66
+        Node Westwood to Node Freehold distance 3.0 on line 4
+        Node Westwood to Node Oldham King Street distance 2.5 on line 4
+
+Node name: Oldham King Street index: 67
+        Node Oldham King Street to Node Westwood distance 2.5 on line 4
+        Node Oldham King Street to Node Oldham Central distance 1.5 on line 4
+
+Node name: Oldham Central index: 68
+        Node Oldham Central to Node Oldham King Street distance 1.5 on line 4
+        Node Oldham Central to Node Oldham Mumps distance 3.0 on line 4
+
+Node name: Oldham Mumps index: 69
+        Node Oldham Mumps to Node Oldham Central distance 3.0 on line 4
+        Node Oldham Mumps to Node Derker distance 2.0 on line 4
+
+Node name: Derker index: 70
+        Node Derker to Node Oldham Mumps distance 2.0 on line 4
+        Node Derker to Node Shaw & Crompton distance 4.5 on line 4
+
+Node name: Shaw & Crompton index: 71
+        Node Shaw & Crompton to Node Derker distance 4.5 on line 4
+        Node Shaw & Crompton to Node Newhey distance 3.3 on line 4
+
+Node name: Newhey index: 72
+        Node Newhey to Node Shaw & Crompton distance 3.3 on line 4
+        Node Newhey to Node Milnrow distance 2.0 on line 4
+
+Node name: Milnrow index: 73
+        Node Milnrow to Node Newhey distance 2.0 on line 4
+        Node Milnrow to Node Kingsway distance 1.5 on line 4
+
+Node name: Kingsway index: 74
+        Node Kingsway to Node Milnrow distance 1.5 on line 4
+        Node Kingsway to Node Newbold distance 2.0 on line 4
+
+Node name: Newbold index: 75
+        Node Newbold to Node Kingsway distance 2.0 on line 4
+        Node Newbold to Node Rochdale Station distance 4.0 on line 4
+
+Node name: Rochdale Station index: 76
+        Node Rochdale Station to Node Newbold distance 4.0 on line 4
+        Node Rochdale Station to Node Rochdale Town Centre distance 3.0 on line 4
+
+Node name: Rochdale Town Centre index: 77
+        Node Rochdale Town Centre to Node Rochdale Station distance 3.0 on line 4
+
+Node name: Manchester Airport index: 78
+        Node Manchester Airport to Node Shadowmoss distance 3.5 on line 5
+
+Node name: Shadowmoss index: 79
+        Node Shadowmoss to Node Manchester Airport distance 3.5 on line 5
+        Node Shadowmoss to Node Peel Hall distance 2.0 on line 5
+
+Node name: Peel Hall index: 80
+        Node Peel Hall to Node Shadowmoss distance 2.0 on line 5
+        Node Peel Hall to Node Robinswood Road distance 1.5 on line 5
+
+Node name: Robinswood Road index: 81
+        Node Robinswood Road to Node Peel Hall distance 1.5 on line 5
+        Node Robinswood Road to Node Wythenshawe Town Centre distance 2.5 on line 5
+
+Node name: Wythenshawe Town Centre index: 82
+        Node Wythenshawe Town Centre to Node Robinswood Road distance 2.5 on line 5
+        Node Wythenshawe Town Centre to Node Crossacres distance 2.5 on line 5
+
+Node name: Crossacres index: 83
+        Node Crossacres to Node Wythenshawe Town Centre distance 2.5 on line 5
+        Node Crossacres to Node Benchill distance 1.5 on line 5
+
+Node name: Benchill index: 84
+        Node Benchill to Node Crossacres distance 1.5 on line 5
+        Node Benchill to Node Martinscroft distance 3.5 on line 5
+
+Node name: Martinscroft index: 85
+        Node Martinscroft to Node Benchill distance 3.5 on line 5
+        Node Martinscroft to Node Roundthorn distance 2.0 on line 5
+
+Node name: Roundthorn index: 86
+        Node Roundthorn to Node Martinscroft distance 2.0 on line 5
+        Node Roundthorn to Node Baguley distance 1.5 on line 5
+
+Node name: Baguley index: 87
+        Node Baguley to Node Roundthorn distance 1.5 on line 5
+        Node Baguley to Node Moor Road distance 2.5 on line 5
+
+Node name: Moor Road index: 88
+        Node Moor Road to Node Baguley distance 2.5 on line 5
+        Node Moor Road to Node Wythenshawe Park distance 2.0 on line 5
+
+Node name: Wythenshawe Park index: 89
+        Node Wythenshawe Park to Node Moor Road distance 2.0 on line 5
+        Node Wythenshawe Park to Node Northern Moor distance 2.5 on line 5
+
+Node name: Northern Moor index: 90
+        Node Northern Moor to Node Wythenshawe Park distance 2.5 on line 5
+        Node Northern Moor to Node S Water Park distance 3.5 on line 5
+
+Node name: S Water Park index: 91
+        Node S Water Park to Node Northern Moor distance 3.5 on line 5
+        Node S Water Park to Node Barlow Moor  Road distance 3.0 on line 5
+
+Node name: Barlow Moor  Road index: 92
+        Node Barlow Moor  Road to Node St Werburgh's Road distance 2.5 on line 5
+        Node Barlow Moor  Road to Node S Water Park distance 3.0 on line 5
+
+Node name: Trafford Centre index: 93
+        Node Trafford Centre to Node Barton Road distance 1.0 on line 6
+
+Node name: Barton Road index: 94
+        Node Barton Road to Node Trafford Centre distance 1.0 on line 6
+        Node Barton Road to Node Parkway distance 1.5 on line 6
+
+Node name: Parkway index: 95
+        Node Parkway to Node Barton Road distance 1.5 on line 6
+        Node Parkway to Node Village distance 1.5 on line 6
+
+Node name: Village index: 96
+        Node Village to Node Parkway distance 1.5 on line 6
+        Node Village to Node Imperial War Museum distance 2.0 on line 6
+
+Node name: Imperial War Museum index: 97
+        Node Imperial War Museum to Node Village distance 2.0 on line 6
+        Node Imperial War Museum to Node Wharfside distance 1.5 on line 6
+
+Node name: Wharfside index: 98
+        Node Wharfside to Node Pomona distance 1.5 on line 6
+        Node Wharfside to Node Imperial War Museum distance 1.5 on line 6
+
+
+Bury to Velopark | Shortest dis = 51.0 Fewest dis = 49.0
+Bury to Clayton Hall | Shortest dis = 55.0 Fewest dis = 53.0
+Bury to Edge Lane | Shortest dis = 57.5 Fewest dis = 55.5
+Bury to Cemetery Road | Shortest dis = 60.0 Fewest dis = 58.0
+Bury to Droylsden | Shortest dis = 62.0 Fewest dis = 60.0
+Bury to Audenshaw | Shortest dis = 65.0 Fewest dis = 63.0
+Bury to Ashton Moss | Shortest dis = 67.5 Fewest dis = 65.5
+Bury to Ashton West | Shortest dis = 70.5 Fewest dis = 68.5
+Bury to Ashton-under-Lyne | Shortest dis = 73.0 Fewest dis = 71.0
+Bury to East Didsbury | Shortest dis = 61.0 Fewest dis = 60.5
+Bury to Didsbury Village | Shortest dis = 60.0 Fewest dis = 59.5
+Bury to West Didsbury | Shortest dis = 58.0 Fewest dis = 57.5
+Bury to Burton Road | Shortest dis = 57.5 Fewest dis = 57.0
+Bury to Withington | Shortest dis = 56.5 Fewest dis = 56.0
+Bury to St Werburgh's Road | Shortest dis = 54.0 Fewest dis = 53.5
+Bury to Chorlton | Shortest dis = 52.5 Fewest dis = 52.0
+Bury to Firswood | Shortest dis = 51.0 Fewest dis = 50.5
+Bury to Manchester Airport | Shortest dis = 92.5 Fewest dis = 91.0
+Bury to Shadowmoss | Shortest dis = 89.0 Fewest dis = 87.5
+Bury to Peel Hall | Shortest dis = 87.0 Fewest dis = 85.5
+Bury to Robinswood Road | Shortest dis = 85.5 Fewest dis = 84.0
+Bury to Wythenshawe Town Centre | Shortest dis = 83.0 Fewest dis = 81.5
+Bury to Crossacres | Shortest dis = 80.5 Fewest dis = 79.0
+Bury to Benchill | Shortest dis = 79.0 Fewest dis = 77.5
+Bury to Martinscroft | Shortest dis = 75.5 Fewest dis = 74.0
+Bury to Roundthorn | Shortest dis = 73.5 Fewest dis = 72.0
+Bury to Baguley | Shortest dis = 72.0 Fewest dis = 70.5
+Bury to Moor Road | Shortest dis = 69.5 Fewest dis = 68.0
+Bury to Wythenshawe Park | Shortest dis = 67.5 Fewest dis = 66.0
+Bury to Northern Moor | Shortest dis = 65.0 Fewest dis = 63.5
+Bury to S Water Park | Shortest dis = 61.5 Fewest dis = 60.0
+Bury to Barlow Moor  Road | Shortest dis = 58.5 Fewest dis = 57.0
+Radcliffe to Velopark | Shortest dis = 45.0 Fewest dis = 43.0
+Radcliffe to Clayton Hall | Shortest dis = 49.0 Fewest dis = 47.0
+Radcliffe to Edge Lane | Shortest dis = 51.5 Fewest dis = 49.5
+Radcliffe to Cemetery Road | Shortest dis = 54.0 Fewest dis = 52.0
+Radcliffe to Droylsden | Shortest dis = 56.0 Fewest dis = 54.0
+Radcliffe to Audenshaw | Shortest dis = 59.0 Fewest dis = 57.0
+Radcliffe to Ashton Moss | Shortest dis = 61.5 Fewest dis = 59.5
+Radcliffe to Ashton West | Shortest dis = 64.5 Fewest dis = 62.5
+Radcliffe to Ashton-under-Lyne | Shortest dis = 67.0 Fewest dis = 65.0
+Radcliffe to East Didsbury | Shortest dis = 55.0 Fewest dis = 54.5
+Radcliffe to Didsbury Village | Shortest dis = 54.0 Fewest dis = 53.5
+Radcliffe to West Didsbury | Shortest dis = 52.0 Fewest dis = 51.5
+Radcliffe to Burton Road | Shortest dis = 51.5 Fewest dis = 51.0
+Radcliffe to Withington | Shortest dis = 50.5 Fewest dis = 50.0
+Radcliffe to St Werburgh's Road | Shortest dis = 48.0 Fewest dis = 47.5
+Radcliffe to Chorlton | Shortest dis = 46.5 Fewest dis = 46.0
+Radcliffe to Firswood | Shortest dis = 45.0 Fewest dis = 44.5
+Radcliffe to Manchester Airport | Shortest dis = 86.5 Fewest dis = 85.0
+Radcliffe to Shadowmoss | Shortest dis = 83.0 Fewest dis = 81.5
+Radcliffe to Peel Hall | Shortest dis = 81.0 Fewest dis = 79.5
+Radcliffe to Robinswood Road | Shortest dis = 79.5 Fewest dis = 78.0
+Radcliffe to Wythenshawe Town Centre | Shortest dis = 77.0 Fewest dis = 75.5
+Radcliffe to Crossacres | Shortest dis = 74.5 Fewest dis = 73.0
+Radcliffe to Benchill | Shortest dis = 73.0 Fewest dis = 71.5
+Radcliffe to Martinscroft | Shortest dis = 69.5 Fewest dis = 68.0
+Radcliffe to Roundthorn | Shortest dis = 67.5 Fewest dis = 66.0
+Radcliffe to Baguley | Shortest dis = 66.0 Fewest dis = 64.5
+Radcliffe to Moor Road | Shortest dis = 63.5 Fewest dis = 62.0
+Radcliffe to Wythenshawe Park | Shortest dis = 61.5 Fewest dis = 60.0
+Radcliffe to Northern Moor | Shortest dis = 59.0 Fewest dis = 57.5
+Radcliffe to S Water Park | Shortest dis = 55.5 Fewest dis = 54.0
+Radcliffe to Barlow Moor  Road | Shortest dis = 52.5 Fewest dis = 51.0
+Whitefield to Velopark | Shortest dis = 42.0 Fewest dis = 40.0
+Whitefield to Clayton Hall | Shortest dis = 46.0 Fewest dis = 44.0
+Whitefield to Edge Lane | Shortest dis = 48.5 Fewest dis = 46.5
+Whitefield to Cemetery Road | Shortest dis = 51.0 Fewest dis = 49.0
+Whitefield to Droylsden | Shortest dis = 53.0 Fewest dis = 51.0
+Whitefield to Audenshaw | Shortest dis = 56.0 Fewest dis = 54.0
+Whitefield to Ashton Moss | Shortest dis = 58.5 Fewest dis = 56.5
+Whitefield to Ashton West | Shortest dis = 61.5 Fewest dis = 59.5
+Whitefield to Ashton-under-Lyne | Shortest dis = 64.0 Fewest dis = 62.0
+Whitefield to East Didsbury | Shortest dis = 52.0 Fewest dis = 51.5
+Whitefield to Didsbury Village | Shortest dis = 51.0 Fewest dis = 50.5
+Whitefield to West Didsbury | Shortest dis = 49.0 Fewest dis = 48.5
+Whitefield to Burton Road | Shortest dis = 48.5 Fewest dis = 48.0
+Whitefield to Withington | Shortest dis = 47.5 Fewest dis = 47.0
+Whitefield to St Werburgh's Road | Shortest dis = 45.0 Fewest dis = 44.5
+Whitefield to Chorlton | Shortest dis = 43.5 Fewest dis = 43.0
+Whitefield to Firswood | Shortest dis = 42.0 Fewest dis = 41.5
+Whitefield to Manchester Airport | Shortest dis = 83.5 Fewest dis = 82.0
+Whitefield to Shadowmoss | Shortest dis = 80.0 Fewest dis = 78.5
+Whitefield to Peel Hall | Shortest dis = 78.0 Fewest dis = 76.5
+Whitefield to Robinswood Road | Shortest dis = 76.5 Fewest dis = 75.0
+Whitefield to Wythenshawe Town Centre | Shortest dis = 74.0 Fewest dis = 72.5
+Whitefield to Crossacres | Shortest dis = 71.5 Fewest dis = 70.0
+Whitefield to Benchill | Shortest dis = 70.0 Fewest dis = 68.5
+Whitefield to Martinscroft | Shortest dis = 66.5 Fewest dis = 65.0
+Whitefield to Roundthorn | Shortest dis = 64.5 Fewest dis = 63.0
+Whitefield to Baguley | Shortest dis = 63.0 Fewest dis = 61.5
+Whitefield to Moor Road | Shortest dis = 60.5 Fewest dis = 59.0
+Whitefield to Wythenshawe Park | Shortest dis = 58.5 Fewest dis = 57.0
+Whitefield to Northern Moor | Shortest dis = 56.0 Fewest dis = 54.5
+Whitefield to S Water Park | Shortest dis = 52.5 Fewest dis = 51.0
+Whitefield to Barlow Moor  Road | Shortest dis = 49.5 Fewest dis = 48.0
+Besses o'th' Barn to Velopark | Shortest dis = 39.5 Fewest dis = 37.5
+Besses o'th' Barn to Clayton Hall | Shortest dis = 43.5 Fewest dis = 41.5
+Besses o'th' Barn to Edge Lane | Shortest dis = 46.0 Fewest dis = 44.0
+Besses o'th' Barn to Cemetery Road | Shortest dis = 48.5 Fewest dis = 46.5
+Besses o'th' Barn to Droylsden | Shortest dis = 50.5 Fewest dis = 48.5
+Besses o'th' Barn to Audenshaw | Shortest dis = 53.5 Fewest dis = 51.5
+Besses o'th' Barn to Ashton Moss | Shortest dis = 56.0 Fewest dis = 54.0
+Besses o'th' Barn to Ashton West | Shortest dis = 59.0 Fewest dis = 57.0
+Besses o'th' Barn to Ashton-under-Lyne | Shortest dis = 61.5 Fewest dis = 59.5
+Besses o'th' Barn to East Didsbury | Shortest dis = 49.5 Fewest dis = 49.0
+Besses o'th' Barn to Didsbury Village | Shortest dis = 48.5 Fewest dis = 48.0
+Besses o'th' Barn to West Didsbury | Shortest dis = 46.5 Fewest dis = 46.0
+Besses o'th' Barn to Burton Road | Shortest dis = 46.0 Fewest dis = 45.5
+Besses o'th' Barn to Withington | Shortest dis = 45.0 Fewest dis = 44.5
+Besses o'th' Barn to St Werburgh's Road | Shortest dis = 42.5 Fewest dis = 42.0
+Besses o'th' Barn to Chorlton | Shortest dis = 41.0 Fewest dis = 40.5
+Besses o'th' Barn to Firswood | Shortest dis = 39.5 Fewest dis = 39.0
+Besses o'th' Barn to Manchester Airport | Shortest dis = 81.0 Fewest dis = 79.5
+Besses o'th' Barn to Shadowmoss | Shortest dis = 77.5 Fewest dis = 76.0
+Besses o'th' Barn to Peel Hall | Shortest dis = 75.5 Fewest dis = 74.0
+Besses o'th' Barn to Robinswood Road | Shortest dis = 74.0 Fewest dis = 72.5
+Besses o'th' Barn to Wythenshawe Town Centre | Shortest dis = 71.5 Fewest dis = 70.0
+Besses o'th' Barn to Crossacres | Shortest dis = 69.0 Fewest dis = 67.5
+Besses o'th' Barn to Benchill | Shortest dis = 67.5 Fewest dis = 66.0
+Besses o'th' Barn to Martinscroft | Shortest dis = 64.0 Fewest dis = 62.5
+Besses o'th' Barn to Roundthorn | Shortest dis = 62.0 Fewest dis = 60.5
+Besses o'th' Barn to Baguley | Shortest dis = 60.5 Fewest dis = 59.0
+Besses o'th' Barn to Moor Road | Shortest dis = 58.0 Fewest dis = 56.5
+Besses o'th' Barn to Wythenshawe Park | Shortest dis = 56.0 Fewest dis = 54.5
+Besses o'th' Barn to Northern Moor | Shortest dis = 53.5 Fewest dis = 52.0
+Besses o'th' Barn to S Water Park | Shortest dis = 50.0 Fewest dis = 48.5
+Besses o'th' Barn to Barlow Moor  Road | Shortest dis = 47.0 Fewest dis = 45.5
+Prestwich to Velopark | Shortest dis = 37.5 Fewest dis = 35.5
+Prestwich to Clayton Hall | Shortest dis = 41.5 Fewest dis = 39.5
+Prestwich to Edge Lane | Shortest dis = 44.0 Fewest dis = 42.0
+Prestwich to Cemetery Road | Shortest dis = 46.5 Fewest dis = 44.5
+Prestwich to Droylsden | Shortest dis = 48.5 Fewest dis = 46.5
+Prestwich to Audenshaw | Shortest dis = 51.5 Fewest dis = 49.5
+Prestwich to Ashton Moss | Shortest dis = 54.0 Fewest dis = 52.0
+Prestwich to Ashton West | Shortest dis = 57.0 Fewest dis = 55.0
+Prestwich to Ashton-under-Lyne | Shortest dis = 59.5 Fewest dis = 57.5
+Prestwich to East Didsbury | Shortest dis = 47.5 Fewest dis = 47.0
+Prestwich to Didsbury Village | Shortest dis = 46.5 Fewest dis = 46.0
+Prestwich to West Didsbury | Shortest dis = 44.5 Fewest dis = 44.0
+Prestwich to Burton Road | Shortest dis = 44.0 Fewest dis = 43.5
+Prestwich to Withington | Shortest dis = 43.0 Fewest dis = 42.5
+Prestwich to St Werburgh's Road | Shortest dis = 40.5 Fewest dis = 40.0
+Prestwich to Chorlton | Shortest dis = 39.0 Fewest dis = 38.5
+Prestwich to Firswood | Shortest dis = 37.5 Fewest dis = 37.0
+Prestwich to Manchester Airport | Shortest dis = 79.0 Fewest dis = 77.5
+Prestwich to Shadowmoss | Shortest dis = 75.5 Fewest dis = 74.0
+Prestwich to Peel Hall | Shortest dis = 73.5 Fewest dis = 72.0
+Prestwich to Robinswood Road | Shortest dis = 72.0 Fewest dis = 70.5
+Prestwich to Wythenshawe Town Centre | Shortest dis = 69.5 Fewest dis = 68.0
+Prestwich to Crossacres | Shortest dis = 67.0 Fewest dis = 65.5
+Prestwich to Benchill | Shortest dis = 65.5 Fewest dis = 64.0
+Prestwich to Martinscroft | Shortest dis = 62.0 Fewest dis = 60.5
+Prestwich to Roundthorn | Shortest dis = 60.0 Fewest dis = 58.5
+Prestwich to Baguley | Shortest dis = 58.5 Fewest dis = 57.0
+Prestwich to Moor Road | Shortest dis = 56.0 Fewest dis = 54.5
+Prestwich to Wythenshawe Park | Shortest dis = 54.0 Fewest dis = 52.5
+Prestwich to Northern Moor | Shortest dis = 51.5 Fewest dis = 50.0
+Prestwich to S Water Park | Shortest dis = 48.0 Fewest dis = 46.5
+Prestwich to Barlow Moor  Road | Shortest dis = 45.0 Fewest dis = 43.5
+Heaton Park to Velopark | Shortest dis = 35.0 Fewest dis = 33.0
+Heaton Park to Clayton Hall | Shortest dis = 39.0 Fewest dis = 37.0
+Heaton Park to Edge Lane | Shortest dis = 41.5 Fewest dis = 39.5
+Heaton Park to Cemetery Road | Shortest dis = 44.0 Fewest dis = 42.0
+Heaton Park to Droylsden | Shortest dis = 46.0 Fewest dis = 44.0
+Heaton Park to Audenshaw | Shortest dis = 49.0 Fewest dis = 47.0
+Heaton Park to Ashton Moss | Shortest dis = 51.5 Fewest dis = 49.5
+Heaton Park to Ashton West | Shortest dis = 54.5 Fewest dis = 52.5
+Heaton Park to Ashton-under-Lyne | Shortest dis = 57.0 Fewest dis = 55.0
+Heaton Park to East Didsbury | Shortest dis = 45.0 Fewest dis = 44.5
+Heaton Park to Didsbury Village | Shortest dis = 44.0 Fewest dis = 43.5
+Heaton Park to West Didsbury | Shortest dis = 42.0 Fewest dis = 41.5
+Heaton Park to Burton Road | Shortest dis = 41.5 Fewest dis = 41.0
+Heaton Park to Withington | Shortest dis = 40.5 Fewest dis = 40.0
+Heaton Park to St Werburgh's Road | Shortest dis = 38.0 Fewest dis = 37.5
+Heaton Park to Chorlton | Shortest dis = 36.5 Fewest dis = 36.0
+Heaton Park to Firswood | Shortest dis = 35.0 Fewest dis = 34.5
+Heaton Park to Manchester Airport | Shortest dis = 76.5 Fewest dis = 75.0
+Heaton Park to Shadowmoss | Shortest dis = 73.0 Fewest dis = 71.5
+Heaton Park to Peel Hall | Shortest dis = 71.0 Fewest dis = 69.5
+Heaton Park to Robinswood Road | Shortest dis = 69.5 Fewest dis = 68.0
+Heaton Park to Wythenshawe Town Centre | Shortest dis = 67.0 Fewest dis = 65.5
+Heaton Park to Crossacres | Shortest dis = 64.5 Fewest dis = 63.0
+Heaton Park to Benchill | Shortest dis = 63.0 Fewest dis = 61.5
+Heaton Park to Martinscroft | Shortest dis = 59.5 Fewest dis = 58.0
+Heaton Park to Roundthorn | Shortest dis = 57.5 Fewest dis = 56.0
+Heaton Park to Baguley | Shortest dis = 56.0 Fewest dis = 54.5
+Heaton Park to Moor Road | Shortest dis = 53.5 Fewest dis = 52.0
+Heaton Park to Wythenshawe Park | Shortest dis = 51.5 Fewest dis = 50.0
+Heaton Park to Northern Moor | Shortest dis = 49.0 Fewest dis = 47.5
+Heaton Park to S Water Park | Shortest dis = 45.5 Fewest dis = 44.0
+Heaton Park to Barlow Moor  Road | Shortest dis = 42.5 Fewest dis = 41.0
+Bowker Vale to Velopark | Shortest dis = 33.0 Fewest dis = 31.0
+Bowker Vale to Clayton Hall | Shortest dis = 37.0 Fewest dis = 35.0
+Bowker Vale to Edge Lane | Shortest dis = 39.5 Fewest dis = 37.5
+Bowker Vale to Cemetery Road | Shortest dis = 42.0 Fewest dis = 40.0
+Bowker Vale to Droylsden | Shortest dis = 44.0 Fewest dis = 42.0
+Bowker Vale to Audenshaw | Shortest dis = 47.0 Fewest dis = 45.0
+Bowker Vale to Ashton Moss | Shortest dis = 49.5 Fewest dis = 47.5
+Bowker Vale to Ashton West | Shortest dis = 52.5 Fewest dis = 50.5
+Bowker Vale to Ashton-under-Lyne | Shortest dis = 55.0 Fewest dis = 53.0
+Bowker Vale to East Didsbury | Shortest dis = 43.0 Fewest dis = 42.5
+Bowker Vale to Didsbury Village | Shortest dis = 42.0 Fewest dis = 41.5
+Bowker Vale to West Didsbury | Shortest dis = 40.0 Fewest dis = 39.5
+Bowker Vale to Burton Road | Shortest dis = 39.5 Fewest dis = 39.0
+Bowker Vale to Withington | Shortest dis = 38.5 Fewest dis = 38.0
+Bowker Vale to St Werburgh's Road | Shortest dis = 36.0 Fewest dis = 35.5
+Bowker Vale to Chorlton | Shortest dis = 34.5 Fewest dis = 34.0
+Bowker Vale to Firswood | Shortest dis = 33.0 Fewest dis = 32.5
+Bowker Vale to Manchester Airport | Shortest dis = 74.5 Fewest dis = 73.0
+Bowker Vale to Shadowmoss | Shortest dis = 71.0 Fewest dis = 69.5
+Bowker Vale to Peel Hall | Shortest dis = 69.0 Fewest dis = 67.5
+Bowker Vale to Robinswood Road | Shortest dis = 67.5 Fewest dis = 66.0
+Bowker Vale to Wythenshawe Town Centre | Shortest dis = 65.0 Fewest dis = 63.5
+Bowker Vale to Crossacres | Shortest dis = 62.5 Fewest dis = 61.0
+Bowker Vale to Benchill | Shortest dis = 61.0 Fewest dis = 59.5
+Bowker Vale to Martinscroft | Shortest dis = 57.5 Fewest dis = 56.0
+Bowker Vale to Roundthorn | Shortest dis = 55.5 Fewest dis = 54.0
+Bowker Vale to Baguley | Shortest dis = 54.0 Fewest dis = 52.5
+Bowker Vale to Moor Road | Shortest dis = 51.5 Fewest dis = 50.0
+Bowker Vale to Wythenshawe Park | Shortest dis = 49.5 Fewest dis = 48.0
+Bowker Vale to Northern Moor | Shortest dis = 47.0 Fewest dis = 45.5
+Bowker Vale to S Water Park | Shortest dis = 43.5 Fewest dis = 42.0
+Bowker Vale to Barlow Moor  Road | Shortest dis = 40.5 Fewest dis = 39.0
+Crumpsall to Velopark | Shortest dis = 31.5 Fewest dis = 29.5
+Crumpsall to Clayton Hall | Shortest dis = 35.5 Fewest dis = 33.5
+Crumpsall to Edge Lane | Shortest dis = 38.0 Fewest dis = 36.0
+Crumpsall to Cemetery Road | Shortest dis = 40.5 Fewest dis = 38.5
+Crumpsall to Droylsden | Shortest dis = 42.5 Fewest dis = 40.5
+Crumpsall to Audenshaw | Shortest dis = 45.5 Fewest dis = 43.5
+Crumpsall to Ashton Moss | Shortest dis = 48.0 Fewest dis = 46.0
+Crumpsall to Ashton West | Shortest dis = 51.0 Fewest dis = 49.0
+Crumpsall to Ashton-under-Lyne | Shortest dis = 53.5 Fewest dis = 51.5
+Crumpsall to Manchester Airport | Shortest dis = 72.5 Fewest dis = 71.5
+Crumpsall to Shadowmoss | Shortest dis = 69.0 Fewest dis = 68.0
+Crumpsall to Peel Hall | Shortest dis = 67.0 Fewest dis = 66.0
+Crumpsall to Robinswood Road | Shortest dis = 65.5 Fewest dis = 64.5
+Crumpsall to Wythenshawe Town Centre | Shortest dis = 63.0 Fewest dis = 62.0
+Crumpsall to Crossacres | Shortest dis = 60.5 Fewest dis = 59.5
+Crumpsall to Benchill | Shortest dis = 59.0 Fewest dis = 58.0
+Crumpsall to Martinscroft | Shortest dis = 55.5 Fewest dis = 54.5
+Crumpsall to Roundthorn | Shortest dis = 53.5 Fewest dis = 52.5
+Crumpsall to Baguley | Shortest dis = 52.0 Fewest dis = 51.0
+Crumpsall to Moor Road | Shortest dis = 49.5 Fewest dis = 48.5
+Crumpsall to Wythenshawe Park | Shortest dis = 47.5 Fewest dis = 46.5
+Crumpsall to Northern Moor | Shortest dis = 45.0 Fewest dis = 44.0
+Crumpsall to S Water Park | Shortest dis = 41.5 Fewest dis = 40.5
+Crumpsall to Barlow Moor  Road | Shortest dis = 38.5 Fewest dis = 37.5
+Abraham Moss to Velopark | Shortest dis = 29.5 Fewest dis = 27.5
+Abraham Moss to Clayton Hall | Shortest dis = 33.5 Fewest dis = 31.5
+Abraham Moss to Edge Lane | Shortest dis = 36.0 Fewest dis = 34.0
+Abraham Moss to Cemetery Road | Shortest dis = 38.5 Fewest dis = 36.5
+Abraham Moss to Droylsden | Shortest dis = 40.5 Fewest dis = 38.5
+Abraham Moss to Audenshaw | Shortest dis = 43.5 Fewest dis = 41.5
+Abraham Moss to Ashton Moss | Shortest dis = 46.0 Fewest dis = 44.0
+Abraham Moss to Ashton West | Shortest dis = 49.0 Fewest dis = 47.0
+Abraham Moss to Ashton-under-Lyne | Shortest dis = 51.5 Fewest dis = 49.5
+Abraham Moss to Manchester Airport | Shortest dis = 70.5 Fewest dis = 69.5
+Abraham Moss to Shadowmoss | Shortest dis = 67.0 Fewest dis = 66.0
+Abraham Moss to Peel Hall | Shortest dis = 65.0 Fewest dis = 64.0
+Abraham Moss to Robinswood Road | Shortest dis = 63.5 Fewest dis = 62.5
+Abraham Moss to Wythenshawe Town Centre | Shortest dis = 61.0 Fewest dis = 60.0
+Abraham Moss to Crossacres | Shortest dis = 58.5 Fewest dis = 57.5
+Abraham Moss to Benchill | Shortest dis = 57.0 Fewest dis = 56.0
+Abraham Moss to Martinscroft | Shortest dis = 53.5 Fewest dis = 52.5
+Abraham Moss to Roundthorn | Shortest dis = 51.5 Fewest dis = 50.5
+Abraham Moss to Baguley | Shortest dis = 50.0 Fewest dis = 49.0
+Abraham Moss to Moor Road | Shortest dis = 47.5 Fewest dis = 46.5
+Abraham Moss to Wythenshawe Park | Shortest dis = 45.5 Fewest dis = 44.5
+Abraham Moss to Northern Moor | Shortest dis = 43.0 Fewest dis = 42.0
+Abraham Moss to S Water Park | Shortest dis = 39.5 Fewest dis = 38.5
+Abraham Moss to Barlow Moor  Road | Shortest dis = 36.5 Fewest dis = 35.5
+Queens Road to Velopark | Shortest dis = 27.0 Fewest dis = 25.0
+Queens Road to Clayton Hall | Shortest dis = 31.0 Fewest dis = 29.0
+Queens Road to Edge Lane | Shortest dis = 33.5 Fewest dis = 31.5
+Queens Road to Cemetery Road | Shortest dis = 36.0 Fewest dis = 34.0
+Queens Road to Droylsden | Shortest dis = 38.0 Fewest dis = 36.0
+Queens Road to Audenshaw | Shortest dis = 41.0 Fewest dis = 39.0
+Queens Road to Ashton Moss | Shortest dis = 43.5 Fewest dis = 41.5
+Queens Road to Ashton West | Shortest dis = 46.5 Fewest dis = 44.5
+Queens Road to Ashton-under-Lyne | Shortest dis = 49.0 Fewest dis = 47.0
+Queens Road to Manchester Airport | Shortest dis = 67.5 Fewest dis = 67.0
+Queens Road to Shadowmoss | Shortest dis = 64.0 Fewest dis = 63.5
+Queens Road to Peel Hall | Shortest dis = 62.0 Fewest dis = 61.5
+Queens Road to Robinswood Road | Shortest dis = 60.5 Fewest dis = 60.0
+Queens Road to Wythenshawe Town Centre | Shortest dis = 58.0 Fewest dis = 57.5
+Queens Road to Crossacres | Shortest dis = 55.5 Fewest dis = 55.0
+Queens Road to Benchill | Shortest dis = 54.0 Fewest dis = 53.5
+Queens Road to Martinscroft | Shortest dis = 50.5 Fewest dis = 50.0
+Queens Road to Roundthorn | Shortest dis = 48.5 Fewest dis = 48.0
+Queens Road to Baguley | Shortest dis = 47.0 Fewest dis = 46.5
+Queens Road to Moor Road | Shortest dis = 44.5 Fewest dis = 44.0
+Queens Road to Wythenshawe Park | Shortest dis = 42.5 Fewest dis = 42.0
+Queens Road to Northern Moor | Shortest dis = 40.0 Fewest dis = 39.5
+Queens Road to S Water Park | Shortest dis = 36.5 Fewest dis = 36.0
+Queens Road to Barlow Moor  Road | Shortest dis = 33.5 Fewest dis = 33.0
+Victoria to Velopark | Shortest dis = 22.0 Fewest dis = 20.0
+Victoria to Clayton Hall | Shortest dis = 26.0 Fewest dis = 24.0
+Victoria to Edge Lane | Shortest dis = 28.5 Fewest dis = 26.5
+Victoria to Cemetery Road | Shortest dis = 31.0 Fewest dis = 29.0
+Victoria to Droylsden | Shortest dis = 33.0 Fewest dis = 31.0
+Victoria to Audenshaw | Shortest dis = 36.0 Fewest dis = 34.0
+Victoria to Ashton Moss | Shortest dis = 38.5 Fewest dis = 36.5
+Victoria to Ashton West | Shortest dis = 41.5 Fewest dis = 39.5
+Victoria to Ashton-under-Lyne | Shortest dis = 44.0 Fewest dis = 42.0
+Victoria to East Didsbury | Shortest dis = 30.0 Fewest dis = 29.5
+Victoria to Didsbury Village | Shortest dis = 29.0 Fewest dis = 28.5
+Victoria to West Didsbury | Shortest dis = 27.0 Fewest dis = 26.5
+Victoria to Burton Road | Shortest dis = 26.5 Fewest dis = 26.0
+Victoria to Withington | Shortest dis = 25.5 Fewest dis = 25.0
+Victoria to St Werburgh's Road | Shortest dis = 23.0 Fewest dis = 22.5
+Victoria to Chorlton | Shortest dis = 21.5 Fewest dis = 21.0
+Victoria to Firswood | Shortest dis = 20.0 Fewest dis = 19.5
+Victoria to Manchester Airport | Shortest dis = 61.5 Fewest dis = 61.0
+Victoria to Shadowmoss | Shortest dis = 58.0 Fewest dis = 57.5
+Victoria to Peel Hall | Shortest dis = 56.0 Fewest dis = 55.5
+Victoria to Robinswood Road | Shortest dis = 54.5 Fewest dis = 54.0
+Victoria to Wythenshawe Town Centre | Shortest dis = 52.0 Fewest dis = 51.5
+Victoria to Crossacres | Shortest dis = 49.5 Fewest dis = 49.0
+Victoria to Benchill | Shortest dis = 48.0 Fewest dis = 47.5
+Victoria to Martinscroft | Shortest dis = 44.5 Fewest dis = 44.0
+Victoria to Roundthorn | Shortest dis = 42.5 Fewest dis = 42.0
+Victoria to Baguley | Shortest dis = 41.0 Fewest dis = 40.5
+Victoria to Moor Road | Shortest dis = 38.5 Fewest dis = 38.0
+Victoria to Wythenshawe Park | Shortest dis = 36.5 Fewest dis = 36.0
+Victoria to Northern Moor | Shortest dis = 34.0 Fewest dis = 33.5
+Victoria to S Water Park | Shortest dis = 30.5 Fewest dis = 30.0
+Victoria to Barlow Moor  Road | Shortest dis = 27.5 Fewest dis = 27.0
+Shudehill to Velopark | Shortest dis = 20.0 Fewest dis = 18.0
+Shudehill to Clayton Hall | Shortest dis = 24.0 Fewest dis = 22.0
+Shudehill to Edge Lane | Shortest dis = 26.5 Fewest dis = 24.5
+Shudehill to Cemetery Road | Shortest dis = 29.0 Fewest dis = 27.0
+Shudehill to Droylsden | Shortest dis = 31.0 Fewest dis = 29.0
+Shudehill to Audenshaw | Shortest dis = 34.0 Fewest dis = 32.0
+Shudehill to Ashton Moss | Shortest dis = 36.5 Fewest dis = 34.5
+Shudehill to Ashton West | Shortest dis = 39.5 Fewest dis = 37.5
+Shudehill to Ashton-under-Lyne | Shortest dis = 42.0 Fewest dis = 40.0
+Shudehill to St Werburgh's Road | Shortest dis = 22.5 Fewest dis = 22.0
+Shudehill to Chorlton | Shortest dis = 21.0 Fewest dis = 20.5
+Shudehill to Firswood | Shortest dis = 19.5 Fewest dis = 19.0
+Shudehill to Manchester Airport | Shortest dis = 61.0 Fewest dis = 58.5
+Shudehill to Shadowmoss | Shortest dis = 57.5 Fewest dis = 55.0
+Shudehill to Peel Hall | Shortest dis = 55.5 Fewest dis = 53.0
+Shudehill to Robinswood Road | Shortest dis = 54.0 Fewest dis = 51.5
+Shudehill to Wythenshawe Town Centre | Shortest dis = 51.5 Fewest dis = 49.0
+Shudehill to Crossacres | Shortest dis = 49.0 Fewest dis = 46.5
+Shudehill to Benchill | Shortest dis = 47.5 Fewest dis = 45.0
+Shudehill to Martinscroft | Shortest dis = 44.0 Fewest dis = 41.5
+Shudehill to Roundthorn | Shortest dis = 42.0 Fewest dis = 39.5
+Shudehill to Baguley | Shortest dis = 40.5 Fewest dis = 38.0
+Shudehill to Moor Road | Shortest dis = 38.0 Fewest dis = 35.5
+Shudehill to Wythenshawe Park | Shortest dis = 36.0 Fewest dis = 33.5
+Shudehill to Northern Moor | Shortest dis = 33.5 Fewest dis = 31.0
+Shudehill to S Water Park | Shortest dis = 30.0 Fewest dis = 27.5
+Shudehill to Barlow Moor  Road | Shortest dis = 27.0 Fewest dis = 24.5
+Market Street to Velopark | Shortest dis = 18.0 Fewest dis = 16.0
+Market Street to Clayton Hall | Shortest dis = 22.0 Fewest dis = 20.0
+Market Street to Edge Lane | Shortest dis = 24.5 Fewest dis = 22.5
+Market Street to Cemetery Road | Shortest dis = 27.0 Fewest dis = 25.0
+Market Street to Droylsden | Shortest dis = 29.0 Fewest dis = 27.0
+Market Street to Audenshaw | Shortest dis = 32.0 Fewest dis = 30.0
+Market Street to Ashton Moss | Shortest dis = 34.5 Fewest dis = 32.5
+Market Street to Ashton West | Shortest dis = 37.5 Fewest dis = 35.5
+Market Street to Ashton-under-Lyne | Shortest dis = 40.0 Fewest dis = 38.0
+Market Street to St Werburgh's Road | Shortest dis = 20.0 Fewest dis = 19.5
+Market Street to Chorlton | Shortest dis = 18.5 Fewest dis = 18.0
+Market Street to Firswood | Shortest dis = 17.0 Fewest dis = 16.5
+Market Street to Manchester Airport | Shortest dis = 58.5 Fewest dis = 56.0
+Market Street to Shadowmoss | Shortest dis = 55.0 Fewest dis = 52.5
+Market Street to Peel Hall | Shortest dis = 53.0 Fewest dis = 50.5
+Market Street to Robinswood Road | Shortest dis = 51.5 Fewest dis = 49.0
+Market Street to Wythenshawe Town Centre | Shortest dis = 49.0 Fewest dis = 46.5
+Market Street to Crossacres | Shortest dis = 46.5 Fewest dis = 44.0
+Market Street to Benchill | Shortest dis = 45.0 Fewest dis = 42.5
+Market Street to Martinscroft | Shortest dis = 41.5 Fewest dis = 39.0
+Market Street to Roundthorn | Shortest dis = 39.5 Fewest dis = 37.0
+Market Street to Baguley | Shortest dis = 38.0 Fewest dis = 35.5
+Market Street to Moor Road | Shortest dis = 35.5 Fewest dis = 33.0
+Market Street to Wythenshawe Park | Shortest dis = 33.5 Fewest dis = 31.0
+Market Street to Northern Moor | Shortest dis = 31.0 Fewest dis = 28.5
+Market Street to S Water Park | Shortest dis = 27.5 Fewest dis = 25.0
+Market Street to Barlow Moor  Road | Shortest dis = 24.5 Fewest dis = 22.0
+Altrincham to Manchester Airport | Shortest dis = 62.5 Fewest dis = 60.5
+Altrincham to Shadowmoss | Shortest dis = 59.0 Fewest dis = 57.0
+Altrincham to Peel Hall | Shortest dis = 57.0 Fewest dis = 55.0
+Altrincham to Robinswood Road | Shortest dis = 55.5 Fewest dis = 53.5
+Altrincham to Wythenshawe Town Centre | Shortest dis = 53.0 Fewest dis = 51.0
+Altrincham to Crossacres | Shortest dis = 50.5 Fewest dis = 48.5
+Altrincham to Benchill | Shortest dis = 49.0 Fewest dis = 47.0
+Altrincham to Martinscroft | Shortest dis = 45.5 Fewest dis = 43.5
+Altrincham to Roundthorn | Shortest dis = 43.5 Fewest dis = 41.5
+Altrincham to Baguley | Shortest dis = 42.0 Fewest dis = 40.0
+Altrincham to Moor Road | Shortest dis = 39.5 Fewest dis = 37.5
+Altrincham to Wythenshawe Park | Shortest dis = 37.5 Fewest dis = 35.5
+Altrincham to Northern Moor | Shortest dis = 35.0 Fewest dis = 33.0
+Altrincham to S Water Park | Shortest dis = 31.5 Fewest dis = 29.5
+Altrincham to Barlow Moor  Road | Shortest dis = 28.5 Fewest dis = 26.5
+Navigation Road to Manchester Airport | Shortest dis = 61.0 Fewest dis = 59.0
+Navigation Road to Shadowmoss | Shortest dis = 57.5 Fewest dis = 55.5
+Navigation Road to Peel Hall | Shortest dis = 55.5 Fewest dis = 53.5
+Navigation Road to Robinswood Road | Shortest dis = 54.0 Fewest dis = 52.0
+Navigation Road to Wythenshawe Town Centre | Shortest dis = 51.5 Fewest dis = 49.5
+Navigation Road to Crossacres | Shortest dis = 49.0 Fewest dis = 47.0
+Navigation Road to Benchill | Shortest dis = 47.5 Fewest dis = 45.5
+Navigation Road to Martinscroft | Shortest dis = 44.0 Fewest dis = 42.0
+Navigation Road to Roundthorn | Shortest dis = 42.0 Fewest dis = 40.0
+Navigation Road to Baguley | Shortest dis = 40.5 Fewest dis = 38.5
+Navigation Road to Moor Road | Shortest dis = 38.0 Fewest dis = 36.0
+Navigation Road to Wythenshawe Park | Shortest dis = 36.0 Fewest dis = 34.0
+Navigation Road to Northern Moor | Shortest dis = 33.5 Fewest dis = 31.5
+Navigation Road to S Water Park | Shortest dis = 30.0 Fewest dis = 28.0
+Navigation Road to Barlow Moor  Road | Shortest dis = 27.0 Fewest dis = 25.0
+Timperley to Manchester Airport | Shortest dis = 59.0 Fewest dis = 57.0
+Timperley to Shadowmoss | Shortest dis = 55.5 Fewest dis = 53.5
+Timperley to Peel Hall | Shortest dis = 53.5 Fewest dis = 51.5
+Timperley to Robinswood Road | Shortest dis = 52.0 Fewest dis = 50.0
+Timperley to Wythenshawe Town Centre | Shortest dis = 49.5 Fewest dis = 47.5
+Timperley to Crossacres | Shortest dis = 47.0 Fewest dis = 45.0
+Timperley to Benchill | Shortest dis = 45.5 Fewest dis = 43.5
+Timperley to Martinscroft | Shortest dis = 42.0 Fewest dis = 40.0
+Timperley to Roundthorn | Shortest dis = 40.0 Fewest dis = 38.0
+Timperley to Baguley | Shortest dis = 38.5 Fewest dis = 36.5
+Timperley to Moor Road | Shortest dis = 36.0 Fewest dis = 34.0
+Timperley to Wythenshawe Park | Shortest dis = 34.0 Fewest dis = 32.0
+Timperley to Northern Moor | Shortest dis = 31.5 Fewest dis = 29.5
+Timperley to S Water Park | Shortest dis = 28.0 Fewest dis = 26.0
+Timperley to Barlow Moor  Road | Shortest dis = 25.0 Fewest dis = 23.0
+Brooklands to Manchester Airport | Shortest dis = 56.5 Fewest dis = 54.5
+Brooklands to Shadowmoss | Shortest dis = 53.0 Fewest dis = 51.0
+Brooklands to Peel Hall | Shortest dis = 51.0 Fewest dis = 49.0
+Brooklands to Robinswood Road | Shortest dis = 49.5 Fewest dis = 47.5
+Brooklands to Wythenshawe Town Centre | Shortest dis = 47.0 Fewest dis = 45.0
+Brooklands to Crossacres | Shortest dis = 44.5 Fewest dis = 42.5
+Brooklands to Benchill | Shortest dis = 43.0 Fewest dis = 41.0
+Brooklands to Martinscroft | Shortest dis = 39.5 Fewest dis = 37.5
+Brooklands to Roundthorn | Shortest dis = 37.5 Fewest dis = 35.5
+Brooklands to Baguley | Shortest dis = 36.0 Fewest dis = 34.0
+Brooklands to Moor Road | Shortest dis = 33.5 Fewest dis = 31.5
+Brooklands to Wythenshawe Park | Shortest dis = 31.5 Fewest dis = 29.5
+Brooklands to Northern Moor | Shortest dis = 29.0 Fewest dis = 27.0
+Brooklands to S Water Park | Shortest dis = 25.5 Fewest dis = 23.5
+Brooklands to Barlow Moor  Road | Shortest dis = 22.5 Fewest dis = 20.5
+Sale to Manchester Airport | Shortest dis = 55.5 Fewest dis = 53.5
+Sale to Shadowmoss | Shortest dis = 52.0 Fewest dis = 50.0
+Sale to Peel Hall | Shortest dis = 50.0 Fewest dis = 48.0
+Sale to Robinswood Road | Shortest dis = 48.5 Fewest dis = 46.5
+Sale to Wythenshawe Town Centre | Shortest dis = 46.0 Fewest dis = 44.0
+Sale to Crossacres | Shortest dis = 43.5 Fewest dis = 41.5
+Sale to Benchill | Shortest dis = 42.0 Fewest dis = 40.0
+Sale to Martinscroft | Shortest dis = 38.5 Fewest dis = 36.5
+Sale to Roundthorn | Shortest dis = 36.5 Fewest dis = 34.5
+Sale to Baguley | Shortest dis = 35.0 Fewest dis = 33.0
+Sale to Moor Road | Shortest dis = 32.5 Fewest dis = 30.5
+Sale to Wythenshawe Park | Shortest dis = 30.5 Fewest dis = 28.5
+Sale to Northern Moor | Shortest dis = 28.0 Fewest dis = 26.0
+Sale to S Water Park | Shortest dis = 24.5 Fewest dis = 22.5
+Sale to Barlow Moor  Road | Shortest dis = 21.5 Fewest dis = 19.5
+Dane Road to Manchester Airport | Shortest dis = 54.5 Fewest dis = 52.5
+Dane Road to Shadowmoss | Shortest dis = 51.0 Fewest dis = 49.0
+Dane Road to Peel Hall | Shortest dis = 49.0 Fewest dis = 47.0
+Dane Road to Robinswood Road | Shortest dis = 47.5 Fewest dis = 45.5
+Dane Road to Wythenshawe Town Centre | Shortest dis = 45.0 Fewest dis = 43.0
+Dane Road to Crossacres | Shortest dis = 42.5 Fewest dis = 40.5
+Dane Road to Benchill | Shortest dis = 41.0 Fewest dis = 39.0
+Dane Road to Martinscroft | Shortest dis = 37.5 Fewest dis = 35.5
+Dane Road to Roundthorn | Shortest dis = 35.5 Fewest dis = 33.5
+Dane Road to Baguley | Shortest dis = 34.0 Fewest dis = 32.0
+Dane Road to Moor Road | Shortest dis = 31.5 Fewest dis = 29.5
+Dane Road to Wythenshawe Park | Shortest dis = 29.5 Fewest dis = 27.5
+Dane Road to Northern Moor | Shortest dis = 27.0 Fewest dis = 25.0
+Dane Road to S Water Park | Shortest dis = 23.5 Fewest dis = 21.5
+Dane Road to Barlow Moor  Road | Shortest dis = 20.5 Fewest dis = 18.5
+Stretford to Manchester Airport | Shortest dis = 52.0 Fewest dis = 50.0
+Stretford to Shadowmoss | Shortest dis = 48.5 Fewest dis = 46.5
+Stretford to Peel Hall | Shortest dis = 46.5 Fewest dis = 44.5
+Stretford to Robinswood Road | Shortest dis = 45.0 Fewest dis = 43.0
+Stretford to Wythenshawe Town Centre | Shortest dis = 42.5 Fewest dis = 40.5
+Stretford to Crossacres | Shortest dis = 40.0 Fewest dis = 38.0
+Stretford to Benchill | Shortest dis = 38.5 Fewest dis = 36.5
+Stretford to Martinscroft | Shortest dis = 35.0 Fewest dis = 33.0
+Stretford to Roundthorn | Shortest dis = 33.0 Fewest dis = 31.0
+Stretford to Baguley | Shortest dis = 31.5 Fewest dis = 29.5
+Stretford to Moor Road | Shortest dis = 29.0 Fewest dis = 27.0
+Stretford to Wythenshawe Park | Shortest dis = 27.0 Fewest dis = 25.0
+Stretford to Northern Moor | Shortest dis = 24.5 Fewest dis = 22.5
+Stretford to S Water Park | Shortest dis = 21.0 Fewest dis = 19.0
+Stretford to Barlow Moor  Road | Shortest dis = 18.0 Fewest dis = 16.0
+Old Trafford to Manchester Airport | Shortest dis = 50.0 Fewest dis = 48.0
+Old Trafford to Shadowmoss | Shortest dis = 46.5 Fewest dis = 44.5
+Old Trafford to Peel Hall | Shortest dis = 44.5 Fewest dis = 42.5
+Old Trafford to Robinswood Road | Shortest dis = 43.0 Fewest dis = 41.0
+Old Trafford to Wythenshawe Town Centre | Shortest dis = 40.5 Fewest dis = 38.5
+Old Trafford to Crossacres | Shortest dis = 38.0 Fewest dis = 36.0
+Old Trafford to Benchill | Shortest dis = 36.5 Fewest dis = 34.5
+Old Trafford to Martinscroft | Shortest dis = 33.0 Fewest dis = 31.0
+Old Trafford to Roundthorn | Shortest dis = 31.0 Fewest dis = 29.0
+Old Trafford to Baguley | Shortest dis = 29.5 Fewest dis = 27.5
+Old Trafford to Moor Road | Shortest dis = 27.0 Fewest dis = 25.0
+Old Trafford to Wythenshawe Park | Shortest dis = 25.0 Fewest dis = 23.0
+Old Trafford to Northern Moor | Shortest dis = 22.5 Fewest dis = 20.5
+Old Trafford to S Water Park | Shortest dis = 19.0 Fewest dis = 17.0
+Old Trafford to Barlow Moor  Road | Shortest dis = 16.0 Fewest dis = 14.0
+St. Peter's Square to Manchester Airport | Shortest dis = 53.5 Fewest dis = 53.0
+St. Peter's Square to Shadowmoss | Shortest dis = 50.0 Fewest dis = 49.5
+St. Peter's Square to Peel Hall | Shortest dis = 48.0 Fewest dis = 47.5
+St. Peter's Square to Robinswood Road | Shortest dis = 46.5 Fewest dis = 46.0
+St. Peter's Square to Wythenshawe Town Centre | Shortest dis = 44.0 Fewest dis = 43.5
+St. Peter's Square to Crossacres | Shortest dis = 41.5 Fewest dis = 41.0
+St. Peter's Square to Benchill | Shortest dis = 40.0 Fewest dis = 39.5
+St. Peter's Square to Martinscroft | Shortest dis = 36.5 Fewest dis = 36.0
+St. Peter's Square to Roundthorn | Shortest dis = 34.5 Fewest dis = 34.0
+St. Peter's Square to Baguley | Shortest dis = 33.0 Fewest dis = 32.5
+St. Peter's Square to Moor Road | Shortest dis = 30.5 Fewest dis = 30.0
+St. Peter's Square to Wythenshawe Park | Shortest dis = 28.5 Fewest dis = 28.0
+St. Peter's Square to Northern Moor | Shortest dis = 26.0 Fewest dis = 25.5
+St. Peter's Square to S Water Park | Shortest dis = 22.5 Fewest dis = 22.0
+St. Peter's Square to Barlow Moor  Road | Shortest dis = 19.5 Fewest dis = 19.0
+New Islington to Monsall | Shortest dis = 19.0 Fewest dis = 18.5
+New Islington to Central Park | Shortest dis = 21.0 Fewest dis = 20.5
+New Islington to Newton Heath & Moston | Shortest dis = 24.0 Fewest dis = 23.5
+New Islington to Failsworth | Shortest dis = 26.5 Fewest dis = 26.0
+New Islington to Hollinwood | Shortest dis = 29.0 Fewest dis = 28.5
+New Islington to South Chadderton | Shortest dis = 30.5 Fewest dis = 30.0
+New Islington to Freehold | Shortest dis = 32.5 Fewest dis = 32.0
+New Islington to Westwood | Shortest dis = 35.5 Fewest dis = 35.0
+New Islington to Oldham King Street | Shortest dis = 38.0 Fewest dis = 37.5
+New Islington to Oldham Central | Shortest dis = 39.5 Fewest dis = 39.0
+New Islington to Oldham Mumps | Shortest dis = 42.5 Fewest dis = 42.0
+New Islington to Derker | Shortest dis = 44.5 Fewest dis = 44.0
+New Islington to Shaw & Crompton | Shortest dis = 49.0 Fewest dis = 48.5
+New Islington to Newhey | Shortest dis = 52.3 Fewest dis = 51.8
+New Islington to Milnrow | Shortest dis = 54.3 Fewest dis = 53.8
+New Islington to Kingsway | Shortest dis = 55.8 Fewest dis = 55.3
+New Islington to Newbold | Shortest dis = 57.8 Fewest dis = 57.3
+New Islington to Rochdale Station | Shortest dis = 61.8 Fewest dis = 61.3
+New Islington to Rochdale Town Centre | Shortest dis = 64.8 Fewest dis = 64.3
+New Islington to Manchester Airport | Shortest dis = 60.0 Fewest dis = 58.0
+New Islington to Shadowmoss | Shortest dis = 56.5 Fewest dis = 54.5
+New Islington to Peel Hall | Shortest dis = 54.5 Fewest dis = 52.5
+New Islington to Robinswood Road | Shortest dis = 53.0 Fewest dis = 51.0
+New Islington to Wythenshawe Town Centre | Shortest dis = 50.5 Fewest dis = 48.5
+New Islington to Crossacres | Shortest dis = 48.0 Fewest dis = 46.0
+New Islington to Benchill | Shortest dis = 46.5 Fewest dis = 44.5
+New Islington to Martinscroft | Shortest dis = 43.0 Fewest dis = 41.0
+New Islington to Roundthorn | Shortest dis = 41.0 Fewest dis = 39.0
+New Islington to Baguley | Shortest dis = 39.5 Fewest dis = 37.5
+New Islington to Moor Road | Shortest dis = 37.0 Fewest dis = 35.0
+New Islington to Wythenshawe Park | Shortest dis = 35.0 Fewest dis = 33.0
+New Islington to Northern Moor | Shortest dis = 32.5 Fewest dis = 30.5
+New Islington to S Water Park | Shortest dis = 29.0 Fewest dis = 27.0
+New Islington to Barlow Moor  Road | Shortest dis = 26.0 Fewest dis = 24.0
+Holt Town to Monsall | Shortest dis = 21.0 Fewest dis = 20.5
+Holt Town to Central Park | Shortest dis = 23.0 Fewest dis = 22.5
+Holt Town to Newton Heath & Moston | Shortest dis = 26.0 Fewest dis = 25.5
+Holt Town to Failsworth | Shortest dis = 28.5 Fewest dis = 28.0
+Holt Town to Hollinwood | Shortest dis = 31.0 Fewest dis = 30.5
+Holt Town to South Chadderton | Shortest dis = 32.5 Fewest dis = 32.0
+Holt Town to Freehold | Shortest dis = 34.5 Fewest dis = 34.0
+Holt Town to Westwood | Shortest dis = 37.5 Fewest dis = 37.0
+Holt Town to Oldham King Street | Shortest dis = 40.0 Fewest dis = 39.5
+Holt Town to Oldham Central | Shortest dis = 41.5 Fewest dis = 41.0
+Holt Town to Oldham Mumps | Shortest dis = 44.5 Fewest dis = 44.0
+Holt Town to Derker | Shortest dis = 46.5 Fewest dis = 46.0
+Holt Town to Shaw & Crompton | Shortest dis = 51.0 Fewest dis = 50.5
+Holt Town to Newhey | Shortest dis = 54.3 Fewest dis = 53.8
+Holt Town to Milnrow | Shortest dis = 56.3 Fewest dis = 55.8
+Holt Town to Kingsway | Shortest dis = 57.8 Fewest dis = 57.3
+Holt Town to Newbold | Shortest dis = 59.8 Fewest dis = 59.3
+Holt Town to Rochdale Station | Shortest dis = 63.8 Fewest dis = 63.3
+Holt Town to Rochdale Town Centre | Shortest dis = 66.8 Fewest dis = 66.3
+Holt Town to Manchester Airport | Shortest dis = 62.0 Fewest dis = 60.0
+Holt Town to Shadowmoss | Shortest dis = 58.5 Fewest dis = 56.5
+Holt Town to Peel Hall | Shortest dis = 56.5 Fewest dis = 54.5
+Holt Town to Robinswood Road | Shortest dis = 55.0 Fewest dis = 53.0
+Holt Town to Wythenshawe Town Centre | Shortest dis = 52.5 Fewest dis = 50.5
+Holt Town to Crossacres | Shortest dis = 50.0 Fewest dis = 48.0
+Holt Town to Benchill | Shortest dis = 48.5 Fewest dis = 46.5
+Holt Town to Martinscroft | Shortest dis = 45.0 Fewest dis = 43.0
+Holt Town to Roundthorn | Shortest dis = 43.0 Fewest dis = 41.0
+Holt Town to Baguley | Shortest dis = 41.5 Fewest dis = 39.5
+Holt Town to Moor Road | Shortest dis = 39.0 Fewest dis = 37.0
+Holt Town to Wythenshawe Park | Shortest dis = 37.0 Fewest dis = 35.0
+Holt Town to Northern Moor | Shortest dis = 34.5 Fewest dis = 32.5
+Holt Town to S Water Park | Shortest dis = 31.0 Fewest dis = 29.0
+Holt Town to Barlow Moor  Road | Shortest dis = 28.0 Fewest dis = 26.0
+Etihad Campus to Monsall | Shortest dis = 22.5 Fewest dis = 22.0
+Etihad Campus to Central Park | Shortest dis = 24.5 Fewest dis = 24.0
+Etihad Campus to Newton Heath & Moston | Shortest dis = 27.5 Fewest dis = 27.0
+Etihad Campus to Failsworth | Shortest dis = 30.0 Fewest dis = 29.5
+Etihad Campus to Hollinwood | Shortest dis = 32.5 Fewest dis = 32.0
+Etihad Campus to South Chadderton | Shortest dis = 34.0 Fewest dis = 33.5
+Etihad Campus to Freehold | Shortest dis = 36.0 Fewest dis = 35.5
+Etihad Campus to Westwood | Shortest dis = 39.0 Fewest dis = 38.5
+Etihad Campus to Oldham King Street | Shortest dis = 41.5 Fewest dis = 41.0
+Etihad Campus to Oldham Central | Shortest dis = 43.0 Fewest dis = 42.5
+Etihad Campus to Oldham Mumps | Shortest dis = 46.0 Fewest dis = 45.5
+Etihad Campus to Derker | Shortest dis = 48.0 Fewest dis = 47.5
+Etihad Campus to Shaw & Crompton | Shortest dis = 52.5 Fewest dis = 52.0
+Etihad Campus to Newhey | Shortest dis = 55.8 Fewest dis = 55.3
+Etihad Campus to Milnrow | Shortest dis = 57.8 Fewest dis = 57.3
+Etihad Campus to Kingsway | Shortest dis = 59.3 Fewest dis = 58.8
+Etihad Campus to Newbold | Shortest dis = 61.3 Fewest dis = 60.8
+Etihad Campus to Rochdale Station | Shortest dis = 65.3 Fewest dis = 64.8
+Etihad Campus to Rochdale Town Centre | Shortest dis = 68.3 Fewest dis = 67.8
+Etihad Campus to Manchester Airport | Shortest dis = 63.5 Fewest dis = 61.5
+Etihad Campus to Shadowmoss | Shortest dis = 60.0 Fewest dis = 58.0
+Etihad Campus to Peel Hall | Shortest dis = 58.0 Fewest dis = 56.0
+Etihad Campus to Robinswood Road | Shortest dis = 56.5 Fewest dis = 54.5
+Etihad Campus to Wythenshawe Town Centre | Shortest dis = 54.0 Fewest dis = 52.0
+Etihad Campus to Crossacres | Shortest dis = 51.5 Fewest dis = 49.5
+Etihad Campus to Benchill | Shortest dis = 50.0 Fewest dis = 48.0
+Etihad Campus to Martinscroft | Shortest dis = 46.5 Fewest dis = 44.5
+Etihad Campus to Roundthorn | Shortest dis = 44.5 Fewest dis = 42.5
+Etihad Campus to Baguley | Shortest dis = 43.0 Fewest dis = 41.0
+Etihad Campus to Moor Road | Shortest dis = 40.5 Fewest dis = 38.5
+Etihad Campus to Wythenshawe Park | Shortest dis = 38.5 Fewest dis = 36.5
+Etihad Campus to Northern Moor | Shortest dis = 36.0 Fewest dis = 34.0
+Etihad Campus to S Water Park | Shortest dis = 32.5 Fewest dis = 30.5
+Etihad Campus to Barlow Moor  Road | Shortest dis = 29.5 Fewest dis = 27.5
+Eccles to East Didsbury | Shortest dis = 44.5 Fewest dis = 42.5
+Eccles to Didsbury Village | Shortest dis = 43.5 Fewest dis = 41.5
+Eccles to West Didsbury | Shortest dis = 41.5 Fewest dis = 39.5
+Eccles to Burton Road | Shortest dis = 41.0 Fewest dis = 39.0
+Eccles to Withington | Shortest dis = 40.0 Fewest dis = 38.0
+Eccles to St Werburgh's Road | Shortest dis = 37.5 Fewest dis = 35.5
+Eccles to Chorlton | Shortest dis = 36.0 Fewest dis = 34.0
+Eccles to Firswood | Shortest dis = 34.5 Fewest dis = 32.5
+Eccles to Manchester Airport | Shortest dis = 76.0 Fewest dis = 72.0
+Eccles to Shadowmoss | Shortest dis = 72.5 Fewest dis = 68.5
+Eccles to Peel Hall | Shortest dis = 70.5 Fewest dis = 66.5
+Eccles to Robinswood Road | Shortest dis = 69.0 Fewest dis = 65.0
+Eccles to Wythenshawe Town Centre | Shortest dis = 66.5 Fewest dis = 62.5
+Eccles to Crossacres | Shortest dis = 64.0 Fewest dis = 60.0
+Eccles to Benchill | Shortest dis = 62.5 Fewest dis = 58.5
+Eccles to Martinscroft | Shortest dis = 59.0 Fewest dis = 55.0
+Eccles to Roundthorn | Shortest dis = 57.0 Fewest dis = 53.0
+Eccles to Baguley | Shortest dis = 55.5 Fewest dis = 51.5
+Eccles to Moor Road | Shortest dis = 53.0 Fewest dis = 49.0
+Eccles to Wythenshawe Park | Shortest dis = 51.0 Fewest dis = 47.0
+Eccles to Northern Moor | Shortest dis = 48.5 Fewest dis = 44.5
+Eccles to S Water Park | Shortest dis = 45.0 Fewest dis = 41.0
+Eccles to Barlow Moor  Road | Shortest dis = 42.0 Fewest dis = 38.0
+Ladywell to East Didsbury | Shortest dis = 43.0 Fewest dis = 41.0
+Ladywell to Didsbury Village | Shortest dis = 42.0 Fewest dis = 40.0
+Ladywell to West Didsbury | Shortest dis = 40.0 Fewest dis = 38.0
+Ladywell to Burton Road | Shortest dis = 39.5 Fewest dis = 37.5
+Ladywell to Withington | Shortest dis = 38.5 Fewest dis = 36.5
+Ladywell to St Werburgh's Road | Shortest dis = 36.0 Fewest dis = 34.0
+Ladywell to Chorlton | Shortest dis = 34.5 Fewest dis = 32.5
+Ladywell to Firswood | Shortest dis = 33.0 Fewest dis = 31.0
+Ladywell to Manchester Airport | Shortest dis = 74.5 Fewest dis = 70.5
+Ladywell to Shadowmoss | Shortest dis = 71.0 Fewest dis = 67.0
+Ladywell to Peel Hall | Shortest dis = 69.0 Fewest dis = 65.0
+Ladywell to Robinswood Road | Shortest dis = 67.5 Fewest dis = 63.5
+Ladywell to Wythenshawe Town Centre | Shortest dis = 65.0 Fewest dis = 61.0
+Ladywell to Crossacres | Shortest dis = 62.5 Fewest dis = 58.5
+Ladywell to Benchill | Shortest dis = 61.0 Fewest dis = 57.0
+Ladywell to Martinscroft | Shortest dis = 57.5 Fewest dis = 53.5
+Ladywell to Roundthorn | Shortest dis = 55.5 Fewest dis = 51.5
+Ladywell to Baguley | Shortest dis = 54.0 Fewest dis = 50.0
+Ladywell to Moor Road | Shortest dis = 51.5 Fewest dis = 47.5
+Ladywell to Wythenshawe Park | Shortest dis = 49.5 Fewest dis = 45.5
+Ladywell to Northern Moor | Shortest dis = 47.0 Fewest dis = 43.0
+Ladywell to S Water Park | Shortest dis = 43.5 Fewest dis = 39.5
+Ladywell to Barlow Moor  Road | Shortest dis = 40.5 Fewest dis = 36.5
+Weaste to East Didsbury | Shortest dis = 40.0 Fewest dis = 38.0
+Weaste to Didsbury Village | Shortest dis = 39.0 Fewest dis = 37.0
+Weaste to West Didsbury | Shortest dis = 37.0 Fewest dis = 35.0
+Weaste to Burton Road | Shortest dis = 36.5 Fewest dis = 34.5
+Weaste to Withington | Shortest dis = 35.5 Fewest dis = 33.5
+Weaste to St Werburgh's Road | Shortest dis = 33.0 Fewest dis = 31.0
+Weaste to Chorlton | Shortest dis = 31.5 Fewest dis = 29.5
+Weaste to Firswood | Shortest dis = 30.0 Fewest dis = 28.0
+Weaste to Manchester Airport | Shortest dis = 71.5 Fewest dis = 67.5
+Weaste to Shadowmoss | Shortest dis = 68.0 Fewest dis = 64.0
+Weaste to Peel Hall | Shortest dis = 66.0 Fewest dis = 62.0
+Weaste to Robinswood Road | Shortest dis = 64.5 Fewest dis = 60.5
+Weaste to Wythenshawe Town Centre | Shortest dis = 62.0 Fewest dis = 58.0
+Weaste to Crossacres | Shortest dis = 59.5 Fewest dis = 55.5
+Weaste to Benchill | Shortest dis = 58.0 Fewest dis = 54.0
+Weaste to Martinscroft | Shortest dis = 54.5 Fewest dis = 50.5
+Weaste to Roundthorn | Shortest dis = 52.5 Fewest dis = 48.5
+Weaste to Baguley | Shortest dis = 51.0 Fewest dis = 47.0
+Weaste to Moor Road | Shortest dis = 48.5 Fewest dis = 44.5
+Weaste to Wythenshawe Park | Shortest dis = 46.5 Fewest dis = 42.5
+Weaste to Northern Moor | Shortest dis = 44.0 Fewest dis = 40.0
+Weaste to S Water Park | Shortest dis = 40.5 Fewest dis = 36.5
+Weaste to Barlow Moor  Road | Shortest dis = 37.5 Fewest dis = 33.5
+Langworthy to East Didsbury | Shortest dis = 37.5 Fewest dis = 35.5
+Langworthy to Didsbury Village | Shortest dis = 36.5 Fewest dis = 34.5
+Langworthy to West Didsbury | Shortest dis = 34.5 Fewest dis = 32.5
+Langworthy to Burton Road | Shortest dis = 34.0 Fewest dis = 32.0
+Langworthy to Withington | Shortest dis = 33.0 Fewest dis = 31.0
+Langworthy to St Werburgh's Road | Shortest dis = 30.5 Fewest dis = 28.5
+Langworthy to Chorlton | Shortest dis = 29.0 Fewest dis = 27.0
+Langworthy to Firswood | Shortest dis = 27.5 Fewest dis = 25.5
+Langworthy to Manchester Airport | Shortest dis = 69.0 Fewest dis = 65.0
+Langworthy to Shadowmoss | Shortest dis = 65.5 Fewest dis = 61.5
+Langworthy to Peel Hall | Shortest dis = 63.5 Fewest dis = 59.5
+Langworthy to Robinswood Road | Shortest dis = 62.0 Fewest dis = 58.0
+Langworthy to Wythenshawe Town Centre | Shortest dis = 59.5 Fewest dis = 55.5
+Langworthy to Crossacres | Shortest dis = 57.0 Fewest dis = 53.0
+Langworthy to Benchill | Shortest dis = 55.5 Fewest dis = 51.5
+Langworthy to Martinscroft | Shortest dis = 52.0 Fewest dis = 48.0
+Langworthy to Roundthorn | Shortest dis = 50.0 Fewest dis = 46.0
+Langworthy to Baguley | Shortest dis = 48.5 Fewest dis = 44.5
+Langworthy to Moor Road | Shortest dis = 46.0 Fewest dis = 42.0
+Langworthy to Wythenshawe Park | Shortest dis = 44.0 Fewest dis = 40.0
+Langworthy to Northern Moor | Shortest dis = 41.5 Fewest dis = 37.5
+Langworthy to S Water Park | Shortest dis = 38.0 Fewest dis = 34.0
+Langworthy to Barlow Moor  Road | Shortest dis = 35.0 Fewest dis = 31.0
+Broadway to East Didsbury | Shortest dis = 35.5 Fewest dis = 33.5
+Broadway to Didsbury Village | Shortest dis = 34.5 Fewest dis = 32.5
+Broadway to West Didsbury | Shortest dis = 32.5 Fewest dis = 30.5
+Broadway to Burton Road | Shortest dis = 32.0 Fewest dis = 30.0
+Broadway to Withington | Shortest dis = 31.0 Fewest dis = 29.0
+Broadway to St Werburgh's Road | Shortest dis = 28.5 Fewest dis = 26.5
+Broadway to Chorlton | Shortest dis = 27.0 Fewest dis = 25.0
+Broadway to Firswood | Shortest dis = 25.5 Fewest dis = 23.5
+Broadway to Manchester Airport | Shortest dis = 67.0 Fewest dis = 63.0
+Broadway to Shadowmoss | Shortest dis = 63.5 Fewest dis = 59.5
+Broadway to Peel Hall | Shortest dis = 61.5 Fewest dis = 57.5
+Broadway to Robinswood Road | Shortest dis = 60.0 Fewest dis = 56.0
+Broadway to Wythenshawe Town Centre | Shortest dis = 57.5 Fewest dis = 53.5
+Broadway to Crossacres | Shortest dis = 55.0 Fewest dis = 51.0
+Broadway to Benchill | Shortest dis = 53.5 Fewest dis = 49.5
+Broadway to Martinscroft | Shortest dis = 50.0 Fewest dis = 46.0
+Broadway to Roundthorn | Shortest dis = 48.0 Fewest dis = 44.0
+Broadway to Baguley | Shortest dis = 46.5 Fewest dis = 42.5
+Broadway to Moor Road | Shortest dis = 44.0 Fewest dis = 40.0
+Broadway to Wythenshawe Park | Shortest dis = 42.0 Fewest dis = 38.0
+Broadway to Northern Moor | Shortest dis = 39.5 Fewest dis = 35.5
+Broadway to S Water Park | Shortest dis = 36.0 Fewest dis = 32.0
+Broadway to Barlow Moor  Road | Shortest dis = 33.0 Fewest dis = 29.0
+Media CityUK to East Didsbury | Shortest dis = 33.5 Fewest dis = 31.5
+Media CityUK to Didsbury Village | Shortest dis = 32.5 Fewest dis = 30.5
+Media CityUK to West Didsbury | Shortest dis = 30.5 Fewest dis = 28.5
+Media CityUK to Burton Road | Shortest dis = 30.0 Fewest dis = 28.0
+Media CityUK to Withington | Shortest dis = 29.0 Fewest dis = 27.0
+Media CityUK to St Werburgh's Road | Shortest dis = 26.5 Fewest dis = 24.5
+Media CityUK to Chorlton | Shortest dis = 25.0 Fewest dis = 23.0
+Media CityUK to Firswood | Shortest dis = 23.5 Fewest dis = 21.5
+Media CityUK to Manchester Airport | Shortest dis = 65.0 Fewest dis = 61.0
+Media CityUK to Shadowmoss | Shortest dis = 61.5 Fewest dis = 57.5
+Media CityUK to Peel Hall | Shortest dis = 59.5 Fewest dis = 55.5
+Media CityUK to Robinswood Road | Shortest dis = 58.0 Fewest dis = 54.0
+Media CityUK to Wythenshawe Town Centre | Shortest dis = 55.5 Fewest dis = 51.5
+Media CityUK to Crossacres | Shortest dis = 53.0 Fewest dis = 49.0
+Media CityUK to Benchill | Shortest dis = 51.5 Fewest dis = 47.5
+Media CityUK to Martinscroft | Shortest dis = 48.0 Fewest dis = 44.0
+Media CityUK to Roundthorn | Shortest dis = 46.0 Fewest dis = 42.0
+Media CityUK to Baguley | Shortest dis = 44.5 Fewest dis = 40.5
+Media CityUK to Moor Road | Shortest dis = 42.0 Fewest dis = 38.0
+Media CityUK to Wythenshawe Park | Shortest dis = 40.0 Fewest dis = 36.0
+Media CityUK to Northern Moor | Shortest dis = 37.5 Fewest dis = 33.5
+Media CityUK to S Water Park | Shortest dis = 34.0 Fewest dis = 30.0
+Media CityUK to Barlow Moor  Road | Shortest dis = 31.0 Fewest dis = 27.0
+Harbour City to East Didsbury | Shortest dis = 31.5 Fewest dis = 29.5
+Harbour City to Didsbury Village | Shortest dis = 30.5 Fewest dis = 28.5
+Harbour City to West Didsbury | Shortest dis = 28.5 Fewest dis = 26.5
+Harbour City to Burton Road | Shortest dis = 28.0 Fewest dis = 26.0
+Harbour City to Withington | Shortest dis = 27.0 Fewest dis = 25.0
+Harbour City to St Werburgh's Road | Shortest dis = 24.5 Fewest dis = 22.5
+Harbour City to Chorlton | Shortest dis = 23.0 Fewest dis = 21.0
+Harbour City to Firswood | Shortest dis = 21.5 Fewest dis = 19.5
+Harbour City to Manchester Airport | Shortest dis = 63.0 Fewest dis = 59.0
+Harbour City to Shadowmoss | Shortest dis = 59.5 Fewest dis = 55.5
+Harbour City to Peel Hall | Shortest dis = 57.5 Fewest dis = 53.5
+Harbour City to Robinswood Road | Shortest dis = 56.0 Fewest dis = 52.0
+Harbour City to Wythenshawe Town Centre | Shortest dis = 53.5 Fewest dis = 49.5
+Harbour City to Crossacres | Shortest dis = 51.0 Fewest dis = 47.0
+Harbour City to Benchill | Shortest dis = 49.5 Fewest dis = 45.5
+Harbour City to Martinscroft | Shortest dis = 46.0 Fewest dis = 42.0
+Harbour City to Roundthorn | Shortest dis = 44.0 Fewest dis = 40.0
+Harbour City to Baguley | Shortest dis = 42.5 Fewest dis = 38.5
+Harbour City to Moor Road | Shortest dis = 40.0 Fewest dis = 36.0
+Harbour City to Wythenshawe Park | Shortest dis = 38.0 Fewest dis = 34.0
+Harbour City to Northern Moor | Shortest dis = 35.5 Fewest dis = 31.5
+Harbour City to S Water Park | Shortest dis = 32.0 Fewest dis = 28.0
+Harbour City to Barlow Moor  Road | Shortest dis = 29.0 Fewest dis = 25.0
+Anchorage to East Didsbury | Shortest dis = 30.0 Fewest dis = 28.0
+Anchorage to Didsbury Village | Shortest dis = 29.0 Fewest dis = 27.0
+Anchorage to West Didsbury | Shortest dis = 27.0 Fewest dis = 25.0
+Anchorage to Burton Road | Shortest dis = 26.5 Fewest dis = 24.5
+Anchorage to Withington | Shortest dis = 25.5 Fewest dis = 23.5
+Anchorage to St Werburgh's Road | Shortest dis = 23.0 Fewest dis = 21.0
+Anchorage to Chorlton | Shortest dis = 21.5 Fewest dis = 19.5
+Anchorage to Firswood | Shortest dis = 20.0 Fewest dis = 18.0
+Anchorage to Manchester Airport | Shortest dis = 61.5 Fewest dis = 57.5
+Anchorage to Shadowmoss | Shortest dis = 58.0 Fewest dis = 54.0
+Anchorage to Peel Hall | Shortest dis = 56.0 Fewest dis = 52.0
+Anchorage to Robinswood Road | Shortest dis = 54.5 Fewest dis = 50.5
+Anchorage to Wythenshawe Town Centre | Shortest dis = 52.0 Fewest dis = 48.0
+Anchorage to Crossacres | Shortest dis = 49.5 Fewest dis = 45.5
+Anchorage to Benchill | Shortest dis = 48.0 Fewest dis = 44.0
+Anchorage to Martinscroft | Shortest dis = 44.5 Fewest dis = 40.5
+Anchorage to Roundthorn | Shortest dis = 42.5 Fewest dis = 38.5
+Anchorage to Baguley | Shortest dis = 41.0 Fewest dis = 37.0
+Anchorage to Moor Road | Shortest dis = 38.5 Fewest dis = 34.5
+Anchorage to Wythenshawe Park | Shortest dis = 36.5 Fewest dis = 32.5
+Anchorage to Northern Moor | Shortest dis = 34.0 Fewest dis = 30.0
+Anchorage to S Water Park | Shortest dis = 30.5 Fewest dis = 26.5
+Anchorage to Barlow Moor  Road | Shortest dis = 27.5 Fewest dis = 23.5
+Salford Quays to East Didsbury | Shortest dis = 28.0 Fewest dis = 26.0
+Salford Quays to Didsbury Village | Shortest dis = 27.0 Fewest dis = 25.0
+Salford Quays to West Didsbury | Shortest dis = 25.0 Fewest dis = 23.0
+Salford Quays to Burton Road | Shortest dis = 24.5 Fewest dis = 22.5
+Salford Quays to Withington | Shortest dis = 23.5 Fewest dis = 21.5
+Salford Quays to St Werburgh's Road | Shortest dis = 21.0 Fewest dis = 19.0
+Salford Quays to Chorlton | Shortest dis = 19.5 Fewest dis = 17.5
+Salford Quays to Firswood | Shortest dis = 18.0 Fewest dis = 16.0
+Salford Quays to Manchester Airport | Shortest dis = 59.5 Fewest dis = 55.5
+Salford Quays to Shadowmoss | Shortest dis = 56.0 Fewest dis = 52.0
+Salford Quays to Peel Hall | Shortest dis = 54.0 Fewest dis = 50.0
+Salford Quays to Robinswood Road | Shortest dis = 52.5 Fewest dis = 48.5
+Salford Quays to Wythenshawe Town Centre | Shortest dis = 50.0 Fewest dis = 46.0
+Salford Quays to Crossacres | Shortest dis = 47.5 Fewest dis = 43.5
+Salford Quays to Benchill | Shortest dis = 46.0 Fewest dis = 42.0
+Salford Quays to Martinscroft | Shortest dis = 42.5 Fewest dis = 38.5
+Salford Quays to Roundthorn | Shortest dis = 40.5 Fewest dis = 36.5
+Salford Quays to Baguley | Shortest dis = 39.0 Fewest dis = 35.0
+Salford Quays to Moor Road | Shortest dis = 36.5 Fewest dis = 32.5
+Salford Quays to Wythenshawe Park | Shortest dis = 34.5 Fewest dis = 30.5
+Salford Quays to Northern Moor | Shortest dis = 32.0 Fewest dis = 28.0
+Salford Quays to S Water Park | Shortest dis = 28.5 Fewest dis = 24.5
+Salford Quays to Barlow Moor  Road | Shortest dis = 25.5 Fewest dis = 21.5
+Exchange Quay to East Didsbury | Shortest dis = 26.0 Fewest dis = 24.0
+Exchange Quay to Didsbury Village | Shortest dis = 25.0 Fewest dis = 23.0
+Exchange Quay to West Didsbury | Shortest dis = 23.0 Fewest dis = 21.0
+Exchange Quay to Burton Road | Shortest dis = 22.5 Fewest dis = 20.5
+Exchange Quay to Withington | Shortest dis = 21.5 Fewest dis = 19.5
+Exchange Quay to St Werburgh's Road | Shortest dis = 19.0 Fewest dis = 17.0
+Exchange Quay to Chorlton | Shortest dis = 17.5 Fewest dis = 15.5
+Exchange Quay to Firswood | Shortest dis = 16.0 Fewest dis = 14.0
+Exchange Quay to Manchester Airport | Shortest dis = 57.5 Fewest dis = 53.5
+Exchange Quay to Shadowmoss | Shortest dis = 54.0 Fewest dis = 50.0
+Exchange Quay to Peel Hall | Shortest dis = 52.0 Fewest dis = 48.0
+Exchange Quay to Robinswood Road | Shortest dis = 50.5 Fewest dis = 46.5
+Exchange Quay to Wythenshawe Town Centre | Shortest dis = 48.0 Fewest dis = 44.0
+Exchange Quay to Crossacres | Shortest dis = 45.5 Fewest dis = 41.5
+Exchange Quay to Benchill | Shortest dis = 44.0 Fewest dis = 40.0
+Exchange Quay to Martinscroft | Shortest dis = 40.5 Fewest dis = 36.5
+Exchange Quay to Roundthorn | Shortest dis = 38.5 Fewest dis = 34.5
+Exchange Quay to Baguley | Shortest dis = 37.0 Fewest dis = 33.0
+Exchange Quay to Moor Road | Shortest dis = 34.5 Fewest dis = 30.5
+Exchange Quay to Wythenshawe Park | Shortest dis = 32.5 Fewest dis = 28.5
+Exchange Quay to Northern Moor | Shortest dis = 30.0 Fewest dis = 26.0
+Exchange Quay to S Water Park | Shortest dis = 26.5 Fewest dis = 22.5
+Exchange Quay to Barlow Moor  Road | Shortest dis = 23.5 Fewest dis = 19.5
+Pomona to Manchester Airport | Shortest dis = 53.5 Fewest dis = 51.5
+Pomona to Shadowmoss | Shortest dis = 50.0 Fewest dis = 48.0
+Pomona to Peel Hall | Shortest dis = 48.0 Fewest dis = 46.0
+Pomona to Robinswood Road | Shortest dis = 46.5 Fewest dis = 44.5
+Pomona to Wythenshawe Town Centre | Shortest dis = 44.0 Fewest dis = 42.0
+Pomona to Crossacres | Shortest dis = 41.5 Fewest dis = 39.5
+Pomona to Benchill | Shortest dis = 40.0 Fewest dis = 38.0
+Pomona to Martinscroft | Shortest dis = 36.5 Fewest dis = 34.5
+Pomona to Roundthorn | Shortest dis = 34.5 Fewest dis = 32.5
+Pomona to Baguley | Shortest dis = 33.0 Fewest dis = 31.0
+Pomona to Moor Road | Shortest dis = 30.5 Fewest dis = 28.5
+Pomona to Wythenshawe Park | Shortest dis = 28.5 Fewest dis = 26.5
+Pomona to Northern Moor | Shortest dis = 26.0 Fewest dis = 24.0
+Pomona to S Water Park | Shortest dis = 22.5 Fewest dis = 20.5
+Pomona to Barlow Moor  Road | Shortest dis = 19.5 Fewest dis = 17.5
+East Didsbury to Bury | Shortest dis = 61.0 Fewest dis = 60.5
+East Didsbury to Radcliffe | Shortest dis = 55.0 Fewest dis = 54.5
+East Didsbury to Whitefield | Shortest dis = 52.5 Fewest dis = 51.5
+East Didsbury to Besses o'th' Barn | Shortest dis = 49.5 Fewest dis = 49.0
+East Didsbury to Prestwich | Shortest dis = 47.5 Fewest dis = 47.0
+East Didsbury to Heaton Park | Shortest dis = 45.0 Fewest dis = 44.5
+East Didsbury to Bowker Vale | Shortest dis = 43.0 Fewest dis = 42.5
+East Didsbury to Victoria | Shortest dis = 30.0 Fewest dis = 29.5
+East Didsbury to Exchange Square | Shortest dis = 27.5 Fewest dis = 27.0
+East Didsbury to Monsall | Shortest dis = 34.0 Fewest dis = 33.5
+East Didsbury to Central Park | Shortest dis = 36.0 Fewest dis = 35.5
+East Didsbury to Newton Heath & Moston | Shortest dis = 39.0 Fewest dis = 38.5
+East Didsbury to Failsworth | Shortest dis = 41.5 Fewest dis = 41.0
+East Didsbury to Hollinwood | Shortest dis = 44.0 Fewest dis = 43.5
+East Didsbury to South Chadderton | Shortest dis = 45.5 Fewest dis = 45.0
+East Didsbury to Freehold | Shortest dis = 47.5 Fewest dis = 47.0
+East Didsbury to Westwood | Shortest dis = 50.5 Fewest dis = 50.0
+East Didsbury to Oldham King Street | Shortest dis = 53.0 Fewest dis = 52.5
+East Didsbury to Oldham Central | Shortest dis = 54.5 Fewest dis = 54.0
+East Didsbury to Oldham Mumps | Shortest dis = 57.5 Fewest dis = 57.0
+East Didsbury to Derker | Shortest dis = 59.5 Fewest dis = 59.0
+East Didsbury to Shaw & Crompton | Shortest dis = 64.0 Fewest dis = 63.5
+East Didsbury to Newhey | Shortest dis = 67.3 Fewest dis = 66.8
+East Didsbury to Milnrow | Shortest dis = 69.3 Fewest dis = 68.8
+East Didsbury to Kingsway | Shortest dis = 70.8 Fewest dis = 70.3
+East Didsbury to Newbold | Shortest dis = 72.8 Fewest dis = 72.3
+East Didsbury to Rochdale Station | Shortest dis = 76.8 Fewest dis = 76.3
+East Didsbury to Rochdale Town Centre | Shortest dis = 79.8 Fewest dis = 79.3
+Didsbury Village to Bury | Shortest dis = 60.0 Fewest dis = 59.5
+Didsbury Village to Radcliffe | Shortest dis = 54.0 Fewest dis = 53.5
+Didsbury Village to Whitefield | Shortest dis = 51.5 Fewest dis = 50.5
+Didsbury Village to Besses o'th' Barn | Shortest dis = 48.5 Fewest dis = 48.0
+Didsbury Village to Prestwich | Shortest dis = 46.5 Fewest dis = 46.0
+Didsbury Village to Heaton Park | Shortest dis = 44.0 Fewest dis = 43.5
+Didsbury Village to Bowker Vale | Shortest dis = 42.0 Fewest dis = 41.5
+Didsbury Village to Victoria | Shortest dis = 29.0 Fewest dis = 28.5
+Didsbury Village to Exchange Square | Shortest dis = 26.5 Fewest dis = 26.0
+Didsbury Village to Monsall | Shortest dis = 33.0 Fewest dis = 32.5
+Didsbury Village to Central Park | Shortest dis = 35.0 Fewest dis = 34.5
+Didsbury Village to Newton Heath & Moston | Shortest dis = 38.0 Fewest dis = 37.5
+Didsbury Village to Failsworth | Shortest dis = 40.5 Fewest dis = 40.0
+Didsbury Village to Hollinwood | Shortest dis = 43.0 Fewest dis = 42.5
+Didsbury Village to South Chadderton | Shortest dis = 44.5 Fewest dis = 44.0
+Didsbury Village to Freehold | Shortest dis = 46.5 Fewest dis = 46.0
+Didsbury Village to Westwood | Shortest dis = 49.5 Fewest dis = 49.0
+Didsbury Village to Oldham King Street | Shortest dis = 52.0 Fewest dis = 51.5
+Didsbury Village to Oldham Central | Shortest dis = 53.5 Fewest dis = 53.0
+Didsbury Village to Oldham Mumps | Shortest dis = 56.5 Fewest dis = 56.0
+Didsbury Village to Derker | Shortest dis = 58.5 Fewest dis = 58.0
+Didsbury Village to Shaw & Crompton | Shortest dis = 63.0 Fewest dis = 62.5
+Didsbury Village to Newhey | Shortest dis = 66.3 Fewest dis = 65.8
+Didsbury Village to Milnrow | Shortest dis = 68.3 Fewest dis = 67.8
+Didsbury Village to Kingsway | Shortest dis = 69.8 Fewest dis = 69.3
+Didsbury Village to Newbold | Shortest dis = 71.8 Fewest dis = 71.3
+Didsbury Village to Rochdale Station | Shortest dis = 75.8 Fewest dis = 75.3
+Didsbury Village to Rochdale Town Centre | Shortest dis = 78.8 Fewest dis = 78.3
+West Didsbury to Bury | Shortest dis = 58.0 Fewest dis = 57.5
+West Didsbury to Radcliffe | Shortest dis = 52.0 Fewest dis = 51.5
+West Didsbury to Whitefield | Shortest dis = 49.5 Fewest dis = 48.5
+West Didsbury to Besses o'th' Barn | Shortest dis = 46.5 Fewest dis = 46.0
+West Didsbury to Prestwich | Shortest dis = 44.5 Fewest dis = 44.0
+West Didsbury to Heaton Park | Shortest dis = 42.0 Fewest dis = 41.5
+West Didsbury to Bowker Vale | Shortest dis = 40.0 Fewest dis = 39.5
+West Didsbury to Victoria | Shortest dis = 27.0 Fewest dis = 26.5
+West Didsbury to Exchange Square | Shortest dis = 24.5 Fewest dis = 24.0
+West Didsbury to Monsall | Shortest dis = 31.0 Fewest dis = 30.5
+West Didsbury to Central Park | Shortest dis = 33.0 Fewest dis = 32.5
+West Didsbury to Newton Heath & Moston | Shortest dis = 36.0 Fewest dis = 35.5
+West Didsbury to Failsworth | Shortest dis = 38.5 Fewest dis = 38.0
+West Didsbury to Hollinwood | Shortest dis = 41.0 Fewest dis = 40.5
+West Didsbury to South Chadderton | Shortest dis = 42.5 Fewest dis = 42.0
+West Didsbury to Freehold | Shortest dis = 44.5 Fewest dis = 44.0
+West Didsbury to Westwood | Shortest dis = 47.5 Fewest dis = 47.0
+West Didsbury to Oldham King Street | Shortest dis = 50.0 Fewest dis = 49.5
+West Didsbury to Oldham Central | Shortest dis = 51.5 Fewest dis = 51.0
+West Didsbury to Oldham Mumps | Shortest dis = 54.5 Fewest dis = 54.0
+West Didsbury to Derker | Shortest dis = 56.5 Fewest dis = 56.0
+West Didsbury to Shaw & Crompton | Shortest dis = 61.0 Fewest dis = 60.5
+West Didsbury to Newhey | Shortest dis = 64.3 Fewest dis = 63.8
+West Didsbury to Milnrow | Shortest dis = 66.3 Fewest dis = 65.8
+West Didsbury to Kingsway | Shortest dis = 67.8 Fewest dis = 67.3
+West Didsbury to Newbold | Shortest dis = 69.8 Fewest dis = 69.3
+West Didsbury to Rochdale Station | Shortest dis = 73.8 Fewest dis = 73.3
+West Didsbury to Rochdale Town Centre | Shortest dis = 76.8 Fewest dis = 76.3
+Burton Road to Bury | Shortest dis = 57.5 Fewest dis = 57.0
+Burton Road to Radcliffe | Shortest dis = 51.5 Fewest dis = 51.0
+Burton Road to Whitefield | Shortest dis = 49.0 Fewest dis = 48.0
+Burton Road to Besses o'th' Barn | Shortest dis = 46.0 Fewest dis = 45.5
+Burton Road to Prestwich | Shortest dis = 44.0 Fewest dis = 43.5
+Burton Road to Heaton Park | Shortest dis = 41.5 Fewest dis = 41.0
+Burton Road to Bowker Vale | Shortest dis = 39.5 Fewest dis = 39.0
+Burton Road to Victoria | Shortest dis = 26.5 Fewest dis = 26.0
+Burton Road to Exchange Square | Shortest dis = 24.0 Fewest dis = 23.5
+Burton Road to Monsall | Shortest dis = 30.5 Fewest dis = 30.0
+Burton Road to Central Park | Shortest dis = 32.5 Fewest dis = 32.0
+Burton Road to Newton Heath & Moston | Shortest dis = 35.5 Fewest dis = 35.0
+Burton Road to Failsworth | Shortest dis = 38.0 Fewest dis = 37.5
+Burton Road to Hollinwood | Shortest dis = 40.5 Fewest dis = 40.0
+Burton Road to South Chadderton | Shortest dis = 42.0 Fewest dis = 41.5
+Burton Road to Freehold | Shortest dis = 44.0 Fewest dis = 43.5
+Burton Road to Westwood | Shortest dis = 47.0 Fewest dis = 46.5
+Burton Road to Oldham King Street | Shortest dis = 49.5 Fewest dis = 49.0
+Burton Road to Oldham Central | Shortest dis = 51.0 Fewest dis = 50.5
+Burton Road to Oldham Mumps | Shortest dis = 54.0 Fewest dis = 53.5
+Burton Road to Derker | Shortest dis = 56.0 Fewest dis = 55.5
+Burton Road to Shaw & Crompton | Shortest dis = 60.5 Fewest dis = 60.0
+Burton Road to Newhey | Shortest dis = 63.8 Fewest dis = 63.3
+Burton Road to Milnrow | Shortest dis = 65.8 Fewest dis = 65.3
+Burton Road to Kingsway | Shortest dis = 67.3 Fewest dis = 66.8
+Burton Road to Newbold | Shortest dis = 69.3 Fewest dis = 68.8
+Burton Road to Rochdale Station | Shortest dis = 73.3 Fewest dis = 72.8
+Burton Road to Rochdale Town Centre | Shortest dis = 76.3 Fewest dis = 75.8
+Withington to Bury | Shortest dis = 56.5 Fewest dis = 56.0
+Withington to Radcliffe | Shortest dis = 50.5 Fewest dis = 50.0
+Withington to Whitefield | Shortest dis = 48.0 Fewest dis = 47.0
+Withington to Besses o'th' Barn | Shortest dis = 45.0 Fewest dis = 44.5
+Withington to Prestwich | Shortest dis = 43.0 Fewest dis = 42.5
+Withington to Heaton Park | Shortest dis = 40.5 Fewest dis = 40.0
+Withington to Bowker Vale | Shortest dis = 38.5 Fewest dis = 38.0
+Withington to Victoria | Shortest dis = 25.5 Fewest dis = 25.0
+Withington to Exchange Square | Shortest dis = 23.0 Fewest dis = 22.5
+Withington to Monsall | Shortest dis = 29.5 Fewest dis = 29.0
+Withington to Central Park | Shortest dis = 31.5 Fewest dis = 31.0
+Withington to Newton Heath & Moston | Shortest dis = 34.5 Fewest dis = 34.0
+Withington to Failsworth | Shortest dis = 37.0 Fewest dis = 36.5
+Withington to Hollinwood | Shortest dis = 39.5 Fewest dis = 39.0
+Withington to South Chadderton | Shortest dis = 41.0 Fewest dis = 40.5
+Withington to Freehold | Shortest dis = 43.0 Fewest dis = 42.5
+Withington to Westwood | Shortest dis = 46.0 Fewest dis = 45.5
+Withington to Oldham King Street | Shortest dis = 48.5 Fewest dis = 48.0
+Withington to Oldham Central | Shortest dis = 50.0 Fewest dis = 49.5
+Withington to Oldham Mumps | Shortest dis = 53.0 Fewest dis = 52.5
+Withington to Derker | Shortest dis = 55.0 Fewest dis = 54.5
+Withington to Shaw & Crompton | Shortest dis = 59.5 Fewest dis = 59.0
+Withington to Newhey | Shortest dis = 62.8 Fewest dis = 62.3
+Withington to Milnrow | Shortest dis = 64.8 Fewest dis = 64.3
+Withington to Kingsway | Shortest dis = 66.3 Fewest dis = 65.8
+Withington to Newbold | Shortest dis = 68.3 Fewest dis = 67.8
+Withington to Rochdale Station | Shortest dis = 72.3 Fewest dis = 71.8
+Withington to Rochdale Town Centre | Shortest dis = 75.3 Fewest dis = 74.8
+St Werburgh's Road to Bury | Shortest dis = 54.0 Fewest dis = 53.5
+St Werburgh's Road to Radcliffe | Shortest dis = 48.0 Fewest dis = 47.5
+St Werburgh's Road to Whitefield | Shortest dis = 45.5 Fewest dis = 44.5
+St Werburgh's Road to Besses o'th' Barn | Shortest dis = 42.5 Fewest dis = 42.0
+St Werburgh's Road to Prestwich | Shortest dis = 40.5 Fewest dis = 40.0
+St Werburgh's Road to Heaton Park | Shortest dis = 38.0 Fewest dis = 37.5
+St Werburgh's Road to Bowker Vale | Shortest dis = 36.0 Fewest dis = 35.5
+St Werburgh's Road to Victoria | Shortest dis = 23.0 Fewest dis = 22.5
+St Werburgh's Road to Shudehill | Shortest dis = 22.5 Fewest dis = 22.0
+St Werburgh's Road to Market Street | Shortest dis = 20.0 Fewest dis = 19.5
+St Werburgh's Road to Exchange Square | Shortest dis = 20.5 Fewest dis = 20.0
+St Werburgh's Road to Monsall | Shortest dis = 27.0 Fewest dis = 26.5
+St Werburgh's Road to Central Park | Shortest dis = 29.0 Fewest dis = 28.5
+St Werburgh's Road to Newton Heath & Moston | Shortest dis = 32.0 Fewest dis = 31.5
+St Werburgh's Road to Failsworth | Shortest dis = 34.5 Fewest dis = 34.0
+St Werburgh's Road to Hollinwood | Shortest dis = 37.0 Fewest dis = 36.5
+St Werburgh's Road to South Chadderton | Shortest dis = 38.5 Fewest dis = 38.0
+St Werburgh's Road to Freehold | Shortest dis = 40.5 Fewest dis = 40.0
+St Werburgh's Road to Westwood | Shortest dis = 43.5 Fewest dis = 43.0
+St Werburgh's Road to Oldham King Street | Shortest dis = 46.0 Fewest dis = 45.5
+St Werburgh's Road to Oldham Central | Shortest dis = 47.5 Fewest dis = 47.0
+St Werburgh's Road to Oldham Mumps | Shortest dis = 50.5 Fewest dis = 50.0
+St Werburgh's Road to Derker | Shortest dis = 52.5 Fewest dis = 52.0
+St Werburgh's Road to Shaw & Crompton | Shortest dis = 57.0 Fewest dis = 56.5
+St Werburgh's Road to Newhey | Shortest dis = 60.3 Fewest dis = 59.8
+St Werburgh's Road to Milnrow | Shortest dis = 62.3 Fewest dis = 61.8
+St Werburgh's Road to Kingsway | Shortest dis = 63.8 Fewest dis = 63.3
+St Werburgh's Road to Newbold | Shortest dis = 65.8 Fewest dis = 65.3
+St Werburgh's Road to Rochdale Station | Shortest dis = 69.8 Fewest dis = 69.3
+St Werburgh's Road to Rochdale Town Centre | Shortest dis = 72.8 Fewest dis = 72.3
+Chorlton to Bury | Shortest dis = 52.5 Fewest dis = 52.0
+Chorlton to Radcliffe | Shortest dis = 46.5 Fewest dis = 46.0
+Chorlton to Whitefield | Shortest dis = 44.0 Fewest dis = 43.0
+Chorlton to Besses o'th' Barn | Shortest dis = 41.0 Fewest dis = 40.5
+Chorlton to Prestwich | Shortest dis = 39.0 Fewest dis = 38.5
+Chorlton to Heaton Park | Shortest dis = 36.5 Fewest dis = 36.0
+Chorlton to Bowker Vale | Shortest dis = 34.5 Fewest dis = 34.0
+Chorlton to Victoria | Shortest dis = 21.5 Fewest dis = 21.0
+Chorlton to Shudehill | Shortest dis = 21.0 Fewest dis = 20.5
+Chorlton to Market Street | Shortest dis = 18.5 Fewest dis = 18.0
+Chorlton to Exchange Square | Shortest dis = 19.0 Fewest dis = 18.5
+Chorlton to Monsall | Shortest dis = 25.5 Fewest dis = 25.0
+Chorlton to Central Park | Shortest dis = 27.5 Fewest dis = 27.0
+Chorlton to Newton Heath & Moston | Shortest dis = 30.5 Fewest dis = 30.0
+Chorlton to Failsworth | Shortest dis = 33.0 Fewest dis = 32.5
+Chorlton to Hollinwood | Shortest dis = 35.5 Fewest dis = 35.0
+Chorlton to South Chadderton | Shortest dis = 37.0 Fewest dis = 36.5
+Chorlton to Freehold | Shortest dis = 39.0 Fewest dis = 38.5
+Chorlton to Westwood | Shortest dis = 42.0 Fewest dis = 41.5
+Chorlton to Oldham King Street | Shortest dis = 44.5 Fewest dis = 44.0
+Chorlton to Oldham Central | Shortest dis = 46.0 Fewest dis = 45.5
+Chorlton to Oldham Mumps | Shortest dis = 49.0 Fewest dis = 48.5
+Chorlton to Derker | Shortest dis = 51.0 Fewest dis = 50.5
+Chorlton to Shaw & Crompton | Shortest dis = 55.5 Fewest dis = 55.0
+Chorlton to Newhey | Shortest dis = 58.8 Fewest dis = 58.3
+Chorlton to Milnrow | Shortest dis = 60.8 Fewest dis = 60.3
+Chorlton to Kingsway | Shortest dis = 62.3 Fewest dis = 61.8
+Chorlton to Newbold | Shortest dis = 64.3 Fewest dis = 63.8
+Chorlton to Rochdale Station | Shortest dis = 68.3 Fewest dis = 67.8
+Chorlton to Rochdale Town Centre | Shortest dis = 71.3 Fewest dis = 70.8
+Firswood to Bury | Shortest dis = 51.0 Fewest dis = 50.5
+Firswood to Radcliffe | Shortest dis = 45.0 Fewest dis = 44.5
+Firswood to Whitefield | Shortest dis = 42.5 Fewest dis = 41.5
+Firswood to Besses o'th' Barn | Shortest dis = 39.5 Fewest dis = 39.0
+Firswood to Prestwich | Shortest dis = 37.5 Fewest dis = 37.0
+Firswood to Heaton Park | Shortest dis = 35.0 Fewest dis = 34.5
+Firswood to Bowker Vale | Shortest dis = 33.0 Fewest dis = 32.5
+Firswood to Victoria | Shortest dis = 20.0 Fewest dis = 19.5
+Firswood to Shudehill | Shortest dis = 19.5 Fewest dis = 19.0
+Firswood to Market Street | Shortest dis = 17.0 Fewest dis = 16.5
+Firswood to Exchange Square | Shortest dis = 17.5 Fewest dis = 17.0
+Firswood to Monsall | Shortest dis = 24.0 Fewest dis = 23.5
+Firswood to Central Park | Shortest dis = 26.0 Fewest dis = 25.5
+Firswood to Newton Heath & Moston | Shortest dis = 29.0 Fewest dis = 28.5
+Firswood to Failsworth | Shortest dis = 31.5 Fewest dis = 31.0
+Firswood to Hollinwood | Shortest dis = 34.0 Fewest dis = 33.5
+Firswood to South Chadderton | Shortest dis = 35.5 Fewest dis = 35.0
+Firswood to Freehold | Shortest dis = 37.5 Fewest dis = 37.0
+Firswood to Westwood | Shortest dis = 40.5 Fewest dis = 40.0
+Firswood to Oldham King Street | Shortest dis = 43.0 Fewest dis = 42.5
+Firswood to Oldham Central | Shortest dis = 44.5 Fewest dis = 44.0
+Firswood to Oldham Mumps | Shortest dis = 47.5 Fewest dis = 47.0
+Firswood to Derker | Shortest dis = 49.5 Fewest dis = 49.0
+Firswood to Shaw & Crompton | Shortest dis = 54.0 Fewest dis = 53.5
+Firswood to Newhey | Shortest dis = 57.3 Fewest dis = 56.8
+Firswood to Milnrow | Shortest dis = 59.3 Fewest dis = 58.8
+Firswood to Kingsway | Shortest dis = 60.8 Fewest dis = 60.3
+Firswood to Newbold | Shortest dis = 62.8 Fewest dis = 62.3
+Firswood to Rochdale Station | Shortest dis = 66.8 Fewest dis = 66.3
+Firswood to Rochdale Town Centre | Shortest dis = 69.8 Fewest dis = 69.3
+Exchange Square to Whitefield | Shortest dis = 25.0 Fewest dis = 24.5
+Exchange Square to East Didsbury | Shortest dis = 27.5 Fewest dis = 27.0
+Exchange Square to Didsbury Village | Shortest dis = 26.5 Fewest dis = 26.0
+Exchange Square to West Didsbury | Shortest dis = 24.5 Fewest dis = 24.0
+Exchange Square to Burton Road | Shortest dis = 24.0 Fewest dis = 23.5
+Exchange Square to Withington | Shortest dis = 23.0 Fewest dis = 22.5
+Exchange Square to St Werburgh's Road | Shortest dis = 20.5 Fewest dis = 20.0
+Exchange Square to Chorlton | Shortest dis = 19.0 Fewest dis = 18.5
+Exchange Square to Firswood | Shortest dis = 17.5 Fewest dis = 17.0
+Exchange Square to Manchester Airport | Shortest dis = 59.0 Fewest dis = 58.5
+Exchange Square to Shadowmoss | Shortest dis = 55.5 Fewest dis = 55.0
+Exchange Square to Peel Hall | Shortest dis = 53.5 Fewest dis = 53.0
+Exchange Square to Robinswood Road | Shortest dis = 52.0 Fewest dis = 51.5
+Exchange Square to Wythenshawe Town Centre | Shortest dis = 49.5 Fewest dis = 49.0
+Exchange Square to Crossacres | Shortest dis = 47.0 Fewest dis = 46.5
+Exchange Square to Benchill | Shortest dis = 45.5 Fewest dis = 45.0
+Exchange Square to Martinscroft | Shortest dis = 42.0 Fewest dis = 41.5
+Exchange Square to Roundthorn | Shortest dis = 40.0 Fewest dis = 39.5
+Exchange Square to Baguley | Shortest dis = 38.5 Fewest dis = 38.0
+Exchange Square to Moor Road | Shortest dis = 36.0 Fewest dis = 35.5
+Exchange Square to Wythenshawe Park | Shortest dis = 34.0 Fewest dis = 33.5
+Exchange Square to Northern Moor | Shortest dis = 31.5 Fewest dis = 31.0
+Exchange Square to S Water Park | Shortest dis = 28.0 Fewest dis = 27.5
+Exchange Square to Barlow Moor  Road | Shortest dis = 25.0 Fewest dis = 24.5
+Monsall to Whitefield | Shortest dis = 26.5 Fewest dis = 26.0
+Monsall to New Islington | Shortest dis = 20.0 Fewest dis = 18.5
+Monsall to Holt Town | Shortest dis = 22.0 Fewest dis = 20.5
+Monsall to Etihad Campus | Shortest dis = 23.5 Fewest dis = 22.0
+Monsall to Velopark | Shortest dis = 28.0 Fewest dis = 27.0
+Monsall to Clayton Hall | Shortest dis = 32.0 Fewest dis = 31.0
+Monsall to Edge Lane | Shortest dis = 34.5 Fewest dis = 33.5
+Monsall to Cemetery Road | Shortest dis = 37.0 Fewest dis = 36.0
+Monsall to Droylsden | Shortest dis = 39.0 Fewest dis = 38.0
+Monsall to Audenshaw | Shortest dis = 42.0 Fewest dis = 41.0
+Monsall to Ashton Moss | Shortest dis = 44.5 Fewest dis = 43.5
+Monsall to Ashton West | Shortest dis = 47.5 Fewest dis = 46.5
+Monsall to Ashton-under-Lyne | Shortest dis = 50.0 Fewest dis = 49.0
+Monsall to East Didsbury | Shortest dis = 34.0 Fewest dis = 33.5
+Monsall to Didsbury Village | Shortest dis = 33.0 Fewest dis = 32.5
+Monsall to West Didsbury | Shortest dis = 31.0 Fewest dis = 30.5
+Monsall to Burton Road | Shortest dis = 30.5 Fewest dis = 30.0
+Monsall to Withington | Shortest dis = 29.5 Fewest dis = 29.0
+Monsall to St Werburgh's Road | Shortest dis = 27.0 Fewest dis = 26.5
+Monsall to Chorlton | Shortest dis = 25.5 Fewest dis = 25.0
+Monsall to Firswood | Shortest dis = 24.0 Fewest dis = 23.5
+Monsall to Manchester Airport | Shortest dis = 65.5 Fewest dis = 65.0
+Monsall to Shadowmoss | Shortest dis = 62.0 Fewest dis = 61.5
+Monsall to Peel Hall | Shortest dis = 60.0 Fewest dis = 59.5
+Monsall to Robinswood Road | Shortest dis = 58.5 Fewest dis = 58.0
+Monsall to Wythenshawe Town Centre | Shortest dis = 56.0 Fewest dis = 55.5
+Monsall to Crossacres | Shortest dis = 53.5 Fewest dis = 53.0
+Monsall to Benchill | Shortest dis = 52.0 Fewest dis = 51.5
+Monsall to Martinscroft | Shortest dis = 48.5 Fewest dis = 48.0
+Monsall to Roundthorn | Shortest dis = 46.5 Fewest dis = 46.0
+Monsall to Baguley | Shortest dis = 45.0 Fewest dis = 44.5
+Monsall to Moor Road | Shortest dis = 42.5 Fewest dis = 42.0
+Monsall to Wythenshawe Park | Shortest dis = 40.5 Fewest dis = 40.0
+Monsall to Northern Moor | Shortest dis = 38.0 Fewest dis = 37.5
+Monsall to S Water Park | Shortest dis = 34.5 Fewest dis = 34.0
+Monsall to Barlow Moor  Road | Shortest dis = 31.5 Fewest dis = 31.0
+Central Park to Whitefield | Shortest dis = 28.5 Fewest dis = 28.0
+Central Park to New Islington | Shortest dis = 22.0 Fewest dis = 20.5
+Central Park to Holt Town | Shortest dis = 24.0 Fewest dis = 22.5
+Central Park to Etihad Campus | Shortest dis = 25.5 Fewest dis = 24.0
+Central Park to Velopark | Shortest dis = 30.0 Fewest dis = 29.0
+Central Park to Clayton Hall | Shortest dis = 34.0 Fewest dis = 33.0
+Central Park to Edge Lane | Shortest dis = 36.5 Fewest dis = 35.5
+Central Park to Cemetery Road | Shortest dis = 39.0 Fewest dis = 38.0
+Central Park to Droylsden | Shortest dis = 41.0 Fewest dis = 40.0
+Central Park to Audenshaw | Shortest dis = 44.0 Fewest dis = 43.0
+Central Park to Ashton Moss | Shortest dis = 46.5 Fewest dis = 45.5
+Central Park to Ashton West | Shortest dis = 49.5 Fewest dis = 48.5
+Central Park to Ashton-under-Lyne | Shortest dis = 52.0 Fewest dis = 51.0
+Central Park to East Didsbury | Shortest dis = 36.0 Fewest dis = 35.5
+Central Park to Didsbury Village | Shortest dis = 35.0 Fewest dis = 34.5
+Central Park to West Didsbury | Shortest dis = 33.0 Fewest dis = 32.5
+Central Park to Burton Road | Shortest dis = 32.5 Fewest dis = 32.0
+Central Park to Withington | Shortest dis = 31.5 Fewest dis = 31.0
+Central Park to St Werburgh's Road | Shortest dis = 29.0 Fewest dis = 28.5
+Central Park to Chorlton | Shortest dis = 27.5 Fewest dis = 27.0
+Central Park to Firswood | Shortest dis = 26.0 Fewest dis = 25.5
+Central Park to Manchester Airport | Shortest dis = 67.5 Fewest dis = 67.0
+Central Park to Shadowmoss | Shortest dis = 64.0 Fewest dis = 63.5
+Central Park to Peel Hall | Shortest dis = 62.0 Fewest dis = 61.5
+Central Park to Robinswood Road | Shortest dis = 60.5 Fewest dis = 60.0
+Central Park to Wythenshawe Town Centre | Shortest dis = 58.0 Fewest dis = 57.5
+Central Park to Crossacres | Shortest dis = 55.5 Fewest dis = 55.0
+Central Park to Benchill | Shortest dis = 54.0 Fewest dis = 53.5
+Central Park to Martinscroft | Shortest dis = 50.5 Fewest dis = 50.0
+Central Park to Roundthorn | Shortest dis = 48.5 Fewest dis = 48.0
+Central Park to Baguley | Shortest dis = 47.0 Fewest dis = 46.5
+Central Park to Moor Road | Shortest dis = 44.5 Fewest dis = 44.0
+Central Park to Wythenshawe Park | Shortest dis = 42.5 Fewest dis = 42.0
+Central Park to Northern Moor | Shortest dis = 40.0 Fewest dis = 39.5
+Central Park to S Water Park | Shortest dis = 36.5 Fewest dis = 36.0
+Central Park to Barlow Moor  Road | Shortest dis = 33.5 Fewest dis = 33.0
+Newton Heath & Moston to Whitefield | Shortest dis = 31.5 Fewest dis = 31.0
+Newton Heath & Moston to New Islington | Shortest dis = 25.0 Fewest dis = 23.5
+Newton Heath & Moston to Holt Town | Shortest dis = 27.0 Fewest dis = 25.5
+Newton Heath & Moston to Etihad Campus | Shortest dis = 28.5 Fewest dis = 27.0
+Newton Heath & Moston to Velopark | Shortest dis = 33.0 Fewest dis = 32.0
+Newton Heath & Moston to Clayton Hall | Shortest dis = 37.0 Fewest dis = 36.0
+Newton Heath & Moston to Edge Lane | Shortest dis = 39.5 Fewest dis = 38.5
+Newton Heath & Moston to Cemetery Road | Shortest dis = 42.0 Fewest dis = 41.0
+Newton Heath & Moston to Droylsden | Shortest dis = 44.0 Fewest dis = 43.0
+Newton Heath & Moston to Audenshaw | Shortest dis = 47.0 Fewest dis = 46.0
+Newton Heath & Moston to Ashton Moss | Shortest dis = 49.5 Fewest dis = 48.5
+Newton Heath & Moston to Ashton West | Shortest dis = 52.5 Fewest dis = 51.5
+Newton Heath & Moston to Ashton-under-Lyne | Shortest dis = 55.0 Fewest dis = 54.0
+Newton Heath & Moston to East Didsbury | Shortest dis = 39.0 Fewest dis = 38.5
+Newton Heath & Moston to Didsbury Village | Shortest dis = 38.0 Fewest dis = 37.5
+Newton Heath & Moston to West Didsbury | Shortest dis = 36.0 Fewest dis = 35.5
+Newton Heath & Moston to Burton Road | Shortest dis = 35.5 Fewest dis = 35.0
+Newton Heath & Moston to Withington | Shortest dis = 34.5 Fewest dis = 34.0
+Newton Heath & Moston to St Werburgh's Road | Shortest dis = 32.0 Fewest dis = 31.5
+Newton Heath & Moston to Chorlton | Shortest dis = 30.5 Fewest dis = 30.0
+Newton Heath & Moston to Firswood | Shortest dis = 29.0 Fewest dis = 28.5
+Newton Heath & Moston to Manchester Airport | Shortest dis = 70.5 Fewest dis = 70.0
+Newton Heath & Moston to Shadowmoss | Shortest dis = 67.0 Fewest dis = 66.5
+Newton Heath & Moston to Peel Hall | Shortest dis = 65.0 Fewest dis = 64.5
+Newton Heath & Moston to Robinswood Road | Shortest dis = 63.5 Fewest dis = 63.0
+Newton Heath & Moston to Wythenshawe Town Centre | Shortest dis = 61.0 Fewest dis = 60.5
+Newton Heath & Moston to Crossacres | Shortest dis = 58.5 Fewest dis = 58.0
+Newton Heath & Moston to Benchill | Shortest dis = 57.0 Fewest dis = 56.5
+Newton Heath & Moston to Martinscroft | Shortest dis = 53.5 Fewest dis = 53.0
+Newton Heath & Moston to Roundthorn | Shortest dis = 51.5 Fewest dis = 51.0
+Newton Heath & Moston to Baguley | Shortest dis = 50.0 Fewest dis = 49.5
+Newton Heath & Moston to Moor Road | Shortest dis = 47.5 Fewest dis = 47.0
+Newton Heath & Moston to Wythenshawe Park | Shortest dis = 45.5 Fewest dis = 45.0
+Newton Heath & Moston to Northern Moor | Shortest dis = 43.0 Fewest dis = 42.5
+Newton Heath & Moston to S Water Park | Shortest dis = 39.5 Fewest dis = 39.0
+Newton Heath & Moston to Barlow Moor  Road | Shortest dis = 36.5 Fewest dis = 36.0
+Failsworth to Whitefield | Shortest dis = 34.0 Fewest dis = 33.5
+Failsworth to New Islington | Shortest dis = 27.5 Fewest dis = 26.0
+Failsworth to Holt Town | Shortest dis = 29.5 Fewest dis = 28.0
+Failsworth to Etihad Campus | Shortest dis = 31.0 Fewest dis = 29.5
+Failsworth to Velopark | Shortest dis = 35.5 Fewest dis = 34.5
+Failsworth to Clayton Hall | Shortest dis = 39.5 Fewest dis = 38.5
+Failsworth to Edge Lane | Shortest dis = 42.0 Fewest dis = 41.0
+Failsworth to Cemetery Road | Shortest dis = 44.5 Fewest dis = 43.5
+Failsworth to Droylsden | Shortest dis = 46.5 Fewest dis = 45.5
+Failsworth to Audenshaw | Shortest dis = 49.5 Fewest dis = 48.5
+Failsworth to Ashton Moss | Shortest dis = 52.0 Fewest dis = 51.0
+Failsworth to Ashton West | Shortest dis = 55.0 Fewest dis = 54.0
+Failsworth to Ashton-under-Lyne | Shortest dis = 57.5 Fewest dis = 56.5
+Failsworth to East Didsbury | Shortest dis = 41.5 Fewest dis = 41.0
+Failsworth to Didsbury Village | Shortest dis = 40.5 Fewest dis = 40.0
+Failsworth to West Didsbury | Shortest dis = 38.5 Fewest dis = 38.0
+Failsworth to Burton Road | Shortest dis = 38.0 Fewest dis = 37.5
+Failsworth to Withington | Shortest dis = 37.0 Fewest dis = 36.5
+Failsworth to St Werburgh's Road | Shortest dis = 34.5 Fewest dis = 34.0
+Failsworth to Chorlton | Shortest dis = 33.0 Fewest dis = 32.5
+Failsworth to Firswood | Shortest dis = 31.5 Fewest dis = 31.0
+Failsworth to Manchester Airport | Shortest dis = 73.0 Fewest dis = 72.5
+Failsworth to Shadowmoss | Shortest dis = 69.5 Fewest dis = 69.0
+Failsworth to Peel Hall | Shortest dis = 67.5 Fewest dis = 67.0
+Failsworth to Robinswood Road | Shortest dis = 66.0 Fewest dis = 65.5
+Failsworth to Wythenshawe Town Centre | Shortest dis = 63.5 Fewest dis = 63.0
+Failsworth to Crossacres | Shortest dis = 61.0 Fewest dis = 60.5
+Failsworth to Benchill | Shortest dis = 59.5 Fewest dis = 59.0
+Failsworth to Martinscroft | Shortest dis = 56.0 Fewest dis = 55.5
+Failsworth to Roundthorn | Shortest dis = 54.0 Fewest dis = 53.5
+Failsworth to Baguley | Shortest dis = 52.5 Fewest dis = 52.0
+Failsworth to Moor Road | Shortest dis = 50.0 Fewest dis = 49.5
+Failsworth to Wythenshawe Park | Shortest dis = 48.0 Fewest dis = 47.5
+Failsworth to Northern Moor | Shortest dis = 45.5 Fewest dis = 45.0
+Failsworth to S Water Park | Shortest dis = 42.0 Fewest dis = 41.5
+Failsworth to Barlow Moor  Road | Shortest dis = 39.0 Fewest dis = 38.5
+Hollinwood to Whitefield | Shortest dis = 36.5 Fewest dis = 36.0
+Hollinwood to New Islington | Shortest dis = 30.0 Fewest dis = 28.5
+Hollinwood to Holt Town | Shortest dis = 32.0 Fewest dis = 30.5
+Hollinwood to Etihad Campus | Shortest dis = 33.5 Fewest dis = 32.0
+Hollinwood to Velopark | Shortest dis = 38.0 Fewest dis = 37.0
+Hollinwood to Clayton Hall | Shortest dis = 42.0 Fewest dis = 41.0
+Hollinwood to Edge Lane | Shortest dis = 44.5 Fewest dis = 43.5
+Hollinwood to Cemetery Road | Shortest dis = 47.0 Fewest dis = 46.0
+Hollinwood to Droylsden | Shortest dis = 49.0 Fewest dis = 48.0
+Hollinwood to Audenshaw | Shortest dis = 52.0 Fewest dis = 51.0
+Hollinwood to Ashton Moss | Shortest dis = 54.5 Fewest dis = 53.5
+Hollinwood to Ashton West | Shortest dis = 57.5 Fewest dis = 56.5
+Hollinwood to Ashton-under-Lyne | Shortest dis = 60.0 Fewest dis = 59.0
+Hollinwood to East Didsbury | Shortest dis = 44.0 Fewest dis = 43.5
+Hollinwood to Didsbury Village | Shortest dis = 43.0 Fewest dis = 42.5
+Hollinwood to West Didsbury | Shortest dis = 41.0 Fewest dis = 40.5
+Hollinwood to Burton Road | Shortest dis = 40.5 Fewest dis = 40.0
+Hollinwood to Withington | Shortest dis = 39.5 Fewest dis = 39.0
+Hollinwood to St Werburgh's Road | Shortest dis = 37.0 Fewest dis = 36.5
+Hollinwood to Chorlton | Shortest dis = 35.5 Fewest dis = 35.0
+Hollinwood to Firswood | Shortest dis = 34.0 Fewest dis = 33.5
+Hollinwood to Manchester Airport | Shortest dis = 75.5 Fewest dis = 75.0
+Hollinwood to Shadowmoss | Shortest dis = 72.0 Fewest dis = 71.5
+Hollinwood to Peel Hall | Shortest dis = 70.0 Fewest dis = 69.5
+Hollinwood to Robinswood Road | Shortest dis = 68.5 Fewest dis = 68.0
+Hollinwood to Wythenshawe Town Centre | Shortest dis = 66.0 Fewest dis = 65.5
+Hollinwood to Crossacres | Shortest dis = 63.5 Fewest dis = 63.0
+Hollinwood to Benchill | Shortest dis = 62.0 Fewest dis = 61.5
+Hollinwood to Martinscroft | Shortest dis = 58.5 Fewest dis = 58.0
+Hollinwood to Roundthorn | Shortest dis = 56.5 Fewest dis = 56.0
+Hollinwood to Baguley | Shortest dis = 55.0 Fewest dis = 54.5
+Hollinwood to Moor Road | Shortest dis = 52.5 Fewest dis = 52.0
+Hollinwood to Wythenshawe Park | Shortest dis = 50.5 Fewest dis = 50.0
+Hollinwood to Northern Moor | Shortest dis = 48.0 Fewest dis = 47.5
+Hollinwood to S Water Park | Shortest dis = 44.5 Fewest dis = 44.0
+Hollinwood to Barlow Moor  Road | Shortest dis = 41.5 Fewest dis = 41.0
+South Chadderton to Whitefield | Shortest dis = 38.0 Fewest dis = 37.5
+South Chadderton to New Islington | Shortest dis = 31.5 Fewest dis = 30.0
+South Chadderton to Holt Town | Shortest dis = 33.5 Fewest dis = 32.0
+South Chadderton to Etihad Campus | Shortest dis = 35.0 Fewest dis = 33.5
+South Chadderton to Velopark | Shortest dis = 39.5 Fewest dis = 38.5
+South Chadderton to Clayton Hall | Shortest dis = 43.5 Fewest dis = 42.5
+South Chadderton to Edge Lane | Shortest dis = 46.0 Fewest dis = 45.0
+South Chadderton to Cemetery Road | Shortest dis = 48.5 Fewest dis = 47.5
+South Chadderton to Droylsden | Shortest dis = 50.5 Fewest dis = 49.5
+South Chadderton to Audenshaw | Shortest dis = 53.5 Fewest dis = 52.5
+South Chadderton to Ashton Moss | Shortest dis = 56.0 Fewest dis = 55.0
+South Chadderton to Ashton West | Shortest dis = 59.0 Fewest dis = 58.0
+South Chadderton to Ashton-under-Lyne | Shortest dis = 61.5 Fewest dis = 60.5
+South Chadderton to East Didsbury | Shortest dis = 45.5 Fewest dis = 45.0
+South Chadderton to Didsbury Village | Shortest dis = 44.5 Fewest dis = 44.0
+South Chadderton to West Didsbury | Shortest dis = 42.5 Fewest dis = 42.0
+South Chadderton to Burton Road | Shortest dis = 42.0 Fewest dis = 41.5
+South Chadderton to Withington | Shortest dis = 41.0 Fewest dis = 40.5
+South Chadderton to St Werburgh's Road | Shortest dis = 38.5 Fewest dis = 38.0
+South Chadderton to Chorlton | Shortest dis = 37.0 Fewest dis = 36.5
+South Chadderton to Firswood | Shortest dis = 35.5 Fewest dis = 35.0
+South Chadderton to Manchester Airport | Shortest dis = 77.0 Fewest dis = 76.5
+South Chadderton to Shadowmoss | Shortest dis = 73.5 Fewest dis = 73.0
+South Chadderton to Peel Hall | Shortest dis = 71.5 Fewest dis = 71.0
+South Chadderton to Robinswood Road | Shortest dis = 70.0 Fewest dis = 69.5
+South Chadderton to Wythenshawe Town Centre | Shortest dis = 67.5 Fewest dis = 67.0
+South Chadderton to Crossacres | Shortest dis = 65.0 Fewest dis = 64.5
+South Chadderton to Benchill | Shortest dis = 63.5 Fewest dis = 63.0
+South Chadderton to Martinscroft | Shortest dis = 60.0 Fewest dis = 59.5
+South Chadderton to Roundthorn | Shortest dis = 58.0 Fewest dis = 57.5
+South Chadderton to Baguley | Shortest dis = 56.5 Fewest dis = 56.0
+South Chadderton to Moor Road | Shortest dis = 54.0 Fewest dis = 53.5
+South Chadderton to Wythenshawe Park | Shortest dis = 52.0 Fewest dis = 51.5
+South Chadderton to Northern Moor | Shortest dis = 49.5 Fewest dis = 49.0
+South Chadderton to S Water Park | Shortest dis = 46.0 Fewest dis = 45.5
+South Chadderton to Barlow Moor  Road | Shortest dis = 43.0 Fewest dis = 42.5
+Freehold to Whitefield | Shortest dis = 40.0 Fewest dis = 39.5
+Freehold to New Islington | Shortest dis = 33.5 Fewest dis = 32.0
+Freehold to Holt Town | Shortest dis = 35.5 Fewest dis = 34.0
+Freehold to Etihad Campus | Shortest dis = 37.0 Fewest dis = 35.5
+Freehold to Velopark | Shortest dis = 41.5 Fewest dis = 40.5
+Freehold to Clayton Hall | Shortest dis = 45.5 Fewest dis = 44.5
+Freehold to Edge Lane | Shortest dis = 48.0 Fewest dis = 47.0
+Freehold to Cemetery Road | Shortest dis = 50.5 Fewest dis = 49.5
+Freehold to Droylsden | Shortest dis = 52.5 Fewest dis = 51.5
+Freehold to Audenshaw | Shortest dis = 55.5 Fewest dis = 54.5
+Freehold to Ashton Moss | Shortest dis = 58.0 Fewest dis = 57.0
+Freehold to Ashton West | Shortest dis = 61.0 Fewest dis = 60.0
+Freehold to Ashton-under-Lyne | Shortest dis = 63.5 Fewest dis = 62.5
+Freehold to East Didsbury | Shortest dis = 47.5 Fewest dis = 47.0
+Freehold to Didsbury Village | Shortest dis = 46.5 Fewest dis = 46.0
+Freehold to West Didsbury | Shortest dis = 44.5 Fewest dis = 44.0
+Freehold to Burton Road | Shortest dis = 44.0 Fewest dis = 43.5
+Freehold to Withington | Shortest dis = 43.0 Fewest dis = 42.5
+Freehold to St Werburgh's Road | Shortest dis = 40.5 Fewest dis = 40.0
+Freehold to Chorlton | Shortest dis = 39.0 Fewest dis = 38.5
+Freehold to Firswood | Shortest dis = 37.5 Fewest dis = 37.0
+Freehold to Manchester Airport | Shortest dis = 79.0 Fewest dis = 78.5
+Freehold to Shadowmoss | Shortest dis = 75.5 Fewest dis = 75.0
+Freehold to Peel Hall | Shortest dis = 73.5 Fewest dis = 73.0
+Freehold to Robinswood Road | Shortest dis = 72.0 Fewest dis = 71.5
+Freehold to Wythenshawe Town Centre | Shortest dis = 69.5 Fewest dis = 69.0
+Freehold to Crossacres | Shortest dis = 67.0 Fewest dis = 66.5
+Freehold to Benchill | Shortest dis = 65.5 Fewest dis = 65.0
+Freehold to Martinscroft | Shortest dis = 62.0 Fewest dis = 61.5
+Freehold to Roundthorn | Shortest dis = 60.0 Fewest dis = 59.5
+Freehold to Baguley | Shortest dis = 58.5 Fewest dis = 58.0
+Freehold to Moor Road | Shortest dis = 56.0 Fewest dis = 55.5
+Freehold to Wythenshawe Park | Shortest dis = 54.0 Fewest dis = 53.5
+Freehold to Northern Moor | Shortest dis = 51.5 Fewest dis = 51.0
+Freehold to S Water Park | Shortest dis = 48.0 Fewest dis = 47.5
+Freehold to Barlow Moor  Road | Shortest dis = 45.0 Fewest dis = 44.5
+Westwood to Whitefield | Shortest dis = 43.0 Fewest dis = 42.5
+Westwood to New Islington | Shortest dis = 36.5 Fewest dis = 35.0
+Westwood to Holt Town | Shortest dis = 38.5 Fewest dis = 37.0
+Westwood to Etihad Campus | Shortest dis = 40.0 Fewest dis = 38.5
+Westwood to Velopark | Shortest dis = 44.5 Fewest dis = 43.5
+Westwood to Clayton Hall | Shortest dis = 48.5 Fewest dis = 47.5
+Westwood to Edge Lane | Shortest dis = 51.0 Fewest dis = 50.0
+Westwood to Cemetery Road | Shortest dis = 53.5 Fewest dis = 52.5
+Westwood to Droylsden | Shortest dis = 55.5 Fewest dis = 54.5
+Westwood to Audenshaw | Shortest dis = 58.5 Fewest dis = 57.5
+Westwood to Ashton Moss | Shortest dis = 61.0 Fewest dis = 60.0
+Westwood to Ashton West | Shortest dis = 64.0 Fewest dis = 63.0
+Westwood to Ashton-under-Lyne | Shortest dis = 66.5 Fewest dis = 65.5
+Westwood to East Didsbury | Shortest dis = 50.5 Fewest dis = 50.0
+Westwood to Didsbury Village | Shortest dis = 49.5 Fewest dis = 49.0
+Westwood to West Didsbury | Shortest dis = 47.5 Fewest dis = 47.0
+Westwood to Burton Road | Shortest dis = 47.0 Fewest dis = 46.5
+Westwood to Withington | Shortest dis = 46.0 Fewest dis = 45.5
+Westwood to St Werburgh's Road | Shortest dis = 43.5 Fewest dis = 43.0
+Westwood to Chorlton | Shortest dis = 42.0 Fewest dis = 41.5
+Westwood to Firswood | Shortest dis = 40.5 Fewest dis = 40.0
+Westwood to Manchester Airport | Shortest dis = 82.0 Fewest dis = 81.5
+Westwood to Shadowmoss | Shortest dis = 78.5 Fewest dis = 78.0
+Westwood to Peel Hall | Shortest dis = 76.5 Fewest dis = 76.0
+Westwood to Robinswood Road | Shortest dis = 75.0 Fewest dis = 74.5
+Westwood to Wythenshawe Town Centre | Shortest dis = 72.5 Fewest dis = 72.0
+Westwood to Crossacres | Shortest dis = 70.0 Fewest dis = 69.5
+Westwood to Benchill | Shortest dis = 68.5 Fewest dis = 68.0
+Westwood to Martinscroft | Shortest dis = 65.0 Fewest dis = 64.5
+Westwood to Roundthorn | Shortest dis = 63.0 Fewest dis = 62.5
+Westwood to Baguley | Shortest dis = 61.5 Fewest dis = 61.0
+Westwood to Moor Road | Shortest dis = 59.0 Fewest dis = 58.5
+Westwood to Wythenshawe Park | Shortest dis = 57.0 Fewest dis = 56.5
+Westwood to Northern Moor | Shortest dis = 54.5 Fewest dis = 54.0
+Westwood to S Water Park | Shortest dis = 51.0 Fewest dis = 50.5
+Westwood to Barlow Moor  Road | Shortest dis = 48.0 Fewest dis = 47.5
+Oldham King Street to Whitefield | Shortest dis = 45.5 Fewest dis = 45.0
+Oldham King Street to New Islington | Shortest dis = 39.0 Fewest dis = 37.5
+Oldham King Street to Holt Town | Shortest dis = 41.0 Fewest dis = 39.5
+Oldham King Street to Etihad Campus | Shortest dis = 42.5 Fewest dis = 41.0
+Oldham King Street to Velopark | Shortest dis = 47.0 Fewest dis = 46.0
+Oldham King Street to Clayton Hall | Shortest dis = 51.0 Fewest dis = 50.0
+Oldham King Street to Edge Lane | Shortest dis = 53.5 Fewest dis = 52.5
+Oldham King Street to Cemetery Road | Shortest dis = 56.0 Fewest dis = 55.0
+Oldham King Street to Droylsden | Shortest dis = 58.0 Fewest dis = 57.0
+Oldham King Street to Audenshaw | Shortest dis = 61.0 Fewest dis = 60.0
+Oldham King Street to Ashton Moss | Shortest dis = 63.5 Fewest dis = 62.5
+Oldham King Street to Ashton West | Shortest dis = 66.5 Fewest dis = 65.5
+Oldham King Street to Ashton-under-Lyne | Shortest dis = 69.0 Fewest dis = 68.0
+Oldham King Street to East Didsbury | Shortest dis = 53.0 Fewest dis = 52.5
+Oldham King Street to Didsbury Village | Shortest dis = 52.0 Fewest dis = 51.5
+Oldham King Street to West Didsbury | Shortest dis = 50.0 Fewest dis = 49.5
+Oldham King Street to Burton Road | Shortest dis = 49.5 Fewest dis = 49.0
+Oldham King Street to Withington | Shortest dis = 48.5 Fewest dis = 48.0
+Oldham King Street to St Werburgh's Road | Shortest dis = 46.0 Fewest dis = 45.5
+Oldham King Street to Chorlton | Shortest dis = 44.5 Fewest dis = 44.0
+Oldham King Street to Firswood | Shortest dis = 43.0 Fewest dis = 42.5
+Oldham King Street to Manchester Airport | Shortest dis = 84.5 Fewest dis = 84.0
+Oldham King Street to Shadowmoss | Shortest dis = 81.0 Fewest dis = 80.5
+Oldham King Street to Peel Hall | Shortest dis = 79.0 Fewest dis = 78.5
+Oldham King Street to Robinswood Road | Shortest dis = 77.5 Fewest dis = 77.0
+Oldham King Street to Wythenshawe Town Centre | Shortest dis = 75.0 Fewest dis = 74.5
+Oldham King Street to Crossacres | Shortest dis = 72.5 Fewest dis = 72.0
+Oldham King Street to Benchill | Shortest dis = 71.0 Fewest dis = 70.5
+Oldham King Street to Martinscroft | Shortest dis = 67.5 Fewest dis = 67.0
+Oldham King Street to Roundthorn | Shortest dis = 65.5 Fewest dis = 65.0
+Oldham King Street to Baguley | Shortest dis = 64.0 Fewest dis = 63.5
+Oldham King Street to Moor Road | Shortest dis = 61.5 Fewest dis = 61.0
+Oldham King Street to Wythenshawe Park | Shortest dis = 59.5 Fewest dis = 59.0
+Oldham King Street to Northern Moor | Shortest dis = 57.0 Fewest dis = 56.5
+Oldham King Street to S Water Park | Shortest dis = 53.5 Fewest dis = 53.0
+Oldham King Street to Barlow Moor  Road | Shortest dis = 50.5 Fewest dis = 50.0
+Oldham Central to Whitefield | Shortest dis = 47.0 Fewest dis = 46.5
+Oldham Central to New Islington | Shortest dis = 40.5 Fewest dis = 39.0
+Oldham Central to Holt Town | Shortest dis = 42.5 Fewest dis = 41.0
+Oldham Central to Etihad Campus | Shortest dis = 44.0 Fewest dis = 42.5
+Oldham Central to Velopark | Shortest dis = 48.5 Fewest dis = 47.5
+Oldham Central to Clayton Hall | Shortest dis = 52.5 Fewest dis = 51.5
+Oldham Central to Edge Lane | Shortest dis = 55.0 Fewest dis = 54.0
+Oldham Central to Cemetery Road | Shortest dis = 57.5 Fewest dis = 56.5
+Oldham Central to Droylsden | Shortest dis = 59.5 Fewest dis = 58.5
+Oldham Central to Audenshaw | Shortest dis = 62.5 Fewest dis = 61.5
+Oldham Central to Ashton Moss | Shortest dis = 65.0 Fewest dis = 64.0
+Oldham Central to Ashton West | Shortest dis = 68.0 Fewest dis = 67.0
+Oldham Central to Ashton-under-Lyne | Shortest dis = 70.5 Fewest dis = 69.5
+Oldham Central to East Didsbury | Shortest dis = 54.5 Fewest dis = 54.0
+Oldham Central to Didsbury Village | Shortest dis = 53.5 Fewest dis = 53.0
+Oldham Central to West Didsbury | Shortest dis = 51.5 Fewest dis = 51.0
+Oldham Central to Burton Road | Shortest dis = 51.0 Fewest dis = 50.5
+Oldham Central to Withington | Shortest dis = 50.0 Fewest dis = 49.5
+Oldham Central to St Werburgh's Road | Shortest dis = 47.5 Fewest dis = 47.0
+Oldham Central to Chorlton | Shortest dis = 46.0 Fewest dis = 45.5
+Oldham Central to Firswood | Shortest dis = 44.5 Fewest dis = 44.0
+Oldham Central to Manchester Airport | Shortest dis = 86.0 Fewest dis = 85.5
+Oldham Central to Shadowmoss | Shortest dis = 82.5 Fewest dis = 82.0
+Oldham Central to Peel Hall | Shortest dis = 80.5 Fewest dis = 80.0
+Oldham Central to Robinswood Road | Shortest dis = 79.0 Fewest dis = 78.5
+Oldham Central to Wythenshawe Town Centre | Shortest dis = 76.5 Fewest dis = 76.0
+Oldham Central to Crossacres | Shortest dis = 74.0 Fewest dis = 73.5
+Oldham Central to Benchill | Shortest dis = 72.5 Fewest dis = 72.0
+Oldham Central to Martinscroft | Shortest dis = 69.0 Fewest dis = 68.5
+Oldham Central to Roundthorn | Shortest dis = 67.0 Fewest dis = 66.5
+Oldham Central to Baguley | Shortest dis = 65.5 Fewest dis = 65.0
+Oldham Central to Moor Road | Shortest dis = 63.0 Fewest dis = 62.5
+Oldham Central to Wythenshawe Park | Shortest dis = 61.0 Fewest dis = 60.5
+Oldham Central to Northern Moor | Shortest dis = 58.5 Fewest dis = 58.0
+Oldham Central to S Water Park | Shortest dis = 55.0 Fewest dis = 54.5
+Oldham Central to Barlow Moor  Road | Shortest dis = 52.0 Fewest dis = 51.5
+Oldham Mumps to Whitefield | Shortest dis = 50.0 Fewest dis = 49.5
+Oldham Mumps to New Islington | Shortest dis = 43.5 Fewest dis = 42.0
+Oldham Mumps to Holt Town | Shortest dis = 45.5 Fewest dis = 44.0
+Oldham Mumps to Etihad Campus | Shortest dis = 47.0 Fewest dis = 45.5
+Oldham Mumps to Velopark | Shortest dis = 51.5 Fewest dis = 50.5
+Oldham Mumps to Clayton Hall | Shortest dis = 55.5 Fewest dis = 54.5
+Oldham Mumps to Edge Lane | Shortest dis = 58.0 Fewest dis = 57.0
+Oldham Mumps to Cemetery Road | Shortest dis = 60.5 Fewest dis = 59.5
+Oldham Mumps to Droylsden | Shortest dis = 62.5 Fewest dis = 61.5
+Oldham Mumps to Audenshaw | Shortest dis = 65.5 Fewest dis = 64.5
+Oldham Mumps to Ashton Moss | Shortest dis = 68.0 Fewest dis = 67.0
+Oldham Mumps to Ashton West | Shortest dis = 71.0 Fewest dis = 70.0
+Oldham Mumps to Ashton-under-Lyne | Shortest dis = 73.5 Fewest dis = 72.5
+Oldham Mumps to East Didsbury | Shortest dis = 57.5 Fewest dis = 57.0
+Oldham Mumps to Didsbury Village | Shortest dis = 56.5 Fewest dis = 56.0
+Oldham Mumps to West Didsbury | Shortest dis = 54.5 Fewest dis = 54.0
+Oldham Mumps to Burton Road | Shortest dis = 54.0 Fewest dis = 53.5
+Oldham Mumps to Withington | Shortest dis = 53.0 Fewest dis = 52.5
+Oldham Mumps to St Werburgh's Road | Shortest dis = 50.5 Fewest dis = 50.0
+Oldham Mumps to Chorlton | Shortest dis = 49.0 Fewest dis = 48.5
+Oldham Mumps to Firswood | Shortest dis = 47.5 Fewest dis = 47.0
+Oldham Mumps to Manchester Airport | Shortest dis = 89.0 Fewest dis = 88.5
+Oldham Mumps to Shadowmoss | Shortest dis = 85.5 Fewest dis = 85.0
+Oldham Mumps to Peel Hall | Shortest dis = 83.5 Fewest dis = 83.0
+Oldham Mumps to Robinswood Road | Shortest dis = 82.0 Fewest dis = 81.5
+Oldham Mumps to Wythenshawe Town Centre | Shortest dis = 79.5 Fewest dis = 79.0
+Oldham Mumps to Crossacres | Shortest dis = 77.0 Fewest dis = 76.5
+Oldham Mumps to Benchill | Shortest dis = 75.5 Fewest dis = 75.0
+Oldham Mumps to Martinscroft | Shortest dis = 72.0 Fewest dis = 71.5
+Oldham Mumps to Roundthorn | Shortest dis = 70.0 Fewest dis = 69.5
+Oldham Mumps to Baguley | Shortest dis = 68.5 Fewest dis = 68.0
+Oldham Mumps to Moor Road | Shortest dis = 66.0 Fewest dis = 65.5
+Oldham Mumps to Wythenshawe Park | Shortest dis = 64.0 Fewest dis = 63.5
+Oldham Mumps to Northern Moor | Shortest dis = 61.5 Fewest dis = 61.0
+Oldham Mumps to S Water Park | Shortest dis = 58.0 Fewest dis = 57.5
+Oldham Mumps to Barlow Moor  Road | Shortest dis = 55.0 Fewest dis = 54.5
+Derker to Whitefield | Shortest dis = 52.0 Fewest dis = 51.5
+Derker to New Islington | Shortest dis = 45.5 Fewest dis = 44.0
+Derker to Holt Town | Shortest dis = 47.5 Fewest dis = 46.0
+Derker to Etihad Campus | Shortest dis = 49.0 Fewest dis = 47.5
+Derker to Velopark | Shortest dis = 53.5 Fewest dis = 52.5
+Derker to Clayton Hall | Shortest dis = 57.5 Fewest dis = 56.5
+Derker to Edge Lane | Shortest dis = 60.0 Fewest dis = 59.0
+Derker to Cemetery Road | Shortest dis = 62.5 Fewest dis = 61.5
+Derker to Droylsden | Shortest dis = 64.5 Fewest dis = 63.5
+Derker to Audenshaw | Shortest dis = 67.5 Fewest dis = 66.5
+Derker to Ashton Moss | Shortest dis = 70.0 Fewest dis = 69.0
+Derker to Ashton West | Shortest dis = 73.0 Fewest dis = 72.0
+Derker to Ashton-under-Lyne | Shortest dis = 75.5 Fewest dis = 74.5
+Derker to East Didsbury | Shortest dis = 59.5 Fewest dis = 59.0
+Derker to Didsbury Village | Shortest dis = 58.5 Fewest dis = 58.0
+Derker to West Didsbury | Shortest dis = 56.5 Fewest dis = 56.0
+Derker to Burton Road | Shortest dis = 56.0 Fewest dis = 55.5
+Derker to Withington | Shortest dis = 55.0 Fewest dis = 54.5
+Derker to St Werburgh's Road | Shortest dis = 52.5 Fewest dis = 52.0
+Derker to Chorlton | Shortest dis = 51.0 Fewest dis = 50.5
+Derker to Firswood | Shortest dis = 49.5 Fewest dis = 49.0
+Derker to Manchester Airport | Shortest dis = 91.0 Fewest dis = 90.5
+Derker to Shadowmoss | Shortest dis = 87.5 Fewest dis = 87.0
+Derker to Peel Hall | Shortest dis = 85.5 Fewest dis = 85.0
+Derker to Robinswood Road | Shortest dis = 84.0 Fewest dis = 83.5
+Derker to Wythenshawe Town Centre | Shortest dis = 81.5 Fewest dis = 81.0
+Derker to Crossacres | Shortest dis = 79.0 Fewest dis = 78.5
+Derker to Benchill | Shortest dis = 77.5 Fewest dis = 77.0
+Derker to Martinscroft | Shortest dis = 74.0 Fewest dis = 73.5
+Derker to Roundthorn | Shortest dis = 72.0 Fewest dis = 71.5
+Derker to Baguley | Shortest dis = 70.5 Fewest dis = 70.0
+Derker to Moor Road | Shortest dis = 68.0 Fewest dis = 67.5
+Derker to Wythenshawe Park | Shortest dis = 66.0 Fewest dis = 65.5
+Derker to Northern Moor | Shortest dis = 63.5 Fewest dis = 63.0
+Derker to S Water Park | Shortest dis = 60.0 Fewest dis = 59.5
+Derker to Barlow Moor  Road | Shortest dis = 57.0 Fewest dis = 56.5
+Shaw & Crompton to Whitefield | Shortest dis = 56.5 Fewest dis = 56.0
+Shaw & Crompton to New Islington | Shortest dis = 50.0 Fewest dis = 48.5
+Shaw & Crompton to Holt Town | Shortest dis = 52.0 Fewest dis = 50.5
+Shaw & Crompton to Etihad Campus | Shortest dis = 53.5 Fewest dis = 52.0
+Shaw & Crompton to Velopark | Shortest dis = 58.0 Fewest dis = 57.0
+Shaw & Crompton to Clayton Hall | Shortest dis = 62.0 Fewest dis = 61.0
+Shaw & Crompton to Edge Lane | Shortest dis = 64.5 Fewest dis = 63.5
+Shaw & Crompton to Cemetery Road | Shortest dis = 67.0 Fewest dis = 66.0
+Shaw & Crompton to Droylsden | Shortest dis = 69.0 Fewest dis = 68.0
+Shaw & Crompton to Audenshaw | Shortest dis = 72.0 Fewest dis = 71.0
+Shaw & Crompton to Ashton Moss | Shortest dis = 74.5 Fewest dis = 73.5
+Shaw & Crompton to Ashton West | Shortest dis = 77.5 Fewest dis = 76.5
+Shaw & Crompton to Ashton-under-Lyne | Shortest dis = 80.0 Fewest dis = 79.0
+Shaw & Crompton to East Didsbury | Shortest dis = 64.0 Fewest dis = 63.5
+Shaw & Crompton to Didsbury Village | Shortest dis = 63.0 Fewest dis = 62.5
+Shaw & Crompton to West Didsbury | Shortest dis = 61.0 Fewest dis = 60.5
+Shaw & Crompton to Burton Road | Shortest dis = 60.5 Fewest dis = 60.0
+Shaw & Crompton to Withington | Shortest dis = 59.5 Fewest dis = 59.0
+Shaw & Crompton to St Werburgh's Road | Shortest dis = 57.0 Fewest dis = 56.5
+Shaw & Crompton to Chorlton | Shortest dis = 55.5 Fewest dis = 55.0
+Shaw & Crompton to Firswood | Shortest dis = 54.0 Fewest dis = 53.5
+Shaw & Crompton to Manchester Airport | Shortest dis = 95.5 Fewest dis = 95.0
+Shaw & Crompton to Shadowmoss | Shortest dis = 92.0 Fewest dis = 91.5
+Shaw & Crompton to Peel Hall | Shortest dis = 90.0 Fewest dis = 89.5
+Shaw & Crompton to Robinswood Road | Shortest dis = 88.5 Fewest dis = 88.0
+Shaw & Crompton to Wythenshawe Town Centre | Shortest dis = 86.0 Fewest dis = 85.5
+Shaw & Crompton to Crossacres | Shortest dis = 83.5 Fewest dis = 83.0
+Shaw & Crompton to Benchill | Shortest dis = 82.0 Fewest dis = 81.5
+Shaw & Crompton to Martinscroft | Shortest dis = 78.5 Fewest dis = 78.0
+Shaw & Crompton to Roundthorn | Shortest dis = 76.5 Fewest dis = 76.0
+Shaw & Crompton to Baguley | Shortest dis = 75.0 Fewest dis = 74.5
+Shaw & Crompton to Moor Road | Shortest dis = 72.5 Fewest dis = 72.0
+Shaw & Crompton to Wythenshawe Park | Shortest dis = 70.5 Fewest dis = 70.0
+Shaw & Crompton to Northern Moor | Shortest dis = 68.0 Fewest dis = 67.5
+Shaw & Crompton to S Water Park | Shortest dis = 64.5 Fewest dis = 64.0
+Shaw & Crompton to Barlow Moor  Road | Shortest dis = 61.5 Fewest dis = 61.0
+Newhey to Whitefield | Shortest dis = 59.8 Fewest dis = 59.3
+Newhey to New Islington | Shortest dis = 53.3 Fewest dis = 51.8
+Newhey to Holt Town | Shortest dis = 55.3 Fewest dis = 53.8
+Newhey to Etihad Campus | Shortest dis = 56.8 Fewest dis = 55.3
+Newhey to Velopark | Shortest dis = 61.3 Fewest dis = 60.3
+Newhey to Clayton Hall | Shortest dis = 65.3 Fewest dis = 64.3
+Newhey to Edge Lane | Shortest dis = 67.8 Fewest dis = 66.8
+Newhey to Cemetery Road | Shortest dis = 70.3 Fewest dis = 69.3
+Newhey to Droylsden | Shortest dis = 72.3 Fewest dis = 71.3
+Newhey to Audenshaw | Shortest dis = 75.3 Fewest dis = 74.3
+Newhey to Ashton Moss | Shortest dis = 77.8 Fewest dis = 76.8
+Newhey to Ashton West | Shortest dis = 80.8 Fewest dis = 79.8
+Newhey to Ashton-under-Lyne | Shortest dis = 83.3 Fewest dis = 82.3
+Newhey to East Didsbury | Shortest dis = 67.3 Fewest dis = 66.8
+Newhey to Didsbury Village | Shortest dis = 66.3 Fewest dis = 65.8
+Newhey to West Didsbury | Shortest dis = 64.3 Fewest dis = 63.8
+Newhey to Burton Road | Shortest dis = 63.8 Fewest dis = 63.3
+Newhey to Withington | Shortest dis = 62.8 Fewest dis = 62.3
+Newhey to St Werburgh's Road | Shortest dis = 60.3 Fewest dis = 59.8
+Newhey to Chorlton | Shortest dis = 58.8 Fewest dis = 58.3
+Newhey to Firswood | Shortest dis = 57.3 Fewest dis = 56.8
+Newhey to Manchester Airport | Shortest dis = 98.8 Fewest dis = 98.3
+Newhey to Shadowmoss | Shortest dis = 95.3 Fewest dis = 94.8
+Newhey to Peel Hall | Shortest dis = 93.3 Fewest dis = 92.8
+Newhey to Robinswood Road | Shortest dis = 91.8 Fewest dis = 91.3
+Newhey to Wythenshawe Town Centre | Shortest dis = 89.3 Fewest dis = 88.8
+Newhey to Crossacres | Shortest dis = 86.8 Fewest dis = 86.3
+Newhey to Benchill | Shortest dis = 85.3 Fewest dis = 84.8
+Newhey to Martinscroft | Shortest dis = 81.8 Fewest dis = 81.3
+Newhey to Roundthorn | Shortest dis = 79.8 Fewest dis = 79.3
+Newhey to Baguley | Shortest dis = 78.3 Fewest dis = 77.8
+Newhey to Moor Road | Shortest dis = 75.8 Fewest dis = 75.3
+Newhey to Wythenshawe Park | Shortest dis = 73.8 Fewest dis = 73.3
+Newhey to Northern Moor | Shortest dis = 71.3 Fewest dis = 70.8
+Newhey to S Water Park | Shortest dis = 67.8 Fewest dis = 67.3
+Newhey to Barlow Moor  Road | Shortest dis = 64.8 Fewest dis = 64.3
+Milnrow to Whitefield | Shortest dis = 61.8 Fewest dis = 61.3
+Milnrow to New Islington | Shortest dis = 55.3 Fewest dis = 53.8
+Milnrow to Holt Town | Shortest dis = 57.3 Fewest dis = 55.8
+Milnrow to Etihad Campus | Shortest dis = 58.8 Fewest dis = 57.3
+Milnrow to Velopark | Shortest dis = 63.3 Fewest dis = 62.3
+Milnrow to Clayton Hall | Shortest dis = 67.3 Fewest dis = 66.3
+Milnrow to Edge Lane | Shortest dis = 69.8 Fewest dis = 68.8
+Milnrow to Cemetery Road | Shortest dis = 72.3 Fewest dis = 71.3
+Milnrow to Droylsden | Shortest dis = 74.3 Fewest dis = 73.3
+Milnrow to Audenshaw | Shortest dis = 77.3 Fewest dis = 76.3
+Milnrow to Ashton Moss | Shortest dis = 79.8 Fewest dis = 78.8
+Milnrow to Ashton West | Shortest dis = 82.8 Fewest dis = 81.8
+Milnrow to Ashton-under-Lyne | Shortest dis = 85.3 Fewest dis = 84.3
+Milnrow to East Didsbury | Shortest dis = 69.3 Fewest dis = 68.8
+Milnrow to Didsbury Village | Shortest dis = 68.3 Fewest dis = 67.8
+Milnrow to West Didsbury | Shortest dis = 66.3 Fewest dis = 65.8
+Milnrow to Burton Road | Shortest dis = 65.8 Fewest dis = 65.3
+Milnrow to Withington | Shortest dis = 64.8 Fewest dis = 64.3
+Milnrow to St Werburgh's Road | Shortest dis = 62.3 Fewest dis = 61.8
+Milnrow to Chorlton | Shortest dis = 60.8 Fewest dis = 60.3
+Milnrow to Firswood | Shortest dis = 59.3 Fewest dis = 58.8
+Milnrow to Manchester Airport | Shortest dis = 100.8 Fewest dis = 100.3
+Milnrow to Shadowmoss | Shortest dis = 97.3 Fewest dis = 96.8
+Milnrow to Peel Hall | Shortest dis = 95.3 Fewest dis = 94.8
+Milnrow to Robinswood Road | Shortest dis = 93.8 Fewest dis = 93.3
+Milnrow to Wythenshawe Town Centre | Shortest dis = 91.3 Fewest dis = 90.8
+Milnrow to Crossacres | Shortest dis = 88.8 Fewest dis = 88.3
+Milnrow to Benchill | Shortest dis = 87.3 Fewest dis = 86.8
+Milnrow to Martinscroft | Shortest dis = 83.8 Fewest dis = 83.3
+Milnrow to Roundthorn | Shortest dis = 81.8 Fewest dis = 81.3
+Milnrow to Baguley | Shortest dis = 80.3 Fewest dis = 79.8
+Milnrow to Moor Road | Shortest dis = 77.8 Fewest dis = 77.3
+Milnrow to Wythenshawe Park | Shortest dis = 75.8 Fewest dis = 75.3
+Milnrow to Northern Moor | Shortest dis = 73.3 Fewest dis = 72.8
+Milnrow to S Water Park | Shortest dis = 69.8 Fewest dis = 69.3
+Milnrow to Barlow Moor  Road | Shortest dis = 66.8 Fewest dis = 66.3
+Kingsway to Whitefield | Shortest dis = 63.3 Fewest dis = 62.8
+Kingsway to New Islington | Shortest dis = 56.8 Fewest dis = 55.3
+Kingsway to Holt Town | Shortest dis = 58.8 Fewest dis = 57.3
+Kingsway to Etihad Campus | Shortest dis = 60.3 Fewest dis = 58.8
+Kingsway to Velopark | Shortest dis = 64.8 Fewest dis = 63.8
+Kingsway to Clayton Hall | Shortest dis = 68.8 Fewest dis = 67.8
+Kingsway to Edge Lane | Shortest dis = 71.3 Fewest dis = 70.3
+Kingsway to Cemetery Road | Shortest dis = 73.8 Fewest dis = 72.8
+Kingsway to Droylsden | Shortest dis = 75.8 Fewest dis = 74.8
+Kingsway to Audenshaw | Shortest dis = 78.8 Fewest dis = 77.8
+Kingsway to Ashton Moss | Shortest dis = 81.3 Fewest dis = 80.3
+Kingsway to Ashton West | Shortest dis = 84.3 Fewest dis = 83.3
+Kingsway to Ashton-under-Lyne | Shortest dis = 86.8 Fewest dis = 85.8
+Kingsway to East Didsbury | Shortest dis = 70.8 Fewest dis = 70.3
+Kingsway to Didsbury Village | Shortest dis = 69.8 Fewest dis = 69.3
+Kingsway to West Didsbury | Shortest dis = 67.8 Fewest dis = 67.3
+Kingsway to Burton Road | Shortest dis = 67.3 Fewest dis = 66.8
+Kingsway to Withington | Shortest dis = 66.3 Fewest dis = 65.8
+Kingsway to St Werburgh's Road | Shortest dis = 63.8 Fewest dis = 63.3
+Kingsway to Chorlton | Shortest dis = 62.3 Fewest dis = 61.8
+Kingsway to Firswood | Shortest dis = 60.8 Fewest dis = 60.3
+Kingsway to Manchester Airport | Shortest dis = 102.3 Fewest dis = 101.8
+Kingsway to Shadowmoss | Shortest dis = 98.8 Fewest dis = 98.3
+Kingsway to Peel Hall | Shortest dis = 96.8 Fewest dis = 96.3
+Kingsway to Robinswood Road | Shortest dis = 95.3 Fewest dis = 94.8
+Kingsway to Wythenshawe Town Centre | Shortest dis = 92.8 Fewest dis = 92.3
+Kingsway to Crossacres | Shortest dis = 90.3 Fewest dis = 89.8
+Kingsway to Benchill | Shortest dis = 88.8 Fewest dis = 88.3
+Kingsway to Martinscroft | Shortest dis = 85.3 Fewest dis = 84.8
+Kingsway to Roundthorn | Shortest dis = 83.3 Fewest dis = 82.8
+Kingsway to Baguley | Shortest dis = 81.8 Fewest dis = 81.3
+Kingsway to Moor Road | Shortest dis = 79.3 Fewest dis = 78.8
+Kingsway to Wythenshawe Park | Shortest dis = 77.3 Fewest dis = 76.8
+Kingsway to Northern Moor | Shortest dis = 74.8 Fewest dis = 74.3
+Kingsway to S Water Park | Shortest dis = 71.3 Fewest dis = 70.8
+Kingsway to Barlow Moor  Road | Shortest dis = 68.3 Fewest dis = 67.8
+Newbold to Whitefield | Shortest dis = 65.3 Fewest dis = 64.8
+Newbold to New Islington | Shortest dis = 58.8 Fewest dis = 57.3
+Newbold to Holt Town | Shortest dis = 60.8 Fewest dis = 59.3
+Newbold to Etihad Campus | Shortest dis = 62.3 Fewest dis = 60.8
+Newbold to Velopark | Shortest dis = 66.8 Fewest dis = 65.8
+Newbold to Clayton Hall | Shortest dis = 70.8 Fewest dis = 69.8
+Newbold to Edge Lane | Shortest dis = 73.3 Fewest dis = 72.3
+Newbold to Cemetery Road | Shortest dis = 75.8 Fewest dis = 74.8
+Newbold to Droylsden | Shortest dis = 77.8 Fewest dis = 76.8
+Newbold to Audenshaw | Shortest dis = 80.8 Fewest dis = 79.8
+Newbold to Ashton Moss | Shortest dis = 83.3 Fewest dis = 82.3
+Newbold to Ashton West | Shortest dis = 86.3 Fewest dis = 85.3
+Newbold to Ashton-under-Lyne | Shortest dis = 88.8 Fewest dis = 87.8
+Newbold to East Didsbury | Shortest dis = 72.8 Fewest dis = 72.3
+Newbold to Didsbury Village | Shortest dis = 71.8 Fewest dis = 71.3
+Newbold to West Didsbury | Shortest dis = 69.8 Fewest dis = 69.3
+Newbold to Burton Road | Shortest dis = 69.3 Fewest dis = 68.8
+Newbold to Withington | Shortest dis = 68.3 Fewest dis = 67.8
+Newbold to St Werburgh's Road | Shortest dis = 65.8 Fewest dis = 65.3
+Newbold to Chorlton | Shortest dis = 64.3 Fewest dis = 63.8
+Newbold to Firswood | Shortest dis = 62.8 Fewest dis = 62.3
+Newbold to Manchester Airport | Shortest dis = 104.3 Fewest dis = 103.8
+Newbold to Shadowmoss | Shortest dis = 100.8 Fewest dis = 100.3
+Newbold to Peel Hall | Shortest dis = 98.8 Fewest dis = 98.3
+Newbold to Robinswood Road | Shortest dis = 97.3 Fewest dis = 96.8
+Newbold to Wythenshawe Town Centre | Shortest dis = 94.8 Fewest dis = 94.3
+Newbold to Crossacres | Shortest dis = 92.3 Fewest dis = 91.8
+Newbold to Benchill | Shortest dis = 90.8 Fewest dis = 90.3
+Newbold to Martinscroft | Shortest dis = 87.3 Fewest dis = 86.8
+Newbold to Roundthorn | Shortest dis = 85.3 Fewest dis = 84.8
+Newbold to Baguley | Shortest dis = 83.8 Fewest dis = 83.3
+Newbold to Moor Road | Shortest dis = 81.3 Fewest dis = 80.8
+Newbold to Wythenshawe Park | Shortest dis = 79.3 Fewest dis = 78.8
+Newbold to Northern Moor | Shortest dis = 76.8 Fewest dis = 76.3
+Newbold to S Water Park | Shortest dis = 73.3 Fewest dis = 72.8
+Newbold to Barlow Moor  Road | Shortest dis = 70.3 Fewest dis = 69.8
+Rochdale Station to Whitefield | Shortest dis = 69.3 Fewest dis = 68.8
+Rochdale Station to New Islington | Shortest dis = 62.8 Fewest dis = 61.3
+Rochdale Station to Holt Town | Shortest dis = 64.8 Fewest dis = 63.3
+Rochdale Station to Etihad Campus | Shortest dis = 66.3 Fewest dis = 64.8
+Rochdale Station to Velopark | Shortest dis = 70.8 Fewest dis = 69.8
+Rochdale Station to Clayton Hall | Shortest dis = 74.8 Fewest dis = 73.8
+Rochdale Station to Edge Lane | Shortest dis = 77.3 Fewest dis = 76.3
+Rochdale Station to Cemetery Road | Shortest dis = 79.8 Fewest dis = 78.8
+Rochdale Station to Droylsden | Shortest dis = 81.8 Fewest dis = 80.8
+Rochdale Station to Audenshaw | Shortest dis = 84.8 Fewest dis = 83.8
+Rochdale Station to Ashton Moss | Shortest dis = 87.3 Fewest dis = 86.3
+Rochdale Station to Ashton West | Shortest dis = 90.3 Fewest dis = 89.3
+Rochdale Station to Ashton-under-Lyne | Shortest dis = 92.8 Fewest dis = 91.8
+Rochdale Station to East Didsbury | Shortest dis = 76.8 Fewest dis = 76.3
+Rochdale Station to Didsbury Village | Shortest dis = 75.8 Fewest dis = 75.3
+Rochdale Station to West Didsbury | Shortest dis = 73.8 Fewest dis = 73.3
+Rochdale Station to Burton Road | Shortest dis = 73.3 Fewest dis = 72.8
+Rochdale Station to Withington | Shortest dis = 72.3 Fewest dis = 71.8
+Rochdale Station to St Werburgh's Road | Shortest dis = 69.8 Fewest dis = 69.3
+Rochdale Station to Chorlton | Shortest dis = 68.3 Fewest dis = 67.8
+Rochdale Station to Firswood | Shortest dis = 66.8 Fewest dis = 66.3
+Rochdale Station to Manchester Airport | Shortest dis = 108.3 Fewest dis = 107.8
+Rochdale Station to Shadowmoss | Shortest dis = 104.8 Fewest dis = 104.3
+Rochdale Station to Peel Hall | Shortest dis = 102.8 Fewest dis = 102.3
+Rochdale Station to Robinswood Road | Shortest dis = 101.3 Fewest dis = 100.8
+Rochdale Station to Wythenshawe Town Centre | Shortest dis = 98.8 Fewest dis = 98.3
+Rochdale Station to Crossacres | Shortest dis = 96.3 Fewest dis = 95.8
+Rochdale Station to Benchill | Shortest dis = 94.8 Fewest dis = 94.3
+Rochdale Station to Martinscroft | Shortest dis = 91.3 Fewest dis = 90.8
+Rochdale Station to Roundthorn | Shortest dis = 89.3 Fewest dis = 88.8
+Rochdale Station to Baguley | Shortest dis = 87.8 Fewest dis = 87.3
+Rochdale Station to Moor Road | Shortest dis = 85.3 Fewest dis = 84.8
+Rochdale Station to Wythenshawe Park | Shortest dis = 83.3 Fewest dis = 82.8
+Rochdale Station to Northern Moor | Shortest dis = 80.8 Fewest dis = 80.3
+Rochdale Station to S Water Park | Shortest dis = 77.3 Fewest dis = 76.8
+Rochdale Station to Barlow Moor  Road | Shortest dis = 74.3 Fewest dis = 73.8
+Rochdale Town Centre to Whitefield | Shortest dis = 72.3 Fewest dis = 71.8
+Rochdale Town Centre to New Islington | Shortest dis = 65.8 Fewest dis = 64.3
+Rochdale Town Centre to Holt Town | Shortest dis = 67.8 Fewest dis = 66.3
+Rochdale Town Centre to Etihad Campus | Shortest dis = 69.3 Fewest dis = 67.8
+Rochdale Town Centre to Velopark | Shortest dis = 73.8 Fewest dis = 72.8
+Rochdale Town Centre to Clayton Hall | Shortest dis = 77.8 Fewest dis = 76.8
+Rochdale Town Centre to Edge Lane | Shortest dis = 80.3 Fewest dis = 79.3
+Rochdale Town Centre to Cemetery Road | Shortest dis = 82.8 Fewest dis = 81.8
+Rochdale Town Centre to Droylsden | Shortest dis = 84.8 Fewest dis = 83.8
+Rochdale Town Centre to Audenshaw | Shortest dis = 87.8 Fewest dis = 86.8
+Rochdale Town Centre to Ashton Moss | Shortest dis = 90.3 Fewest dis = 89.3
+Rochdale Town Centre to Ashton West | Shortest dis = 93.3 Fewest dis = 92.3
+Rochdale Town Centre to Ashton-under-Lyne | Shortest dis = 95.8 Fewest dis = 94.8
+Rochdale Town Centre to East Didsbury | Shortest dis = 79.8 Fewest dis = 79.3
+Rochdale Town Centre to Didsbury Village | Shortest dis = 78.8 Fewest dis = 78.3
+Rochdale Town Centre to West Didsbury | Shortest dis = 76.8 Fewest dis = 76.3
+Rochdale Town Centre to Burton Road | Shortest dis = 76.3 Fewest dis = 75.8
+Rochdale Town Centre to Withington | Shortest dis = 75.3 Fewest dis = 74.8
+Rochdale Town Centre to St Werburgh's Road | Shortest dis = 72.8 Fewest dis = 72.3
+Rochdale Town Centre to Chorlton | Shortest dis = 71.3 Fewest dis = 70.8
+Rochdale Town Centre to Firswood | Shortest dis = 69.8 Fewest dis = 69.3
+Rochdale Town Centre to Manchester Airport | Shortest dis = 111.3 Fewest dis = 110.8
+Rochdale Town Centre to Shadowmoss | Shortest dis = 107.8 Fewest dis = 107.3
+Rochdale Town Centre to Peel Hall | Shortest dis = 105.8 Fewest dis = 105.3
+Rochdale Town Centre to Robinswood Road | Shortest dis = 104.3 Fewest dis = 103.8
+Rochdale Town Centre to Wythenshawe Town Centre | Shortest dis = 101.8 Fewest dis = 101.3
+Rochdale Town Centre to Crossacres | Shortest dis = 99.3 Fewest dis = 98.8
+Rochdale Town Centre to Benchill | Shortest dis = 97.8 Fewest dis = 97.3
+Rochdale Town Centre to Martinscroft | Shortest dis = 94.3 Fewest dis = 93.8
+Rochdale Town Centre to Roundthorn | Shortest dis = 92.3 Fewest dis = 91.8
+Rochdale Town Centre to Baguley | Shortest dis = 90.8 Fewest dis = 90.3
+Rochdale Town Centre to Moor Road | Shortest dis = 88.3 Fewest dis = 87.8
+Rochdale Town Centre to Wythenshawe Park | Shortest dis = 86.3 Fewest dis = 85.8
+Rochdale Town Centre to Northern Moor | Shortest dis = 83.8 Fewest dis = 83.3
+Rochdale Town Centre to S Water Park | Shortest dis = 80.3 Fewest dis = 79.8
+Rochdale Town Centre to Barlow Moor  Road | Shortest dis = 77.3 Fewest dis = 76.8
+Manchester Airport to Shudehill | Shortest dis = 59.0 Fewest dis = 58.5
+Manchester Airport to Market Street | Shortest dis = 56.5 Fewest dis = 56.0
+Shadowmoss to Shudehill | Shortest dis = 55.5 Fewest dis = 55.0
+Shadowmoss to Market Street | Shortest dis = 53.0 Fewest dis = 52.5
+Peel Hall to Shudehill | Shortest dis = 53.5 Fewest dis = 53.0
+Peel Hall to Market Street | Shortest dis = 51.0 Fewest dis = 50.5
+Robinswood Road to Shudehill | Shortest dis = 52.0 Fewest dis = 51.5
+Robinswood Road to Market Street | Shortest dis = 49.5 Fewest dis = 49.0
+Wythenshawe Town Centre to Shudehill | Shortest dis = 49.5 Fewest dis = 49.0
+Wythenshawe Town Centre to Market Street | Shortest dis = 47.0 Fewest dis = 46.5
+Crossacres to Shudehill | Shortest dis = 47.0 Fewest dis = 46.5
+Crossacres to Market Street | Shortest dis = 44.5 Fewest dis = 44.0
+Benchill to Shudehill | Shortest dis = 45.5 Fewest dis = 45.0
+Benchill to Market Street | Shortest dis = 43.0 Fewest dis = 42.5
+Martinscroft to Shudehill | Shortest dis = 42.0 Fewest dis = 41.5
+Martinscroft to Market Street | Shortest dis = 39.5 Fewest dis = 39.0
+Roundthorn to Shudehill | Shortest dis = 40.0 Fewest dis = 39.5
+Roundthorn to Market Street | Shortest dis = 37.5 Fewest dis = 37.0
+Baguley to Shudehill | Shortest dis = 38.5 Fewest dis = 38.0
+Baguley to Market Street | Shortest dis = 36.0 Fewest dis = 35.5
+Moor Road to Shudehill | Shortest dis = 36.0 Fewest dis = 35.5
+Moor Road to Market Street | Shortest dis = 33.5 Fewest dis = 33.0
+Wythenshawe Park to Shudehill | Shortest dis = 34.0 Fewest dis = 33.5
+Wythenshawe Park to Market Street | Shortest dis = 31.5 Fewest dis = 31.0
+Northern Moor to Shudehill | Shortest dis = 31.5 Fewest dis = 31.0
+Northern Moor to Market Street | Shortest dis = 29.0 Fewest dis = 28.5
+S Water Park to Shudehill | Shortest dis = 28.0 Fewest dis = 27.5
+S Water Park to Market Street | Shortest dis = 25.5 Fewest dis = 25.0
+Barlow Moor  Road to Shudehill | Shortest dis = 25.0 Fewest dis = 24.5
+Barlow Moor  Road to Market Street | Shortest dis = 22.5 Fewest dis = 22.0
+Trafford Centre to East Didsbury | Shortest dis = 31.0 Fewest dis = 29.0
+Trafford Centre to Didsbury Village | Shortest dis = 30.0 Fewest dis = 28.0
+Trafford Centre to West Didsbury | Shortest dis = 28.0 Fewest dis = 26.0
+Trafford Centre to Burton Road | Shortest dis = 27.5 Fewest dis = 25.5
+Trafford Centre to Withington | Shortest dis = 26.5 Fewest dis = 24.5
+Trafford Centre to St Werburgh's Road | Shortest dis = 24.0 Fewest dis = 22.0
+Trafford Centre to Chorlton | Shortest dis = 22.5 Fewest dis = 20.5
+Trafford Centre to Firswood | Shortest dis = 21.0 Fewest dis = 19.0
+Trafford Centre to Manchester Airport | Shortest dis = 62.5 Fewest dis = 58.5
+Trafford Centre to Shadowmoss | Shortest dis = 59.0 Fewest dis = 55.0
+Trafford Centre to Peel Hall | Shortest dis = 57.0 Fewest dis = 53.0
+Trafford Centre to Robinswood Road | Shortest dis = 55.5 Fewest dis = 51.5
+Trafford Centre to Wythenshawe Town Centre | Shortest dis = 53.0 Fewest dis = 49.0
+Trafford Centre to Crossacres | Shortest dis = 50.5 Fewest dis = 46.5
+Trafford Centre to Benchill | Shortest dis = 49.0 Fewest dis = 45.0
+Trafford Centre to Martinscroft | Shortest dis = 45.5 Fewest dis = 41.5
+Trafford Centre to Roundthorn | Shortest dis = 43.5 Fewest dis = 39.5
+Trafford Centre to Baguley | Shortest dis = 42.0 Fewest dis = 38.0
+Trafford Centre to Moor Road | Shortest dis = 39.5 Fewest dis = 35.5
+Trafford Centre to Wythenshawe Park | Shortest dis = 37.5 Fewest dis = 33.5
+Trafford Centre to Northern Moor | Shortest dis = 35.0 Fewest dis = 31.0
+Trafford Centre to S Water Park | Shortest dis = 31.5 Fewest dis = 27.5
+Trafford Centre to Barlow Moor  Road | Shortest dis = 28.5 Fewest dis = 24.5
+Barton Road to East Didsbury | Shortest dis = 30.0 Fewest dis = 28.0
+Barton Road to Didsbury Village | Shortest dis = 29.0 Fewest dis = 27.0
+Barton Road to West Didsbury | Shortest dis = 27.0 Fewest dis = 25.0
+Barton Road to Burton Road | Shortest dis = 26.5 Fewest dis = 24.5
+Barton Road to Withington | Shortest dis = 25.5 Fewest dis = 23.5
+Barton Road to St Werburgh's Road | Shortest dis = 23.0 Fewest dis = 21.0
+Barton Road to Chorlton | Shortest dis = 21.5 Fewest dis = 19.5
+Barton Road to Firswood | Shortest dis = 20.0 Fewest dis = 18.0
+Barton Road to Manchester Airport | Shortest dis = 61.5 Fewest dis = 57.5
+Barton Road to Shadowmoss | Shortest dis = 58.0 Fewest dis = 54.0
+Barton Road to Peel Hall | Shortest dis = 56.0 Fewest dis = 52.0
+Barton Road to Robinswood Road | Shortest dis = 54.5 Fewest dis = 50.5
+Barton Road to Wythenshawe Town Centre | Shortest dis = 52.0 Fewest dis = 48.0
+Barton Road to Crossacres | Shortest dis = 49.5 Fewest dis = 45.5
+Barton Road to Benchill | Shortest dis = 48.0 Fewest dis = 44.0
+Barton Road to Martinscroft | Shortest dis = 44.5 Fewest dis = 40.5
+Barton Road to Roundthorn | Shortest dis = 42.5 Fewest dis = 38.5
+Barton Road to Baguley | Shortest dis = 41.0 Fewest dis = 37.0
+Barton Road to Moor Road | Shortest dis = 38.5 Fewest dis = 34.5
+Barton Road to Wythenshawe Park | Shortest dis = 36.5 Fewest dis = 32.5
+Barton Road to Northern Moor | Shortest dis = 34.0 Fewest dis = 30.0
+Barton Road to S Water Park | Shortest dis = 30.5 Fewest dis = 26.5
+Barton Road to Barlow Moor  Road | Shortest dis = 27.5 Fewest dis = 23.5
+Parkway to East Didsbury | Shortest dis = 28.5 Fewest dis = 26.5
+Parkway to Didsbury Village | Shortest dis = 27.5 Fewest dis = 25.5
+Parkway to West Didsbury | Shortest dis = 25.5 Fewest dis = 23.5
+Parkway to Burton Road | Shortest dis = 25.0 Fewest dis = 23.0
+Parkway to Withington | Shortest dis = 24.0 Fewest dis = 22.0
+Parkway to St Werburgh's Road | Shortest dis = 21.5 Fewest dis = 19.5
+Parkway to Chorlton | Shortest dis = 20.0 Fewest dis = 18.0
+Parkway to Firswood | Shortest dis = 18.5 Fewest dis = 16.5
+Parkway to Manchester Airport | Shortest dis = 60.0 Fewest dis = 56.0
+Parkway to Shadowmoss | Shortest dis = 56.5 Fewest dis = 52.5
+Parkway to Peel Hall | Shortest dis = 54.5 Fewest dis = 50.5
+Parkway to Robinswood Road | Shortest dis = 53.0 Fewest dis = 49.0
+Parkway to Wythenshawe Town Centre | Shortest dis = 50.5 Fewest dis = 46.5
+Parkway to Crossacres | Shortest dis = 48.0 Fewest dis = 44.0
+Parkway to Benchill | Shortest dis = 46.5 Fewest dis = 42.5
+Parkway to Martinscroft | Shortest dis = 43.0 Fewest dis = 39.0
+Parkway to Roundthorn | Shortest dis = 41.0 Fewest dis = 37.0
+Parkway to Baguley | Shortest dis = 39.5 Fewest dis = 35.5
+Parkway to Moor Road | Shortest dis = 37.0 Fewest dis = 33.0
+Parkway to Wythenshawe Park | Shortest dis = 35.0 Fewest dis = 31.0
+Parkway to Northern Moor | Shortest dis = 32.5 Fewest dis = 28.5
+Parkway to S Water Park | Shortest dis = 29.0 Fewest dis = 25.0
+Parkway to Barlow Moor  Road | Shortest dis = 26.0 Fewest dis = 22.0
+Village to East Didsbury | Shortest dis = 27.0 Fewest dis = 25.0
+Village to Didsbury Village | Shortest dis = 26.0 Fewest dis = 24.0
+Village to West Didsbury | Shortest dis = 24.0 Fewest dis = 22.0
+Village to Burton Road | Shortest dis = 23.5 Fewest dis = 21.5
+Village to Withington | Shortest dis = 22.5 Fewest dis = 20.5
+Village to St Werburgh's Road | Shortest dis = 20.0 Fewest dis = 18.0
+Village to Chorlton | Shortest dis = 18.5 Fewest dis = 16.5
+Village to Firswood | Shortest dis = 17.0 Fewest dis = 15.0
+Village to Manchester Airport | Shortest dis = 58.5 Fewest dis = 54.5
+Village to Shadowmoss | Shortest dis = 55.0 Fewest dis = 51.0
+Village to Peel Hall | Shortest dis = 53.0 Fewest dis = 49.0
+Village to Robinswood Road | Shortest dis = 51.5 Fewest dis = 47.5
+Village to Wythenshawe Town Centre | Shortest dis = 49.0 Fewest dis = 45.0
+Village to Crossacres | Shortest dis = 46.5 Fewest dis = 42.5
+Village to Benchill | Shortest dis = 45.0 Fewest dis = 41.0
+Village to Martinscroft | Shortest dis = 41.5 Fewest dis = 37.5
+Village to Roundthorn | Shortest dis = 39.5 Fewest dis = 35.5
+Village to Baguley | Shortest dis = 38.0 Fewest dis = 34.0
+Village to Moor Road | Shortest dis = 35.5 Fewest dis = 31.5
+Village to Wythenshawe Park | Shortest dis = 33.5 Fewest dis = 29.5
+Village to Northern Moor | Shortest dis = 31.0 Fewest dis = 27.0
+Village to S Water Park | Shortest dis = 27.5 Fewest dis = 23.5
+Village to Barlow Moor  Road | Shortest dis = 24.5 Fewest dis = 20.5
+Imperial War Museum to East Didsbury | Shortest dis = 25.0 Fewest dis = 23.0
+Imperial War Museum to Didsbury Village | Shortest dis = 24.0 Fewest dis = 22.0
+Imperial War Museum to West Didsbury | Shortest dis = 22.0 Fewest dis = 20.0
+Imperial War Museum to Burton Road | Shortest dis = 21.5 Fewest dis = 19.5
+Imperial War Museum to Withington | Shortest dis = 20.5 Fewest dis = 18.5
+Imperial War Museum to St Werburgh's Road | Shortest dis = 18.0 Fewest dis = 16.0
+Imperial War Museum to Chorlton | Shortest dis = 16.5 Fewest dis = 14.5
+Imperial War Museum to Firswood | Shortest dis = 15.0 Fewest dis = 13.0
+Imperial War Museum to Manchester Airport | Shortest dis = 56.5 Fewest dis = 52.5
+Imperial War Museum to Shadowmoss | Shortest dis = 53.0 Fewest dis = 49.0
+Imperial War Museum to Peel Hall | Shortest dis = 51.0 Fewest dis = 47.0
+Imperial War Museum to Robinswood Road | Shortest dis = 49.5 Fewest dis = 45.5
+Imperial War Museum to Wythenshawe Town Centre | Shortest dis = 47.0 Fewest dis = 43.0
+Imperial War Museum to Crossacres | Shortest dis = 44.5 Fewest dis = 40.5
+Imperial War Museum to Benchill | Shortest dis = 43.0 Fewest dis = 39.0
+Imperial War Museum to Martinscroft | Shortest dis = 39.5 Fewest dis = 35.5
+Imperial War Museum to Roundthorn | Shortest dis = 37.5 Fewest dis = 33.5
+Imperial War Museum to Baguley | Shortest dis = 36.0 Fewest dis = 32.0
+Imperial War Museum to Moor Road | Shortest dis = 33.5 Fewest dis = 29.5
+Imperial War Museum to Wythenshawe Park | Shortest dis = 31.5 Fewest dis = 27.5
+Imperial War Museum to Northern Moor | Shortest dis = 29.0 Fewest dis = 25.0
+Imperial War Museum to S Water Park | Shortest dis = 25.5 Fewest dis = 21.5
+Imperial War Museum to Barlow Moor  Road | Shortest dis = 22.5 Fewest dis = 18.5
+Wharfside to East Didsbury | Shortest dis = 23.5 Fewest dis = 21.5
+Wharfside to Didsbury Village | Shortest dis = 22.5 Fewest dis = 20.5
+Wharfside to West Didsbury | Shortest dis = 20.5 Fewest dis = 18.5
+Wharfside to Burton Road | Shortest dis = 20.0 Fewest dis = 18.0
+Wharfside to Withington | Shortest dis = 19.0 Fewest dis = 17.0
+Wharfside to St Werburgh's Road | Shortest dis = 16.5 Fewest dis = 14.5
+Wharfside to Chorlton | Shortest dis = 15.0 Fewest dis = 13.0
+Wharfside to Firswood | Shortest dis = 13.5 Fewest dis = 11.5
+Wharfside to Manchester Airport | Shortest dis = 55.0 Fewest dis = 51.0
+Wharfside to Shadowmoss | Shortest dis = 51.5 Fewest dis = 47.5
+Wharfside to Peel Hall | Shortest dis = 49.5 Fewest dis = 45.5
+Wharfside to Robinswood Road | Shortest dis = 48.0 Fewest dis = 44.0
+Wharfside to Wythenshawe Town Centre | Shortest dis = 45.5 Fewest dis = 41.5
+Wharfside to Crossacres | Shortest dis = 43.0 Fewest dis = 39.0
+Wharfside to Benchill | Shortest dis = 41.5 Fewest dis = 37.5
+Wharfside to Martinscroft | Shortest dis = 38.0 Fewest dis = 34.0
+Wharfside to Roundthorn | Shortest dis = 36.0 Fewest dis = 32.0
+Wharfside to Baguley | Shortest dis = 34.5 Fewest dis = 30.5
+Wharfside to Moor Road | Shortest dis = 32.0 Fewest dis = 28.0
+Wharfside to Wythenshawe Park | Shortest dis = 30.0 Fewest dis = 26.0
+Wharfside to Northern Moor | Shortest dis = 27.5 Fewest dis = 23.5
+Wharfside to S Water Park | Shortest dis = 24.0 Fewest dis = 20.0
+Wharfside to Barlow Moor  Road | Shortest dis = 21.0 Fewest dis = 17.0

@@ -1,0 +1,498 @@
+This txt is the Document of the software that give a overview of each function with the dependencies between functions and variables.
+
+# Summer_Project
+
+run the command in Java_code directory
+
+compile java file:
+javac -d ../Java_execute *.java
+
+execute the program:
+java -cp ../Java_execute Main
+
+How to use the program:
+!!! For all textbox input, must press ENTER after typing, to verify the input !!!
+
+1. run the program.
+2. click the graph_visualisation button to generate a good graph layout
+
+3. path_finding: 
+    1. click the PATH_FINDING button
+    2. enter the source station name and press ENTER
+    3. enter the end station name and press ENTER
+    4. if both inputs are valid, the three mode buttons will enable
+    5. click the path mode you want (Shortest, Fewest Colour change, Walking)
+    6. click the Start_Processing button
+    7. when the animation and text massage finished, click the Result button
+    8. click the Result Path button
+    9. when the animation and text massage finished, click the Back Home button
+4. delay_update:
+    1. click the UPDATE_DELAY button
+    2. enter the source station name and press ENTER (onlu u to v where u and v are adjacency station)
+    3. the textbox will show all the edges from source to other adjacency station
+    4. enter the end station name and press ENTER
+    5. enter the colour of the edge and press ENTER
+    6. the delay textbox will unlock
+    7. remove the word, enter the delay and press ENTER(New time = original time + delay)
+    8. the Update Delay button will unlock, click to update change
+    9. the textbox will show the original time and the new time
+    10. click the Update successfully button to back Home
+5. closure_update:
+    1. click the UPDATE_CLOSURE button
+    2. enter the target station name and press ENTER
+    3. the label will show the Current State
+    4. click the update button to change the closure state(if current == open, update to closed; if current == closed, update to open)
+    5. the label will show the new Current State
+    6. click the Back Home button
+6. graph_visualisation:
+    1. click the graph_visualisation button and watch the animation of generating new graph layout
+
+Class list{
+    // to run the program
+    Main.java(Contain graph, reader, window)
+
+    // to construct the graph, and perform operations on the graph
+    graph.java(Contain window, graph_visualisation)
+
+    // to read the data from the csv files and input to the graph
+    reader.java(Contain graph)
+
+    // to construct and provide the GUI, also to call graph's operations with inputs
+    window.java(Contain graph, graph_visualisation)
+
+    // to visual the graph on the GUI with some visualisation effect
+    graph_visualisation.java(Contain graph)
+}
+
+Main{
+    // to initialise and setup all the classes, also provide a CUI version of the program
+
+    variable:
+    private reader my_Reader;
+    private graph my_Graph;
+    private window my_Window;
+    private Scanner my_Scanner;
+    private final String line_colour[];
+    private final int MAX_COLOUR;
+
+    functions:
+    public static void main(String[] args);
+    private void running(); // the menu of the program
+    private void path_finding(); // for user to enter inputs to perform path_finding operations on graph 
+    private void update_delay(); // for user to update delay
+    private void update_closure(); // for user to update closure
+
+    ancillary functions:
+    private boolean validation_int(String input, int from, int to); // ensure the user input is valid
+    private boolean validation_double(String input); // ensure the user input is valid
+
+    Main();
+    // setup everything
+}
+
+graph{
+    // include mainly two part: graph construction and graph operation
+
+    ancillary class(actually is struct){
+        public class edge{
+            // to store the information of the connection between station
+            int colour;
+            double distance;
+        };
+        public class station{
+            // to store the information of the station
+            String name;
+            boolean closure;
+            boolean removed;
+        };
+        public class travel_node{
+            // to store info when operating path_finding Dijkstra_Algorithms
+            int index;
+            double cumulative_distance;
+            edge line;
+            travel_node from;
+        };
+        private class resulting_state{
+            // to store info when performing visualisation of path_finding processing and resulting
+            int current_colour;
+            int total_change;
+            double total_distance;
+        };
+        public class Node_Comparator implements Comparator<travel_node>; // Comparator for PriorityQueue
+    }
+
+    // graph construction, to construct the graph(stations and edges between stations) by getting date from reader.java
+    // each station have a corresponding int index(like the second name of the station), this help the program to easily access the station or edge by array lookup
+    // each edge have colour(the line colour) and distance(the time cost via this edge), all edges store in the matrix(2d array)
+    
+    variables:
+    // the 2d array store the whole undirected graph, matrix[a][b] store a ArrayList of edges from station a to station a, where a and b is the index of the corresponding station.
+    private ArrayList<edge> matrix[][]; 
+    // the HashMap that take the name of the station(String) and return the index of the station
+    private HashMap<String, Integer> mapping;
+    // the 1d ArrayList that store all the info of the station, the station info will store at the index position. 
+    // example: mapping.get(station_name "a") -> get index 0, then station_array.get(0) -> get the station information of station "a"
+    // example: to get the edges from "Bury" to "Victoria", for(edge e : matrix[mapping.get("Bury")][mapping.get("Victoria")])
+    private ArrayList<station> station_array;
+    // the 2d array that store the garph of the walking time between each station
+    private double walking_matrix[][];
+    // the size of matrix and walking_matrix, since i always double the size of both matrix, therefore the matrix_size != the number of nodes
+    private int matrix_size;
+    // the number of used row in the matrix, it will differ to the num_actual_nodes only if some nodes are removed, but since no removing needed, therefore num_used_row == num_actual_nodes
+    private int num_used_row;
+    // the number of actual nodes in the matrix, it will differ to the num_used_row only if some nodes are removed, but since no removing needed, therefore num_used_row == num_actual_nodes
+    private int num_actual_nodes;
+    
+    functions:
+    // API for the reader.java to input the data, if source or end not in mapping, call add_node_to_mapping(String in_name), 
+    // then add the edge into the matrix[source_index][end_index] and matrix[end_index][source_index]
+    public void add_edges(String source, String end, double distance, int colour);
+    // API for the reader.java to input the data, add the walking time to walking_matrix[source.index][end_index] (directed graph)
+    public void add_walking(String source, String end, double distance);
+    
+
+    ancillary functions:
+    // if in_name not in mapping, add to mapping with a index, also add a new station info into station_array of in_name
+    // then num_used_row++ and num_actual_nodes++, if num_actual_nodes > matrix_size, call matrix_enlarge()
+    private boolean add_node_to_mapping(String in_name);
+    // double the size of the both matrix and walking_matrix, update the matrix_size
+    private void matrix_enlarge();
+    // REMOVED function, if num_used_row < matrix_size/2, delete the removed nodes in the both matrix, remap the remainder station with the new index
+    private void matrix_reduce();
+
+    // graph operation, mainly contain path_finding and visualisation of the process
+    
+    variables:
+    // the string of the corresponding colour, all colour in the graph is a int store in edge
+    private final String line_colour[] = {"yellow", "purple", "green", "lightblue", "pink", "darkblue", "red"};
+    // the hex colour of the corresponding colour, use to set font colour
+    private final String font_colour[] = {"#EFBB00", "#7B2182", "#318C2C", "#5BC5F2", "#F088B6", "#0069B4","#E30613"};
+    // the constant of maximum colour number
+    private final int MAX_COLOUR = 7;
+    // graph_visualisation obj to setup graph and perform visualisation
+    private graph_visualisation visual;
+    // window obj to valid the input, visual the path_finding processes and print the result
+    private window ui;
+    // the queue for the path_finding searching animation
+    private ConcurrentLinkedQueue<travel_node> searching_q;
+    // the queue for the path_finding resulting animation
+    private ConcurrentLinkedQueue<travel_node> resulting_q;
+    // let the program know the current path_finding mode
+    private int curr_mode;
+
+    functions:
+    // API for CUI, to print all the nodes(stations) with edges
+    public void matrix_printing();
+    // API for both CUI and GUI, to print all the edges of target(CUI), change the colour of target and adjacent nodes with text massage enter to window
+    public boolean edge_printing(String target);
+    // API for both CUI and GUI, to check do the target exist, give a circle to the target if exist(GUI)
+    public boolean station_validation(String target);
+    // API for both CUI and GUI, to update the time of only one edge, new time = original time + delay
+    public boolean delay_update(String source, String end, String in_colour, double in_delay);
+    // API for both CUI and GUI, to update the closure state of the station
+    public boolean closure_update(String target, boolean next_state);
+    // API for both CUI and GUI, verify the inputs and make a path_finding enquiry(mode: 1 => shortest, 2 => fewest, 3 => walking)
+    public boolean Dijkstra(String source, String end, int mode);
+    // for all q_start
+    // actually is starting a Timer, for each X ms of time => perform some visualisation with text massage on the GUI(window and graph_visualisation)
+    // API for GUI, to start the path_finding searching animation, calling graph_visualisation
+    public void searching_q_start();
+    // API for GUI, to start the path_finding resulting animation, calling graph_visualisation
+    public void resulting_q_start();
+    // API for GUI, to start the edge_printing animation, calling graph_visualisation
+    public void delay_q_start();
+
+    ancillary functions:
+    // for all Dijkstra_Algorithms
+    // in the searching stage, always add the current node to the searching_q, start from source to end(searching path)
+    // in the resulting stage, always add the current node to the resulting_q, start from source to end(correct path)
+    // print the result in CUI and GUI
+
+    // in short, start the Dijkstra algorithm that to expand the node with lowest cumulative_distance in the queue(working on the matrix)
+
+    /*
+    * in detail,
+    *  key components:
+    *      node_queue: the main queue
+    *      record: the 2D array to store all explored nodes
+    *              each the station with different colour edges, record will store the station will all different colour
+    *      result_stack: the stack to store the result and reverse the order
+    *  1.  find all possible colour of source
+    *  2.  for all possible colour of source:
+    *          initialise the components
+    *          add the source will colour
+    *          while node_queue notEmpty and current != end:
+    *              current = the node with least cumulative_distance in the node_queue
+    *              add current to searching_q for animation and text massage for GUI
+    *              for all current's adjacency nodes v:
+    *                  for all edges from current to v:
+    *                      if colour changed: distance+=2
+    *                      if record[path.colour][v] unexplore || find a shorter path to v:
+    *                          add to record
+    *                          add to node_queue
+    *          if result is empty || new result path shorter
+    *              push into result_stack
+    *  3.  for i in result_stack
+    *          print result in CUI
+    *          add result to resulting_q for animation and text massage for GUI   
+    */
+    private double Dijkstra_Algorithm_Shortest(int source, int end);
+    // in short, start the Dijkstra algorithm that to expand the node with lowest cumulative_distance(here is the number of changing colour line) in the queue(working on the matrix)
+    // if the new node have the same colour as current node => add to the First of the queue, if different colour => add to the Last of the queue
+    private double Dijkstra_Algorithm_Fewest(int source, int end);
+    // in short, start the Dijkstra algorithm that to expand the node with lowest cumulative_distance in the queue(working on walking_matrix)
+    private void Dijkstra_Algorithm_Walking(int source, int end);
+    // add in to the searching_q or resulting_q during the searching stage or resulting stage
+    private void searching_q_add(travel_node in);
+    private void resulting_q_add(travel_node in);
+
+    setup function:
+    // API for graph_visualisation, allow graph_visualisation to copy the graph into it's onw data struct
+    public boolean get_station_closure(String target);
+    public ArrayList<station> get_stationArray();
+    public ArrayList<edge>[][] get_matrix();
+    public int get_matrix_size();
+    public HashMap<String, Integer> get_mapping();
+
+    // since the graph is created before window and graph_visualisation, so this two function allow graph to get the objects
+    // get the graph_visualisation class
+    public void set_visual(graph_visualisation in);
+    // get the window class
+    public void set_window(window in);
+    
+    graph();
+}
+
+reader{
+    // to read the data from the files and enter into the garph
+
+    variables:
+    private File file_Obj;
+    private Scanner file_Reader;
+    private graph body;
+    private final String separate = ",";
+    private final int MAX_COLOUR = 7;
+    private final String line_colour[] = {"yellow", "purple", "green", "lightblue", "pink", "darkblue", "red"};
+
+    functions:
+    // read the data of the station edges file, and enter to graph by graph.add_edges(String source, String end, double distance, int colour)
+    public void stataion_reading();
+    // read the data of the station walking file, and enter to graph by graph.add_walking(String source, String end, double distance)
+    public void walking_reading();
+    // get the file name and the garph obj
+    public reader(String file_name, graph in_body)
+}
+
+window{
+    // to provide a GUI, include two main part: visualisation and menu
+    // visualisation is the drawing of graph layout, allow to animate path_finding searching, resulting and the animation of graph transformation
+    // all in the graph_visualisation class
+    // menu is the part for GUI to interact with user, I divided to two parts: main state and sub state
+
+    enum main_state{
+        // main state of the window GUI, each state correspond to some function to create the page
+        // detail in the main page creating function
+        HOME(0),
+        PATH_FINDING(1),
+        UPDATE_DELAY(2),
+        UPDATE_CLOSURE(3);
+    }
+    enum sub_state{
+        // in the main state PATH_FINDING, there are three sub_state(3 sub page)
+        // detail in the path_finding page creating function
+        PATH_INPUT(0),
+        PATH_PROCESSING(1),
+        PATH_OUTPUT(2);
+    }
+
+    variables:
+    private graph main_graph;
+    private graph_visualisation visualation;
+    private JFrame body;
+    // constant, additionally the size of the GUI(frame and all swing items) are proportional to the user screen
+    private final int WINDOW_WIDTH;
+    private final int WINDOW_HEIGHT;
+    private final int MAX_STATES = 4;
+    private final double WINDOW_TO_FONT_SIZE = 0.000015070409;
+
+    // some placeholders as parameters enter to the graph.API_function
+    private String source, end, colour;
+    private double delay;
+    private boolean closure;
+
+    setup function:
+    // setup the frame, all main pages and sub pages
+    public window(graph in);
+    public graph_visualisation get_graph_visualisation();
+
+    ancillary functions:
+    // initialise placeholders
+    private void parameter_initialise();
+    // return (int) Math.round(num * fraction);
+    private int resize(int num, double fraction);
+    // For all Swing_item functions, they just return a swing item with some default setup
+    private Font setFont(double fraction);
+    private JLabel setLabel(String text, double font_size, float alignment);
+    private JLabel setTitle(String text);
+    private JTextField textbox(String text, Dimension size);
+    private JButton setButton(String text, Dimension size);
+    // verify String input is a valid double number
+    private boolean validation_double(String input);
+
+    main state pages:
+
+    variables:
+    private JPanel menu;
+    // the array for all main state pages
+    private JPanel context[];
+    // to change the showing JPanel(main state pages)
+    private CardLayout menu_text;
+    // store the current main_state state
+    private main_state current;
+    // a Scrollable textbox for delay_update page to show all the adjacent node with edges of the target
+    // allow user to update delay without memorising all the input, also call the graph.delay_q_start() for animation
+    private JTextArea delay_update_label;
+
+    functions:
+    // home_page allow user to select the functionality page they looking looking forward
+    // include four button{path_finding, update_delay, update_closure, graph_visualisation(that generate a new graph layout)}
+    private JPanel home_page();
+    // path_finding_page actually is a JPanel contains three pages from the sub state pages
+    private JPanel path_finding_page();
+    // update_delay_page allow user to update time of one of the edge, with some animation and many input validation to aovid invalid input
+    private JPanel update_delay_page();
+    // update_closure_page allow user to update the closure of the state
+    private JPanel update_closure_page();
+    // API for graph.edge_printing(String target), to print the text on GUI
+    public void delay_edges_printing_add_text(String text);
+    
+
+    sub state pages:
+
+    variables:
+    // to change the showing JPanel(sub state pages)
+    private CardLayout path_finding_stage;
+    // store the current sub_state state
+    private sub_state sub_current;
+    // the label for path_finding searching text massage operating with the animation
+    private ArrayList<JLabel> searching_label;
+    // a Scrollable textbox for path_finding_output page to print the result
+    private JTextArea resulting_label;
+    // the button navigate between path_finding_process and path_finding_output
+    private JButton result_path;
+    // the button navigate between path_finding_output and home
+    private JButton path_finding_end;
+
+    functions:
+    // path_finding_input allow user to enter input , select the path_finding mode
+    // before all inputs are valid user is not allow to click the button for call a actual path_finding enquiry
+    // with visualation that where is the valid input station on graph_visualisation
+    private JPanel path_finding_input(JPanel in, JPanel path_finding, CardLayout path_finding_stage);
+    // path_finding_process show how the program searching during the path_finding(it look slow, only becasue animation purpose)
+    // after animation finished, user allow to click the result_path button and goto next page
+    private JPanel path_finding_process(JPanel in, JPanel path_finding, CardLayout path_finding_stage);
+    // path_finding_output show the final result path with animation(it look slow, only becasue animation purpose)
+    // after animation finished, user allow to click the path_finding_end button and back to home page
+    private JPanel path_finding_output(JPanel in, JPanel path_finding, CardLayout path_finding_stage);
+    // API for graph, add text to searching_label during searching animation
+    public void searching_add_text(String text);
+    // API for graph, add text to resulting_label during resulting animation
+    public void resulting_add_text(String text);
+    // API for graph, setEnable to true after searching animation finished
+    public void set_result_path_enable();
+    // API for graph, setEnable to true after resulting animation finished
+    public void set_path_finding_end_enable();
+}
+
+graph_visualisation{
+    // this class focus on perform force_directed algorithm to generate good graph layout and animation with the graph operations
+    ancillary class{
+        private class point{
+            // in this class, the nodes are stored in a ArrayList with x and y coordinate(in logic space, the coordinate only meaningful in the force_directed computation)
+            // since the graph contain multiple edges between the same node u and v
+            // but the number of edges between u and v will hugely impact the resulf of force_directed algorithm
+            // so, I only keep one edge if there are multiple edges between u and v into the compute_edges
+            // then also keep a version with all edges for visualation
+            // in short, compute_edges for force_directed algorithm and visual_edges for visualation
+            String name;
+            int index;
+            boolean closure;
+            double x;
+            double y;
+            Color colour;
+            ArrayList<line> compute_edges;
+            ArrayList<line> visual_edges;
+        };
+        private class line{
+            // to store the edge info, the from and to is the int index of the node
+            int from;
+            int to;
+            double distance;
+            int colour;
+        };
+    }
+    variables:
+    private graph my_graph;
+    // the width and height of visualisation part of window
+    private final int MAX_WIDTH;
+    private final int MAX_HEIGHT;
+    // r of the node circle
+    private final int radius;
+    // thickness of the edge line
+    private final int stroke;
+    // line.distance = graph.edge.distance * dis_scalar
+    private final double dis_scalar;
+    // the user generated new graph layout or not
+    private boolean draw;
+
+    // the q for the animation how the force_directed generate new layout
+    private ConcurrentLinkedQueue<ArrayList<point>> animation_q;
+    // the array for all nodes and edges
+    private ArrayList<point> nodes;
+    // the constant for draw line with colour and corrent position
+    private final String line_colour[] = {"#EFBB00", "#7B2182", "#318C2C", "#5BC5F2", "#F088B6", "#0069B4","#E30613"};
+    private final double line_offset[] = {- 2.5, -1.5, - 0.5, + 0.5, + 1.5, + 2.5, + 3.5};
+    // the index of the Lastest user selected nodes
+    private int curr_index;
+
+    computation functions:
+    private double euclidean_dis(double x1, double y1, double x2, double y2);
+    private double[] set_unit_vector(double x1, double y1, double x2, double y2);
+    // in short, in a big for loop, 
+    // for(each node -> u to all other nodes -> v) compute repulsive_force that push u away from v
+    // for(each edge of u -> e) compute the attractive_force that cancel the repulsive_force of e.to(v) to u, then push u close to v
+    // update the new coordinate of u multiply with some cooling factor(act like temperature in the big bang, start super high then keep decreasing until the force is too low)
+    // this is the standard Force_Directed_Spring_Embedder
+    // final result should be the nodes will close the adjacent nodes, but away from the non-adjacent nodes, the distance between all(u -> v) look uniform(simply speaking is look good)
+    // 
+    // for my version, I add collusion detection, and center gravity
+    // if not the nodes will always overlapped and the graph just turn to a ball
+    // luckly, this one is working
+    public void Force_Directed_Spring_Embedder();
+    // variant of the Force_Directed_Spring_Embedder, simpler computation, but it not working, just turn the graph to a ball
+    public void Force_Directed_FR();
+
+    visualisation functions;
+    // after generating a good graph layout, we can perform some animation effect;
+
+    // change the colour of both source and end, meaning the nodes were searched in the searching stage in the graph.Dijkstra_Algorithms
+    public void set_point_colour(int source, int end);
+    // change the colour of both source and end to the colour(line_colour[colour])
+    // meaning the nodes were the corrent path in the resulting stage in the graph.Dijkstra_Algorithms
+    // the colour is the actual used edge colour(corresponding to the line colour)
+    public void set_corrent_colour(int source, int end, int colour);
+    // reset all nodes' colour back to initial stage;
+    public void reset_colour();
+    // set the closure of u to true, visual effect is put a cross on it
+    public void set_closure(int index, boolean in_closure);
+    // visual effect is put a large circle to the current node
+    public void set_current(int index);
+    // the animation for Force_Directed algorithm, to show where the new layout came from
+    public void animation_start();
+    // the draw everything to the GUI, the logical space x and y of each node will convert back to int proportional to the screen size
+    // draw the line with different colour First, then the node, then the circle or cross, finally the name of the station
+    protected void paintComponent(Graphics g);
+    
+    setup function:
+    graph_visualisation(graph in_graph, int width, int height);
+}

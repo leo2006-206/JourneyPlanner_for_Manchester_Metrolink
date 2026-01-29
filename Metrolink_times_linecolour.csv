@@ -1,0 +1,146 @@
+From ,To ,Line ,Time (mins)
+Bury,Radcliffe,yellow,6
+Radcliffe,Whitefield,yellow,3
+Whitefield,Besses o'th' Barn,yellow,2.5
+Besses o'th' Barn,Prestwich,yellow,2
+Prestwich,Heaton Park,yellow,2.5
+Heaton Park,Bowker Vale,yellow,2
+Bowker Vale,Crumpsall,yellow,1.5
+Crumpsall,Abraham Moss,yellow,2
+Abraham Moss,Queens Road,yellow,2.5
+Queens Road,Victoria,yellow,5
+Victoria,Shudehill,yellow,2
+Shudehill,Market Street,yellow,2
+Market Street,Piccadilly Gardens,yellow,2
+Piccadilly Gardens,Piccadilly Station,yellow,3
+Altrincham,Navigation Road,purple,1.5
+Navigation Road,Timperley,purple,2
+Timperley,Brooklands,purple,2.5
+Brooklands,Sale,purple,1
+Sale,Dane Road,purple,1
+Dane Road,Stretford,purple,2.5
+Stretford,Old Trafford,purple,2
+Old Trafford,Trafford Bar,purple,2.5
+Trafford Bar,Cornbrook,purple,3
+Cornbrook,Deansgate/Castlefield,purple,2
+Deansgate/Castlefield,St. Peter's Square,purple,1
+St. Peter's Square,Piccadilly Gardens,purple,1.5
+Piccadilly Gardens,Piccadilly Station,purple,2
+Piccadilly Station,New Islington,purple,3
+New Islington,Holt Town,purple,2
+Holt Town,Etihad Campus,purple,1.5
+Altrincham,Navigation Road,green,3
+Navigation Road,Timperley,green,2.5
+Timperley,Brooklands,green,2
+Brooklands,Sale,green,1.5
+Sale,Dane Road,green,1
+Dane Road,Stretford,green,2.5
+Stretford,Old Trafford,green,2.5
+Old Trafford,Trafford Bar,green,2.5
+Trafford Bar,Cornbrook,green,3
+Cornbrook,Deansgate/Castlefield,green,3.5
+Deansgate/Castlefield,St. Peter's Square,green,3
+St. Peter's Square,Market Street,green,3
+Market Street,Shudehill,green,2.5
+Shudehill,Victoria,green,2.5
+Victoria,Queens Road,green,4
+Queens Road,Abraham Moss,green,3
+Abraham Moss,Crumpsall,green,2
+Crumpsall,Bowker Vale,green,2
+Bowker Vale,Heaton Park,green,2
+Heaton Park,Prestwich,green,2.5
+Prestwich,Besses o'th' Barn,green,2
+Besses o'th' Barn,Whitefield,green,3
+Whitefield,Radcliffe,green,2.5
+Radcliffe,Bury,green,6
+Eccles,Ladywell,lightblue,1.5
+Ladywell,Weaste,lightblue,3
+Weaste,Langworthy,lightblue,2.5
+Langworthy,Broadway,lightblue,2
+Broadway,Media CityUK,lightblue,2
+Media CityUK,Harbour City,lightblue,2
+Harbour City,Anchorage,lightblue,1.5
+Anchorage,Salford Quays,lightblue,2
+Salford Quays,Exchange Quay,lightblue,2
+Exchange Quay,Pomona,lightblue,2
+Pomona,Cornbrook,lightblue,3
+Cornbrook,Deansgate/Castlefield,lightblue,3.5
+Deansgate/Castlefield,St. Peter's Square,lightblue,3
+St. Peter's Square,Piccadilly Gardens,lightblue,3
+Piccadilly Gardens,Piccadilly Station,lightblue,3
+Piccadilly Station,New Islington,lightblue,3
+New Islington,Holt Town,lightblue,2
+Holt Town,Etihad Campus,lightblue,1.5
+Etihad Campus,Velopark,lightblue,2.5
+Velopark,Clayton Hall,lightblue,4
+Clayton Hall,Edge Lane,lightblue,2.5
+Edge Lane,Cemetery Road,lightblue,2.5
+Cemetery Road,Droylsden,lightblue,2
+Droylsden,Audenshaw,lightblue,3
+Audenshaw,Ashton Moss,lightblue,2.5
+Ashton Moss,Ashton West,lightblue,3
+Ashton West,Ashton-under-Lyne,lightblue,2.5
+East Didsbury,Didsbury Village,pink,1
+Didsbury Village,West Didsbury,pink,2
+West Didsbury,Burton Road,pink,0.5
+Burton Road,Withington,pink,1
+Withington,St Werburgh's Road,pink,2.5
+St Werburgh's Road,Chorlton,pink,1.5
+Chorlton,Firswood,pink,1.5
+Firswood,Trafford Bar,pink,4
+Trafford Bar,Cornbrook,pink,3
+Cornbrook,Deansgate/Castlefield,pink,3.5
+Deansgate/Castlefield,St. Peter's Square,pink,3
+St. Peter's Square,Exchange Square,pink,3.5
+Exchange Square,Victoria,pink,2.5
+Victoria,Monsall,pink,4
+Monsall,Central Park,pink,2
+Central Park,Newton Heath & Moston,pink,3
+Newton Heath & Moston,Failsworth,pink,2.5
+Failsworth,Hollinwood,pink,2.5
+Hollinwood,South Chadderton,pink,1.5
+South Chadderton,Freehold,pink,2
+Freehold,Westwood,pink,3
+Westwood,Oldham King Street,pink,2.5
+Oldham King Street,Oldham Central,pink,1.5
+Oldham Central,Oldham Mumps,pink,3
+Oldham Mumps,Derker,pink,2
+Derker,Shaw & Crompton,pink,4.5
+Shaw & Crompton,Newhey,pink,3.3
+Newhey,Milnrow,pink,2
+Milnrow,Kingsway,pink,1.5
+Kingsway,Newbold,pink,2
+Newbold,Rochdale Station,pink,4
+Rochdale Station,Rochdale Town Centre,pink,3
+Manchester Airport,Shadowmoss,darkblue,3.5
+Shadowmoss,Peel Hall,darkblue,2
+Peel Hall,Robinswood Road,darkblue,1.5
+Robinswood Road,Wythenshawe Town Centre,darkblue,2.5
+Wythenshawe Town Centre,Crossacres,darkblue,2.5
+Crossacres,Benchill,darkblue,1.5
+Benchill,Martinscroft,darkblue,3.5
+Martinscroft,Roundthorn,darkblue,2
+Roundthorn,Baguley,darkblue,1.5
+Baguley,Moor Road,darkblue,2.5
+Moor Road,Wythenshawe Park,darkblue,2
+Wythenshawe Park,Northern Moor,darkblue,2.5
+Northern Moor,S Water Park,darkblue,3.5
+S Water Park,Barlow Moor  Road,darkblue,3
+Barlow Moor  Road,St Werburgh's Road,darkblue,2.5
+St Werburgh's Road,Chorlton,darkblue,1.5
+Chorlton,Firswood,darkblue,1.5
+Firswood,Trafford Bar,darkblue,4
+Trafford Bar,Cornbrook,darkblue,3
+Cornbrook,Deansgate/Castlefield,darkblue,3.5
+Deansgate/Castlefield,St. Peter's Square,darkblue,3
+St. Peter's Square,Market Street,darkblue,3
+Market Street,Shudehill,darkblue,2.5
+Shudehill,Victoria,darkblue,2.5
+Trafford Centre,Barton Road,red,1
+Barton Road,Parkway,red,1.5
+Parkway,Village,red,1.5
+Village,Imperial War Museum,red,2
+Imperial War Museum,Wharfside,red,1.5
+Wharfside,Pomona,red,1.5
+Pomona,Cornbrook,red,1
+Cornbrook,Deansgate/Castlefield,red,1.5

@@ -1,0 +1,128 @@
+Force-Directed Drawings (1/3): Algorithmic Framework | Visualization of Graphs - Lecture 3
+https://www.youtube.com/watch?v=WWm-g2nLHds&list=PLubYOWSl9mIvtnRjCCHP3wqNETTHYjQex
+
+git cheat sheet{
+    git status 
+
+    git add <file_name>
+    git add -A //add All
+
+    git restore <file_name>
+    git restore --staged <file_name> //move from staging to working 
+
+    git commit -m "massage"
+    git commit -a -m "massage" //skip the adding to staging step, commit directly
+    git commit -m "massage" --amend //amend previous commit "massage"
+
+    git branch //check all branch and the current branch
+    git branch <new branch name> //create new branch and stay in current branch
+    git switch <branch name> //switch to other branch
+    git switch -c <new branch name> //create new branch and switch into it
+    git merge -m "massage" <branch name> //marge branch to current branch(like master),  
+    git branch -d <branch name> //delete branch
+
+    //  when merge conflict occured, goto the conflict file, delete the part you don't want
+    //  and save the part you want. then commit again
+
+    ssh git@scc-source.lancs.ac.uk
+
+    git remote add origin https://scc-source.lancs.ac.uk/wongyw5/summer_project.git
+    git branch -M main
+    git push -uf origin main
+
+    # 1. Verify current remote
+    git remote -v
+
+    # 2. Point it to the SSH URL
+    git remote set-url origin git@scc-source.lancs.ac.uk:wongyw5/summer_project.git
+
+    # 3. Test the connection
+    git ls-remote origin   # should list refs without asking for credentials
+
+    # 4. Push
+    git push --all origin
+
+    git fetch //download the change from remote host, follow by "git merge" to merge
+    git pull // = fetch + merge
+
+    git diff
+
+    git log 
+    git log -p //q to quit
+    git log --oneline
+
+    git rebase -i --root //modify the commit history book
+
+    git reset <commit history code> //code from "git log"
+
+    git rm "file_name"
+
+    git mv "old file_name" "new file_name" //rename
+}
+
+import java.util.Iterator;
+import java.util.Map;
+    /*
+     * reduce the matrix by half
+     * create a new array, and copy the value from old matrix to new matrix
+     * logic{   
+     *  copy_part:
+     *      if matrix[i][0] == -1, means this row(node) had been removed
+     *      if matrix[i][j] == -1, means this column(node) had been removed
+     *  remove_part:
+     *      if this row(node) had been removed, add to removee_list
+     *      
+     *      if(i(node index of old matrix) != x(node index of new matrix)), 
+     *      that the station.index in HashMap mapping need update
+     *      add i to remapping_old, to find the node need to update
+     *      add x to remapping_new, to update the index
+     * }
+     * rewrite the pointer of matrix, point to the new_matrix
+     */
+    private void matrix_reduce(){
+        int reduced_size = matrix_size/2;
+        ArrayList<edge> new_matrix[][] = new ArrayList [reduced_size][reduced_size];
+        int x = 0, y;
+        ArrayList<Integer> removee_list = new ArrayList<Integer>();
+        ArrayList<Integer> remapping_old = new ArrayList<Integer>();
+        ArrayList<Integer> remapping_new = new ArrayList<Integer>();
+        for(int i=0;i<matrix_size;i++){
+            if(station_array.get(i).removed){
+                removee_list.addLast(i);
+                continue;
+            }
+            y = 0;
+            if(i != x){
+                remapping_old.addLast(i);
+                remapping_new.addLast(x);
+            }
+            for(int j=0;j<matrix_size;j++){
+                if(matrix[i][j] == null) continue;
+                new_matrix[x][y] = matrix[i][j];
+                y++;
+            }
+            x++;
+        }
+        Iterator<Map.Entry<String,Integer>> looper = mapping.entrySet().iterator();
+        while(looper.hasNext()){
+            Map.Entry<String,Integer> entry = looper.next();
+            if(removee_list.getFirst().equals(entry.getValue())){
+                station_array.remove(entry.getValue().intValue());
+                looper.remove();
+                removee_list.removeFirst();
+                continue;
+            }
+            if(remapping_old.getFirst().equals(entry.getValue())){
+                entry.setValue(remapping_new.getFirst());
+                remapping_old.removeFirst();
+                remapping_new.removeFirst();
+            }
+        }
+        this.matrix = new_matrix;
+        matrix_size = reduced_size;
+        return;
+    }
+
+Important!!!
+shortest Dijkstra(Victoria -> Manchester Airport) get total time 61.5
+fewest Dijkstra(Victoria -> Manchester Airport) get total time 61.0
